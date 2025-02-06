@@ -1,0 +1,71 @@
+/* параметры вообще для всего */
+*{
+    font-family: JetBrainsMono;
+    font-size: 20px;
+    border-radius: 10;
+}
+
+@define-color bg #272a34;
+@define-color fg #f9f9f9;
+
+/* параметры для окна */
+window {
+    background-color: @bg;
+}
+
+/* параметры для окна ввода */
+#input {
+    margin: -9px -30px;
+    border-radius: 0px;
+    border: none;
+    background-color: @bg;
+    color: white;
+}
+
+/* параметры для окна с приложениями */
+#inner-box {
+    background-color: @bg;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* параметры пространства вокруг окна wofi */
+#outer-box {
+    margin: 20px 20px;
+    padding: 0px;
+    background-color: @bg;
+}
+
+/* параметры для полосы прокрутки */
+#scroll {
+}
+
+/* параметры для текста */
+#text {
+    padding: 5px;
+    color: @fg;
+    margin: 0px 0px;
+}
+
+/* параметры для 2й колонки если таковая имеется */
+#entry:nth-child(even){
+    background-color: @bg;
+}
+
+/* параметры для выделенного пункта */
+#entry:selected {
+    background-color: @fg;
+    font-color: @bg;
+}
+
+/* параметры выделенного текста */
+#text:selected {
+    color: @bg;
+    padding: 5px;
+}
+
+/* параметры для иконок */
+#img
+
+/* параметры для не выделенного */
+#unselected

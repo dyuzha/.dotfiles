@@ -1,0 +1,103 @@
+# Read `man 5 sway` for a complete reference.
+
+# global variables
+include ~/.config/sway/definitions
+include $sway/inputs.conf
+include $sway/catppuccin-frappe
+
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
+
+focus_follows_mouse no
+
+output * bg $HOME/.wall/wall-1.png fill
+
+### Key bindings
+include $HOME/.config/sway/default-keybindings
+
+#bindsym --to-code $mod+g exec $term_float
+
+bindsym --to-code $mod+Return exec $term
+bindsym --to-code $mod+d exec $menu
+bindsym --to-code $mod+m exec $music
+bindsym --to-code $mod+o exec $audio
+
+bindsym --to-code $mod+Shift+q kill
+bindsym --to-code $mod+Shift+c reload
+
+###
+#--
+#--
+###
+
+floating_modifier $mod normal
+
+# Exit sway (logs you out of your Wayland session)
+bindsym --to-code $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+
+
+# Autorun
+assign [app_id="firefox"] workspace 8
+exec_always flatpak run --socket=wayland md.obsidian.Obsidian workspace 1
+assign [app_id="telegram"] workspace 9
+exec_always telegram-desktop
+#exec_always $music workspace 1
+
+for_window [app_id="foot"] floating enable
+
+
+# Layout stuff:
+#
+bindsym --to-code $mod+b splith
+bindsym --to-code $mod+v splitv
+
+# Switch the current container between different layout styles
+bindsym --to-code $mod+s layout stacking
+bindsym --to-code $mod+w layout tabbed
+bindsym --to-code $mod+e layout toggle split
+
+# Make the current focus fullscreen
+bindsym --to-code $mod+f fullscreen
+
+# Toggle the current focus between tiling and floating mode
+bindsym --to-code $mod+Shift+space floating toggle
+
+# Swap focus between the tiling area and the floating area
+bindsym --to-code $mod+space focus mode_toggle
+
+# Move focus to the parent container
+bindsym --to-code $mod+a focus parent
+
+# Scratchpad:
+bindsym --to-code $mod+Shift+minus move scratchpad
+bindsym --to-code $mod+minus scratchpad show
+
+# Resize
+bindsym --to-code $mod+r mode "resize"
+
+
+# Status Bar:
+bar {
+	swaybar_command waybar -c ~/.config/waybar/config -s ~/.config/waybar/style.css
+}
+
+# Color
+# target                 title     bg    text   indicator  border
+client.focused           $lavender $base $text  $rosewater $lavender
+client.focused_inactive  $overlay0 $base $text  $rosewater $base
+client.unfocused         $overlay0 $base $text  $rosewater $base
+client.urgent            $peach    $base $peach $overlay0  $base
+client.placeholder       $overlay0 $base $text  $overlay0  $base
+client.background        $base
+
+default_border pixel 3
+default_floating_border none
+
+
+#Gaps
+gaps inner 2
+#gaps inner 20
+
+
+include /etc/sway/config.d/*
+

@@ -1,0 +1,32 @@
+# oh-my-zsh
+# Подгрузим содержимое
+
+ohmyzsh/ohmyzsh path:lib
+
+# Добаим плагины
+# ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+# ohmyzsh/ohmyzsh path:plugins/colorize
+# ohmyzsh/ohmyzsh path:plugins/command-not-found
+# ohmyzsh/ohmyzsh path:plugins/common-aliases
+
+# Добавиь sudo к текущей или предыдущей команде, добавив 2 раза <esc>
+# ohmyzsh/ohmyzsh path:plugins/sudo
+
+# Закрывающиеся кавычки
+hlissner/zsh-autopair 
+
+# уведомляет о том, что у команды есть алиас
+# MichaelAquilina/zsh-you-should-use
+
+# подстановка ранее введеных команд
+zsh-users/zsh-autosuggestions kind:defer
+
+# автодополнение аргументов
+zsh-users/zsh-completions kind:defer
+
+# я обещал превратить терминал в раскраску...
+# подсветка синтаксиса zsh (раскрашивание ключевых слов и прочих разделителей разными цветами)
+zdharma-continuum/fast-syntax-highlighting kind:defer
+
+# ну и поставим какую-нибудь тему
+# ohmyzsh/ohmyzsh path:themes/refined.zsh-theme
