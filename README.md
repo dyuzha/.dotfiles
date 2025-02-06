@@ -1,8 +1,9 @@
 # Dotfiles
 ---
-Состав:
-~ [ ] Any configs
-~ [ ] install.sh
+**Состав**:
+- Конфигурационные файлы
+- README.md
+- install.sh
 
 ## Install.sh
 ---
