@@ -1,9 +1,18 @@
-# Dotfiles
+<h1 align="center">Dotfiles</h1>
+<div>
+	<h4 align="center">
+		<a href="#install.sh">Install.sh</a> ·
+		<a href="#included">Included</a> ·
+		<a href="#future-use">Future use</a>
+	</h4>
+</div>
+
+### Included
 ---
-**Состав**:
 - Конфигурационные файлы
 - README.md
 - install.sh
+
 
 ## Install.sh
 ---
@@ -12,7 +21,7 @@
 1) Раскоментировать нужные строчки в `Install.sh` для создания/замены конфигурационных файлов по указанным путям.
 
 > [!Example] Часть файла `install.sh`
-```bash
+>```bash
 # Закомментируем ненужные конфиги
 configs[".zshenv"]="$HOME"
 configs["zsh"]="$XDG_CONFIG_HOME"
