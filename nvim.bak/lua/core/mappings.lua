@@ -34,13 +34,14 @@ keymap.set('n', '<leader>x', ':BufferLinePickClose<CR>', opts)
 
 
 -- Terminal
-keymap.set('n', '<leader>tf', ':ToggleTerm direction=float<CR>', { desc = 'Terminal float' })
-keymap.set('n', '<leader>th', ':ToggleTerm direction=horizontal<CR>', { desc = 'Terminal horizontal' })
-keymap.set('n', '<leader>tv', ':ToggleTerm direction=vertical size=40<CR>', { desc = 'Terminal vertical' })
+keymap.set('n', '<leader>tf', ':ToggleTerm direction=float<CR>', {desc = 'Terminal float'})
+keymap.set('n', '<leader>th', ':ToggleTerm direction=horizontal<CR>', {desc = 'Terminal horizontal'})
+keymap.set('n', '<leader>tv', ':ToggleTerm direction=vertical size=40<CR>', {desc = 'Terminal vertical'})
 
 
 -- Telescope
-keymap.set('n', '<leader>ff', ':Telescope find_files<CR>', { desc = 'Telescope find files' })
-keymap.set('n', '<leader>fb', ':Telescope bufers<CR>', { desc = 'Telescope buffers' })
-keymap.set('n', '<leader>fg', ':Telescope live_grep<CR>', { desc = 'Telescope live grep' })
-keymap.set('n', '<leader>fh', ':Telescope help_tags<CR>', { desc = 'Telescope help tag' })
+keymap.set('n', '<leader>ff', ':Telescope find_files<CR>', { desc = 'Telescope find files'})
+keymap.set('n', '<leader>fb', ':Telescope bufers<CR>', {desc = 'Telescope buffers'})
+keymap.set('n', '<leader>fg', ':Telescope live_grep<CR>', {desc = 'Telescope live grep'})
+keymap.set('n', '<leader>fh', ':Telescope help_tags<CR>', {desc = 'Telescope help tag'})
+

@@ -4,8 +4,6 @@ return {
         build = ":TSUpdate",
         config = function()
             require'nvim-treesitter.configs'.setup{
-                modules = {},
-
                 -- Список нужных парсеров (первые 7 парсеров обязательно должны быть установлены)
                 ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "python", "php", "bash", "html" },
 
@@ -16,7 +14,7 @@ return {
                 auto_install = true,
 
                 -- Список парсеров, которые следует игнорировать при установке
-                ignore_install = {},
+                -- ignore_install = { "javascript" },
 
                 -- Настройка подсветки синтаксиса
                 highlight = {
