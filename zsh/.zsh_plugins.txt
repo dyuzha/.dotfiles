@@ -4,16 +4,16 @@
 ohmyzsh/ohmyzsh path:lib
 
 # Добаим плагины
-# ohmyzsh/ohmyzsh path:plugins/colored-man-pages
-# ohmyzsh/ohmyzsh path:plugins/colorize
-# ohmyzsh/ohmyzsh path:plugins/command-not-found
-# ohmyzsh/ohmyzsh path:plugins/common-aliases
+ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+ohmyzsh/ohmyzsh path:plugins/colorize
+ohmyzsh/ohmyzsh path:plugins/command-not-found
+ohmyzsh/ohmyzsh path:plugins/common-aliases
 
 # Добавиь sudo к текущей или предыдущей команде, добавив 2 раза <esc>
 # ohmyzsh/ohmyzsh path:plugins/sudo
 
 # Закрывающиеся кавычки
-hlissner/zsh-autopair 
+hlissner/zsh-autopair
 
 # уведомляет о том, что у команды есть алиас
 # MichaelAquilina/zsh-you-should-use
@@ -29,4 +29,4 @@ zsh-users/zsh-completions kind:defer
 zdharma-continuum/fast-syntax-highlighting kind:defer
 
 # ну и поставим какую-нибудь тему
-# ohmyzsh/ohmyzsh path:themes/refined.zsh-theme
+ohmyzsh/ohmyzsh path:themes/refined.zsh-theme
