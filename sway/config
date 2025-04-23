@@ -2,8 +2,8 @@
 
 # global variables
 include ~/.config/sway/definitions
-include $sway/inputs.conf
-include $sway/catppuccin-frappe
+include ~/.config/sway/inputs.conf
+include ~/.config/sway/catppuccin-frappe
 
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
