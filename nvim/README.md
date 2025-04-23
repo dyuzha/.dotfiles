@@ -15,4 +15,4 @@
 
 - [Tree-sitter CLI](https://github.com/tree-sitter/tree-sitter/blob/master/cli/README.md)
 
-
+- fd-find (для venv-selector)
