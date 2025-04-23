@@ -11,6 +11,8 @@ opt.number = true
 opt.relativenumber = true
 
 
+vim.api.nvim_command('filetype plugin indent on')
+
 g.did_load_filetypes = 1
 g.formatoptions = "qrn1"
 opt.showmode = false
