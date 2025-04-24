@@ -10,6 +10,7 @@ keymap.set('n', ',w', ':set wrap!<CR>', opts)
 keymap.set('n', ',n', ':set number! | set relativenumber!<CR>', opts)
 keymap.set('n', ',ev', ':e ~/.config/nvim/lua/core/configs.lua<CR>', opts)
 keymap.set('n', '<leader>/', ':CommentToggle<CR>', opts)
+vim.api.nvim_set_keymap("n", "<leader>lg", "<cmd>lua _Lazygit_toggle()<CR>", { noremap = true, silent = true })
 
 
 -- NeoTree
