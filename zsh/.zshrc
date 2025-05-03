@@ -51,6 +51,8 @@ export HISTFILE=$ZDOTDIR/.zsh_history
 # done
 
 
+export PROJECT_CONFIGS="$HOME/projects/sys_configs"
+
 # Zoxide
 eval "$(zoxide init zsh)"
 export ZDOTDIR="${XDG_CONFIG_HOME}/zsh"
@@ -68,4 +70,5 @@ if [ -f '/home/dyuzha/yandex-cloud/path.bash.inc' ]; then source '/home/dyuzha/y
 # The next line enables shell command completion for yc.
 if [ -f '/home/dyuzha/yandex-cloud/completion.zsh.inc' ]; then source '/home/dyuzha/yandex-cloud/completion.zsh.inc'; fi
 
-
+# Mason NVIM
+export PATH="$HOME/.local/share/nvim/mason/bin:$PATH"
