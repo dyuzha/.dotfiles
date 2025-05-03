@@ -18,7 +18,6 @@ alias web_init=". ~/scripts/web/init.sh"
 alias py_init=". ~/scripts/py_init.sh"
 alias ali="nvim ~/.dotfiles/.aliases"
 alias scr="cd ~/scripts"
-alias docker="sudo docker"
 alias ai="python ~/ai/projects/YGPT/src/main.py"
 
 
