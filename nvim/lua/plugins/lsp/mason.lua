@@ -1,49 +1,51 @@
 return {
-  {
-    "williamboman/mason.nvim",
-    dependencies = {
-      -- Связующе звено между mason и nvim-lsp
-      "williamboman/mason-lspconfig.nvim",
-    },
-    config = function()
-      -- import mason and mason-lspconfig
-      local mason = require("mason")
-      local mason_lspconfig = require("mason-lspconfig")
+  "williamboman/mason.nvim",
+  dependencies = {
+    -- Связующе звено между mason и nvim-lsp
+    "williamboman/mason-lspconfig.nvim",
+  },
+  config = function()
+    -- import mason and mason-lspconfig
+    local mason = require("mason")
+    local mason_lspconfig = require("mason-lspconfig")
 
-      -- enable mason configure icons
-      mason.setup({
-        ui = {
-          -- Проверять автоматически наличие обновлений?
-          check_outdated_packages_on_open = true,
-          -- Рамка для окна
-          border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
-          width = 0.8, -- Ширина окна
-          height = 0.8, -- Высота окна
-          icons = {
-            package_installed = "✓", -- Пакет установлен
-            package_pending = "➜", -- Пакет устанавливается или ожидает установку
-            package_uninstalled = "✗", -- Пакет удален или не установлен
-          },
-
-        }
-      })
-
-      mason_lspconfig.setup({
-        ensure_installed = {
-          "html",
-          "cssls",
-          "lua_ls",
-          "emmet_ls",
-          "prismals",
-          "pyright",
-          "bashls"
+    mason.setup({
+    -- Enable mason configure icons
+      ui = {
+        -- Проверять автоматически наличие обновлений?
+        check_outdated_packages_on_open = true,
+        -- Рамка для окна
+        border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
+        width = 0.8, -- Ширина окна
+        height = 0.8, -- Высота окна
+        icons = {
+          package_installed = "✓", -- Пакет установлен
+          package_pending = "➜", -- Пакет устанавливается или ожидает установку
+          package_uninstalled = "✗", -- Пакет удален или не установлен
         },
-        -- auto-install congigured servers (with lspconfig)
-        automatic_installation = true, -- not the same as ensure_installed
-        -- handlers = nil,
-      })
-    end,
-  }
+      },
+      -- Base options
+      max_concurrent_installers = 4, -- Параллельная установка
+      pip = {
+        upgrade_pip = true, -- Обновлять pip при установке Python-серверов
+      },
+    })
+
+    mason_lspconfig.setup({
+      ensure_installed = {
+        "html",
+        "cssls",
+        "lua_ls",
+        -- "emmet_ls",
+        -- "prismals",
+        "pyright",
+        "bashls"
+      },
+      -- auto-install congigured servers (with lspconfig)
+      automatic_installation = true, -- not the same as ensure_installed
+      -- handlers = nil,
+    })
+  end,
 }
 --       -- Настройка сочетаний клавиш (представлены стандартные значения с переводом)
 --       keymaps = {

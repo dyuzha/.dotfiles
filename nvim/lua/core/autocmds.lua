@@ -48,3 +48,11 @@ vim.api.nvim_create_autocmd("InsertLeave", {
     command = "setlocal hlsearch",
 })
 
+
+vim.api.nvim_create_autocmd("VimEnter", {
+  pattern = "python",
+  callback = function()
+    vim.cmd("VenvSelectCached")
+  end,
+})
+

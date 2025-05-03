@@ -3,20 +3,19 @@ return {
   -- Новый буфер для открытого файла и новый буфер для нового файла
   event = { "BufReadPre", "BufNewFile" },
   dependencies = {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
     -- Источник завершения для рекомандаций в автодополнениях
     "hrsh7th/cmp-nvim-lsp",
     -- Позволяет перемеименовывать файлы и обрабатывает импорты
     { "antosha417/nvim-lsp-file-operations", config = true },
-    -- { "folke/neodev.nvim",                   opts = {} },
+    -- Для lua разработки (deepseek сказал...)
+    -- { "folke/neodev.nvim", opts = {} }, -- (не нужен, если есть lazydev)
   },
   config = function()
-    -- import lspconfig plugin
     local lspconfig = require("lspconfig")
-    -- import mason_lspconfig plugin
     local mason_lspconfig = require("mason-lspconfig")
-    -- import cmp-nvim-lsp plugin
     local cmp_nvim_lsp = require("cmp_nvim_lsp")
-
     local keymap = vim.keymap -- for conciseness
 
     vim.api.nvim_create_autocmd("LspAttach", {
@@ -71,6 +70,8 @@ return {
 
     -- used to enable autocompletion (assign to every lsp server config)
     local capabilities = cmp_nvim_lsp.default_capabilities()
+    -- depseek
+    capabilities.textDocument.completion.completionItem.snippetSupport = true
 
     -- Change the Diagnostic symbols in the sign column (gutter)
     -- (not in youtube nvim video)
@@ -87,6 +88,7 @@ return {
           capabilities = capabilities,
         })
       end,
+
       ["svelte"] = function()
         -- configure svelte server
         lspconfig["svelte"].setup({
@@ -118,8 +120,11 @@ return {
           settings = {
             python = {
               analysis = {
+                -- deepseek
+                typeCheckingMode = "basic",
                 autoSearchPaths = true,
-                diagnosticMode = "openFilesOnly",
+                -- diagnosticMode = "openFilesOnly",
+                diagnosticMode = "workspace",
                 useLibraryCodeForTypes = true
               }
             }
@@ -133,7 +138,15 @@ return {
         -- configure emmet language server
         lspconfig["emmet_ls"].setup({
           capabilities = capabilities,
-          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
+          filetypes = {
+            "html", "typescriptreact", "javascriptreact",
+            "css", "sass", "scss", "less", "svelte", "vue" },
+        -- deepseek
+        init_options = {
+            showexpandedabbreviation = "always",  -- Всегда показывать развёрнутый результат
+            showabbreviationsuggestions = true,   -- Показывать подсказки по аббревиатурам
+            triggers = { "*" }                    -- Автозапуск Emmet на любом символе
+          },
         })
       end,
 

@@ -6,4 +6,3 @@ vim.api.nvim_set_keymap("n", ",r",
 
 -- local venv_selector =
 -- vim.cmd("VenvSelectCached")
-

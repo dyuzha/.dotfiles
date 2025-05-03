@@ -8,11 +8,11 @@ return {
     search_venv_managers = true,
     search_workspase = false,
     -- poetry_path = "~/.cache/pypoetry/virtualenvs",
-    -- stay_on_this_version = true, -- Чтобы не выскакивало **** сообщение о том, что у меня старая версия
+    stay_on_this_version = true, -- Чтобы не выскакивало **** сообщение о том, что у меня старая версия
 
   },
-  -- lazy = false, -- Это вместо event = VeryLazy, чтобы отрабатывала команда VenvSelectCached при старте
-  event = "VeryLazy",
+  lazy = false, -- Это вместо event = VeryLazy, чтобы отрабатывала команда VenvSelectCached при старте
+  -- event = "VeryLazy",
   keys = {
     -- Keymap to open VenvSelector to pick a venv.
     -- { '<leader>vs', '<cmd>VenvSelect<cr>' },
