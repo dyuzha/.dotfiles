@@ -20,7 +20,8 @@ brew install \
     pyvim \
     poetry \
     gh \
-    ghostty
+    ghostty \
+    zoxide
 
 
 

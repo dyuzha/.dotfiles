@@ -15,7 +15,7 @@ export PATH
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-if [ -d ~/.bashrc.d ]; then
+if [ -d ~/.config/bash/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
         if [ -f "$rc" ]; then
             . "$rc"
@@ -25,10 +25,7 @@ fi
 unset rc
 
 export TERM=xterm-256color
-source ~/.aliases
 
 export MOZ_ENABLE_WAYLAND=1
 export PATH=/home/dyuzha/.local/bin:$PATH
 
-
-eval "$(zoxide init bash)"
