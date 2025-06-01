@@ -37,7 +37,7 @@ return {
         vim.tbl_extend('force', opts, { desc = "Prev error" }))
       keymap("n", "]d", function() vim.diagnostic.get_next() end,
         vim.tbl_extend('force', opts, { desc = "Next error" }))
-      keymap("n", "<leader>la", function() vim.lsp.buf.codeAction_resolve() end,
+      keymap("n", "<leader>la", function() vim.lsp.buf.code_action() end,
         vim.tbl_extend('force', opts, { desc = "Next error" }))
       keymap("n", "<leader>ls", function() vim.lsp.buf.document_symbol() end,
         vim.tbl_extend('force', opts, { desc = "Document show" }))

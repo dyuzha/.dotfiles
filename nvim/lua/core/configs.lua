@@ -114,6 +114,18 @@ vim.opt.langmap = vim.fn.join({
   escape(ru) .. ';' .. escape(en),
 }, ',')
 
+-- monkey-patch для управления размером и границей hover-окна
+local util = vim.lsp.util
+
+local original_open_floating_preview = util.open_floating_preview
+util.open_floating_preview = function(contents, filetype, opts, ...)
+  opts = opts or {}
+  opts.border = opts.border or "rounded"
+  opts.max_width = opts.max_width or 100
+  opts.max_height = opts.max_height or 40
+  return original_open_floating_preview(contents, filetype, opts, ...)
+end
+
 
 vim.api.nvim_create_autocmd("VimEnter", {
   pattern = "*",
