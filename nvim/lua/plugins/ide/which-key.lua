@@ -1,26 +1,3 @@
--- return {
---   {
---     "folke/which-key.nvim",
---     event = "VeryLazy",
---     dependencies = "echasnovski/mini.icons",
---     opts = {
---
---     },
---     spec
---     keys = {
---       {
---         "<leader>?",
---         function()
---           require("which-key").show({ global = false })
---         end,
---         desc = "Buffer Local Keymaps (which-key)",
---       },
---       {"<leader>f", group = "Find", desc = "TeleScope"}, -- group
---     },
---   }
--- }
-
-
 return {
   "folke/which-key.nvim",
   event = "VeryLazy",
@@ -43,7 +20,6 @@ return {
       { "<leader>c", desc = "Close buffer", icon = "" },
       { "<leader>/", desc = "Comment toggle", icon = "" },
       { "<leader>x", desc = "Close any buffer", icon = "" },
-
     },
   },
 }

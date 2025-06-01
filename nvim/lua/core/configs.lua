@@ -10,6 +10,10 @@ wo.relativenumber = true
 opt.number = true
 opt.relativenumber = true
 
+-- nvim tree
+-- vim.g.loaded_netrw = 1
+-- vim.g.loaded_netrwPlugin = 1
+
 
 vim.api.nvim_command('filetype plugin indent on')
 
@@ -32,14 +36,14 @@ opt.cursorline = true -- Подсветка строки с курсором
 opt.mouse = "a"
 opt.mousefocus = true
 
+
 -- Splits
 opt.splitbelow = true
 opt.splitright = true
 
+
 -- Clipboard
 opt.clipboard = "unnamedplus"
-
-
 
 --Indent Settings
 opt.expandtab = true
@@ -60,6 +64,16 @@ opt.fillchars = {
   -- foldclose = " "
 }
 
+vim.diagnostic.config({
+  signs = {
+    text = {
+      [vim.diagnostic.severity.ERROR] = "󰅙",
+      [vim.diagnostic.severity.WARN]  = "",
+      [vim.diagnostic.severity.INFO]  = "",
+      [vim.diagnostic.severity.HINT]  = "",
+    },
+  },
+})
 
 -- Toggle terminal
 function _G.set_terminal_keymaps()
@@ -99,3 +113,29 @@ vim.opt.langmap = vim.fn.join({
   escape(ru_shift) .. ';' .. escape(en_shift),
   escape(ru) .. ';' .. escape(en),
 }, ',')
+
+
+vim.api.nvim_create_autocmd("VimEnter", {
+  pattern = "*",
+  callback = function()
+    if vim.fn.isdirectory(vim.fn.expand("<amatch>")) ~= 0 then
+      require("neo-tree")
+      vim.cmd("Neotree filesystem left")
+    end
+  end,
+})
+
+--
+-- vim.api.nvim_create_autocmd("VimEnter", {
+--   callback = function()
+--     local arg = vim.fn.argv()[1]
+--     if arg and vim.fn.isdirectory(arg) == 1 then
+--       -- Закрываем текущий пустой буфер
+--       vim.cmd("enew | silent! bwipeout #")
+--       -- Открываем Neotree в левом буфере
+--       vim.cmd("Neotree filesystem left")
+--     end
+--   end,
+-- })
+
+

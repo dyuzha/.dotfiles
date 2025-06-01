@@ -1,20 +1,24 @@
-vim.fn.sign_define("DiagnosticSignError", { text = "󰅙 ", texthl = "DiagnosticSignError" })
-vim.fn.sign_define("DiagnosticSignWarn", { text = " ", texthl = "DiagnosticSignWarn" })
-vim.fn.sign_define("DiagnosticSignInfo", { text = "", texthl = "DiagnosticSignInfo" })
-vim.fn.sign_define("DiagnosticSignHint", { text = "", texthl = "DiagnosticSignHint" })
-
 return {
   {
     "nvim-neo-tree/neo-tree.nvim",
-    branch = "v3.x",
+    -- branch = "v3.x",
     dependencies = {
       "nvim-lua/plenary.nvim",
-      "nvim-tree/nvim-web-devicons",       -- not strictly required, but recommended
+      "nvim-tree/nvim-web-devicons",  -- not strictly required, but recommended
       "MunifTanjim/nui.nvim",
       -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
     },
-    opts = {
+    config = function()
+      require("neo-tree").setup({
       enable_diagnostics = true,
+      close_if_last_window = false,
+      event_handlers = {
+        {
+          event = "file_opened",
+          handler = function(_) end,
+        },
+      },
+
       modified = {
         symbol = "[+]",
         highlight = "NeoTreeModified",
@@ -40,12 +44,10 @@ return {
         required_width = 110,
       },
 
-      symlink_target = {
-        enabled = true,
-      },
+      symlink_target = { enabled = true, },
 
       window = {
-        position = "center",
+        position = "float",
         width = 50,
         mapping_options = {
           noremap = true,
@@ -93,6 +95,12 @@ return {
 
           ["?"] = "show_help",            -- Открыть меню справки neotree
           ["<esc>"] = "cancel",           -- Клавиша закрытия различных окон neotree
+
+          ["H"] = "toggle_hidden", -- Переключатель для отображения скрытых файлов (для корректной работы измените значения параметров в filtered_items)
+          ["Р"] = "toggle_hidden", -- Переключатель для отображения скрытых файлов (для корректной работы измените значения параметров в filtered_items)
+
+          -- Отображать только содержимое выбранной директории (для выхода из данного режима нужно нажать backspace)
+          ["."] = "set_root",
         },
       },
 
@@ -100,17 +108,11 @@ return {
         filtered_items = {
           hide_dotfiles = false,
           hide_gitignored = false,
-        },
-        window = {
-          mappings = {
-            ["H"] = "toggle_hidden", -- Переключатель для отображения скрытых файлов (для корректной работы измените значения параметров в filtered_items)
-            ["Р"] = "toggle_hidden", -- Переключатель для отображения скрытых файлов (для корректной работы измените значения параметров в filtered_items)
-
-            -- Отображать только содержимое выбранной директории (для выхода из данного режима нужно нажать backspace)
-            ["."] = "set_root",
-          },
+          hijack_netrw_behavior = "disabled",
+          -- hijack_netrw_behavior = "open_current",
         },
       },
-    },
+    })
+  end,
   },
 }
