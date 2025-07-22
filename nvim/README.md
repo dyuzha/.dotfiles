@@ -1,11 +1,11 @@
-# Header 1
+## Зависимости
+---
 
-Необходимые зависимости:
 - [Node.js](https://nodejs.org/en/download/package-manager)
 
-- Py
+- Python
 
-- [ripfrep](https://github.com/BurntSushi/ripgrep) - Можно через pm
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - Можно через pm
 
 - [lasy.git](https://github.com/jesseduffield/lazygit)
 
@@ -16,3 +16,18 @@
 - [Tree-sitter CLI](https://github.com/tree-sitter/tree-sitter/blob/master/cli/README.md)
 
 - fd-find (для venv-selector)
+
+## Настройка персонализированных переменных
+---
+```lua
+-- nvim/lua/env.lua
+local M = {}
+
+-- Пути (пример для Linux/macOS/Windows)
+M.paths = {
+  shell = "/bin/bash"
+}
+
+return M
+```
+
