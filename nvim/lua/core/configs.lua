@@ -1,6 +1,7 @@
 local g = vim.g
 local opt = vim.opt
 local wo = vim.wo
+local env = require('env')
 
 
 -- Line Numbers
@@ -27,7 +28,7 @@ opt.wrap = false
 wo.linebreak = true
 opt.virtualedit = "block"
 opt.undofile = true
-opt.shell = "/bin/zsh"
+opt.shell = env.paths.shell
 opt.termguicolors = true
 opt.cursorline = true -- Подсветка строки с курсором
 
