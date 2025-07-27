@@ -1,1 +1,6 @@
-.zshhistory
+# История команд
+.zsh_history
+
+# кеширование комплитов
+.zcompcache
+.zcompdump

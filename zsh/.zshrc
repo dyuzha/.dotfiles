@@ -23,3 +23,6 @@ fi
 for src in $ZDOTDIR/zshrc.d/*.zsh; do
   . "$src"
 done
+
+# Подкючаем asdf
+. /usr/local/Cellar/asdf/0.17.0/libexec/asdf.sh
