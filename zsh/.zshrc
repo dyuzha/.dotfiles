@@ -26,3 +26,5 @@ done
 
 # Подкючаем asdf
 . /usr/local/Cellar/asdf/0.17.0/libexec/asdf.sh
+
+ranger
