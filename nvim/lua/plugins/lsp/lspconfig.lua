@@ -46,7 +46,6 @@ return {
     mason.setup()
 
     mason_lspconfig.setup({
-      ensure_installed = { "pyright", "bashls", "lua_ls" },
       automatic_enable = false,
     })
 
@@ -61,6 +60,17 @@ return {
           },
         },
       }
+    })
+
+    lspconfig.jsonls.setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      settings = {
+        json = {
+          -- schemas = require('schemastore').json.schemas(),  -- Для валидации JSON схем
+          format = { enable = true },  -- Включить форматирование
+        },
+      },
     })
 
     lspconfig.pyright.setup({
