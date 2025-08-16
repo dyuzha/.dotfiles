@@ -17,6 +17,13 @@
 
 - fd-find (для venv-selector)
 
+- cargo (Менеджер пакетов для rust)
+
+```bash
+# Нужен для jinja-lsp
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
 ## Настройка персонализированных переменных
 ---
 ```lua
@@ -31,3 +38,8 @@ M.paths = {
 return M
 ```
 
+## Добавить пути
+---
+```bash
+export PATH="$HOME/.local/share/nvim/mason/bin:$PATH"
+```

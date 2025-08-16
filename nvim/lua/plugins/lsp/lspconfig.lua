@@ -12,7 +12,7 @@ return {
 
     local capabilities = cmp_nvim_lsp.default_capabilities()
 
-    local on_attach = function(_, bufnr)
+    local on_attach = function(client, bufnr)
       local keymap = vim.keymap.set
       local opts = { noremap = true, silent = true, buffer = bufnr }
 
@@ -46,8 +46,10 @@ return {
     mason.setup()
 
     mason_lspconfig.setup({
+      ensure_installed = { "pyright", "bashls", "lua_ls", "jsonls" },
       automatic_enable = false,
     })
+
 
     -- Language settings
     lspconfig.lua_ls.setup({
@@ -64,11 +66,13 @@ return {
 
     lspconfig.jsonls.setup({
       capabilities = capabilities,
+      filetypes = { "json", "jsonc" },  -- не добавляем jinja
       on_attach = on_attach,
       settings = {
         json = {
-          -- schemas = require('schemastore').json.schemas(),  -- Для валидации JSON схем
           format = { enable = true },  -- Включить форматирование
+          -- schemas = require("schemastore").json.schemas(),
+          validate = { enable = true },
         },
       },
     })
@@ -77,6 +81,22 @@ return {
       capabilities = capabilities,
       on_attach = on_attach
     })
+
+    -- lspconfig.docker_language_server.setup({
+    --   capabilities = capabilities,
+    --   on_attach = on_attach
+    -- })
+
+    lspconfig.ansiblels.setup({
+      capabilities = capabilities,
+      on_attach = on_attach
+    })
+
+    lspconfig.cssls.setup({
+      capabilities = capabilities,
+      on_attach = on_attach
+    })
+
     lspconfig.bashls.setup({
       capabilities = capabilities,
       on_attach = on_attach
