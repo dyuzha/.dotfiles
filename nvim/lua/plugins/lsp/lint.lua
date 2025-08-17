@@ -4,7 +4,7 @@ return {
   config = function()
     local lint = require("lint")
     lint.linters_by_ft = {
-      javascript = { "eslint" },
+      -- javascript = { "eslint" },
       python = { "pylint" },
       json = { "jsonlint" },
       -- другие языки...
