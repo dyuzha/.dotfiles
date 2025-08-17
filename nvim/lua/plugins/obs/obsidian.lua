@@ -1,23 +1,18 @@
 return {
   "epwalsh/obsidian.nvim",
   version = "*", -- recommended, use latest release instead of latest commit
-  lazy = true,
-  ft = "markdown",
   dependencies = {
     "nvim-lua/plenary.nvim",
   },
+  lazy = true,
+  ft = "markdown",
   opts = {
     workspaces = {
       {
         name = "personal",
         path = "~/obs-home",
       },
-      -- {
-      --   name = "work",
-      --   path = "~/vaults/work",
-      -- },
     },
-
     completion = {
       -- Set to false to disable completion.
       nvim_cmp = true,
