@@ -46,8 +46,8 @@ return {
     mason.setup()
 
     mason_lspconfig.setup({
-      ensure_installed = { "pyright", "bashls", "lua_ls", "jsonls" },
-      automatic_enable = false,
+      ensure_installed = { "pyright", "bashls", "lua_ls", "jsonls", "ts_ls", "biome" },
+      automatic_enable = true,
     })
 
 
@@ -101,6 +101,14 @@ return {
     lspconfig.cssls.setup({
       capabilities = capabilities,
       on_attach = on_attach
+    })
+
+
+    lspconfig.ts_ls.setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
+      root_dir = lspconfig.util.root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git"),
     })
 
     lspconfig.bashls.setup({
