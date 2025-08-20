@@ -82,6 +82,14 @@ return {
       on_attach = on_attach
     })
 
+
+    lspconfig.bashls.setup({
+      capabilities = capabilities,
+      on_attach = on_attach
+    })
+
+    -- DevOps
+
     -- lspconfig.docker_language_server.setup({
     --   capabilities = capabilities,
     --   on_attach = on_attach
@@ -92,17 +100,12 @@ return {
       on_attach = on_attach
     })
 
+    -- Web --
     lspconfig.biome.setup({
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
     })
-
-    lspconfig.cssls.setup({
-      capabilities = capabilities,
-      on_attach = on_attach
-    })
-
 
     lspconfig.ts_ls.setup({
       capabilities = capabilities,
@@ -111,9 +114,10 @@ return {
       root_dir = lspconfig.util.root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git"),
     })
 
-    lspconfig.bashls.setup({
+    lspconfig.cssls.setup({
       capabilities = capabilities,
       on_attach = on_attach
     })
+
   end
 }
