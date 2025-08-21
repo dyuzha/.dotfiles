@@ -9,7 +9,16 @@ return {
   ---@module 'render-markdown'
   ---@type render.md.UserConfig
   opts = {
+
+    indent = {
+      enabled = true,
+      render_modes = true,
+      skip_level = 2,
+      skip_heading = true,
+    },
+
     completions = { lsp = { enabled = true }},
+
     heading = {
       -- Turn on / off heading icon & background rendering
       enabled = true,
@@ -93,6 +102,7 @@ return {
       custom = {},
 
     },
+
     paragraph = {
       -- Turn on / off paragraph rendering
       enabled = true,
@@ -137,6 +147,7 @@ return {
       -- Highlight for the bullet icon
       highlight = 'RenderMarkdownBullet',
     },
+
     dash = {
       -- Turn on / off thematic break rendering
       enabled = true,
@@ -156,6 +167,7 @@ return {
       -- Highlight for the whole line generated from the icon
       highlight = 'RenderMarkdownDash',
     },
+
     code = {
         -- Turn on / off code block & inline code rendering.
         enabled = true,
