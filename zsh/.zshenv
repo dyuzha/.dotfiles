@@ -17,3 +17,4 @@ export ZDOTDIR="$HOME/.config/zsh"
 typeset -U path fpath
 path=(~/.local/bin ~/bin $path)
 fpath+=("$ZDOTDIR/.zfunc")
+. "$HOME/.cargo/env"

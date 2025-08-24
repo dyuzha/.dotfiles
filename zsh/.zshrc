@@ -27,4 +27,4 @@ done
 # Подкючаем asdf
 . /usr/local/Cellar/asdf/0.17.0/libexec/asdf.sh
 
-ranger
+export PATH="$HOME/.local/share/nvim/mason/bin:$PATH"
