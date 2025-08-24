@@ -1,16 +1,27 @@
 return {
-  "neovim/nvim-lspconfig",
+    "mason-org/mason-lspconfig.nvim",
   dependencies = {
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
+    {
+      "mason-org/mason.nvim",
+      opts = {
+        ui = {
+          border = "rounded", -- Use rounded borders for the Mason window
+          icons = {
+              package_installed = "✅",
+              package_pending = "⏳",
+              package_uninstalled = "❌"
+          }
+        },
+      }
+    },
+    "neovim/nvim-lspconfig",
   },
-  config = function()
-    local lspconfig = require("lspconfig")
-    local mason = require("mason")
-    local mason_lspconfig = require("mason-lspconfig")
-    local cmp_nvim_lsp = require("cmp_nvim_lsp")
 
-    local capabilities = cmp_nvim_lsp.default_capabilities()
+  config = function()
+
+    local lspconfig = require("lspconfig")
+    local mason_lspconfig = require("mason-lspconfig")
+    local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
     local on_attach = function(client, bufnr)
       local keymap = vim.keymap.set
@@ -43,28 +54,34 @@ return {
         vim.tbl_extend('force', opts, { desc = "Document show" }))
     end
 
-    mason.setup()
+
+    require("mason").setup()
+
+
+    local default_config = {
+      capabilities = capabilities,
+      on_attach = on_attach,
+    }
 
     mason_lspconfig.setup({
-      ensure_installed = { "pyright", "bashls", "lua_ls", "jsonls", "ts_ls", "biome" },
+      ensure_installed = {
+        "pyright", "bashls", "lua_ls", "jsonls", "ts_ls", "biome", "cssls", "html",
+    },
       automatic_enable = true,
     })
 
 
-    -- Language settings
-    lspconfig.lua_ls.setup({
+    vim.lsp.config("lua_ls", {
       capabilities = capabilities,
       on_attach = on_attach,
       settings = {
         Lua = {
-          diagnostics = {
-            globals = { "vim" },
-          },
-        },
+          diagnostic = {globals = {"vim"} },
+        }
       }
     })
 
-    lspconfig.jsonls.setup({
+    vim.lsp.config("jsonjs", {
       capabilities = capabilities,
       filetypes = { "json", "jsonc" },  -- не добавляем jinja
       on_attach = on_attach,
@@ -77,47 +94,51 @@ return {
       },
     })
 
-    lspconfig.pyright.setup({
-      capabilities = capabilities,
-      on_attach = on_attach
-    })
-
-
-    lspconfig.bashls.setup({
-      capabilities = capabilities,
-      on_attach = on_attach
-    })
+    vim.lsp.config("pyright", default_config)
+    vim.lsp.config("bashls", default_config)
 
     -- DevOps
-
-    -- lspconfig.docker_language_server.setup({
-    --   capabilities = capabilities,
-    --   on_attach = on_attach
-    -- })
-
-    lspconfig.ansiblels.setup({
-      capabilities = capabilities,
-      on_attach = on_attach
-    })
+    vim.lsp.config("docker_language_server", default_config)
+    vim.lsp.config("ansiblels", default_config)
 
     -- Web --
-    lspconfig.biome.setup({
+    vim.lsp.config("biome", {
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
     })
 
-    lspconfig.ts_ls.setup({
+    vim.lsp.config("ts_ls",{
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
       root_dir = lspconfig.util.root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git"),
     })
 
-    lspconfig.cssls.setup({
+    vim.lsp.config("html", {
+      capabilities = capabilities,
+      on_attach = on_attach,
+
+      init_options = {
+        -- Явно включите диагностику
+        provideValidation = true,
+        embeddedLanguages = { css = true, javascript = true }
+      },
+
+      settings = {
+        html = {
+          validate = { enable = true },  -- Включить валидацию
+          suggest = { enable = true },   -- Включить подсказки
+          format = { enable = true }     -- Включить форматирование
+        }
+      },
+    })
+
+    vim.lsp.config("cssls", {
       capabilities = capabilities,
       on_attach = on_attach
     })
+
 
   end
 }

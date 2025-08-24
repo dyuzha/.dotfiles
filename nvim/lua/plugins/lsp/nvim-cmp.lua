@@ -10,10 +10,10 @@ return {
     "hrsh7th/cmp-cmdline",
     "hrsh7th/cmp-nvim-lsp-signature-help",
     "saadparwaiz1/cmp_luasnip",
-    "rafamadriz/friendly-snippets",
-	  {"L3MON4D3/LuaSnip",
-      opts = { history = true, updateevents = "TextChanged,TextChangedI" },
-    },
+    -- "rafamadriz/friendly-snippets",
+	  -- {"L3MON4D3/LuaSnip",
+	  --    opts = { history = true, updateevents = "TextChanged,TextChangedI" },
+	  --  },
   },
 
   config = function()
@@ -21,7 +21,7 @@ return {
     local luasnip = require("luasnip")
 
     -- loads vscode style snippets from installed plugins (e.g friendly-snippets)
-    require("luasnip.loaders.from_vscode").lazy_load()
+    -- require("luasnip.loaders.from_vscode").lazy_load()
     local kind_icons = {
       Text = " ",
       Method = "󰆧",
