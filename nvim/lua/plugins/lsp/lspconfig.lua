@@ -6,11 +6,7 @@ return {
       opts = {
         ui = {
           border = "rounded", -- Use rounded borders for the Mason window
-          icons = {
-              package_installed = "✅",
-              package_pending = "⏳",
-              package_uninstalled = "❌"
-          }
+          icons = { package_pending = "⏳", }
         },
       }
     },
@@ -65,80 +61,62 @@ return {
 
     mason_lspconfig.setup({
       ensure_installed = {
-        "pyright", "bashls", "lua_ls", "jsonls", "ts_ls", "biome", "cssls", "html",
+        "pyright",
+        "bashls",
+        "lua_ls",
+        "jsonls",
+        "ts_ls",
+        "biome",
+        "cssls",
+        "html",
     },
-      automatic_enable = true,
+      automatic_enable = {
+        exclude = { "html" },
+      },
     })
 
+    lspconfig.pyright.setup(default_config)
+    lspconfig.bashls.setup(default_config)
 
-    vim.lsp.config("lua_ls", {
-      capabilities = capabilities,
-      on_attach = on_attach,
+    lspconfig.lua_ls.setup(vim.tbl_deep_extend("force", default_config, {
       settings = {
         Lua = {
-          diagnostic = {globals = {"vim"} },
-        }
-      }
-    })
-
-    vim.lsp.config("jsonjs", {
-      capabilities = capabilities,
-      filetypes = { "json", "jsonc" },  -- не добавляем jinja
-      on_attach = on_attach,
-      settings = {
-        json = {
-          format = { enable = true },  -- Включить форматирование
-          -- schemas = require("schemastore").json.schemas(),
-          validate = { enable = true },
+          diagnostics = { globals = { "vim" } },
         },
       },
-    })
-
-    vim.lsp.config("pyright", default_config)
-    vim.lsp.config("bashls", default_config)
+    }))
 
     -- DevOps
-    vim.lsp.config("docker_language_server", default_config)
-    vim.lsp.config("ansiblels", default_config)
+    lspconfig.dockerls.setup(default_config)
+    lspconfig.ansiblels.setup(default_config)
+    lspconfig.jsonls.setup(default_config)
+
+    -- vim.lsp.config("jsonls", {
+    --   capabilities = capabilities,
+    --   filetypes = { "json", "jsonc" },  -- не добавляем jinja
+    --   on_attach = on_attach,
+    --   settings = {
+    --     json = {
+    --       format = { enable = true },  -- Включить форматирование
+    --       -- schemas = require("schemastore").json.schemas(),
+    --       validate = { enable = true },
+    --     },
+    --   },
+    -- })
 
     -- Web --
-    vim.lsp.config("biome", {
-      capabilities = capabilities,
-      on_attach = on_attach,
-      filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
-    })
+    lspconfig.cssls.setup(default_config)
+    lspconfig.html.setup(default_config)
 
-    vim.lsp.config("ts_ls",{
-      capabilities = capabilities,
-      on_attach = on_attach,
+    lspconfig.ts_ls.setup(vim.tbl_deep_extend("force", default_config, {
       filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
       root_dir = lspconfig.util.root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git"),
-    })
+      single_file_support = true,
+    }))
 
-    vim.lsp.config("html", {
-      capabilities = capabilities,
-      on_attach = on_attach,
-
-      init_options = {
-        -- Явно включите диагностику
-        provideValidation = true,
-        embeddedLanguages = { css = true, javascript = true }
-      },
-
-      settings = {
-        html = {
-          validate = { enable = true },  -- Включить валидацию
-          suggest = { enable = true },   -- Включить подсказки
-          format = { enable = true }     -- Включить форматирование
-        }
-      },
-    })
-
-    vim.lsp.config("cssls", {
-      capabilities = capabilities,
-      on_attach = on_attach
-    })
-
+    lspconfig.biome.setup(vim.tbl_deep_extend("force", default_config, {
+      filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
+    }))
 
   end
 }
