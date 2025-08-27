@@ -59,25 +59,57 @@ return {
       on_attach = on_attach,
     }
 
+    -- функция для конкатенации массивов
+    local function join_arrays(a, b)
+      local result = {}
+      for _, v in ipairs(a) do
+        table.insert(result, v)
+      end
+      for _, v in ipairs(b) do
+        table.insert(result, v)
+      end
+      return result
+    end
+
+
+    local custom_lsp_servers = {
+      "lua_ls",
+      "ts_ls",
+      "biome",
+    }
+
+    local default_lsp_servers = {
+      "cssls",
+      "html",
+      "jsonls",
+      "pyright",
+      "bashls",
+      "dockerls",
+      "ansiblels",
+    }
+
+    local lsp_servers = join_arrays(custom_lsp_servers, default_lsp_servers)
+
+    -- Автоматически устанавливаем все сервера
     mason_lspconfig.setup({
-      ensure_installed = {
-        "pyright",
-        "bashls",
-        "lua_ls",
-        "jsonls",
-        "ts_ls",
-        "biome",
-        "cssls",
-        "html",
-    },
+      ensure_installed = lsp_servers,
+    -- Включаем автонастройку для всех серверов установленных через Mason,
+    -- кроме тех, что настраиваются здесь (явно)
       automatic_enable = {
-        exclude = { "html" },
+        exclude = lsp_servers,
       },
     })
 
-    lspconfig.pyright.setup(default_config)
-    lspconfig.bashls.setup(default_config)
+    --  === === === === === ===  --
+    -- === Настройка серверов === --
+    --  === === === === === ===  --
 
+    -- Настройка default серверов
+    for _, server in ipairs(default_lsp_servers) do
+      lspconfig[server].setup(default_config)
+    end
+
+    -- Кастомная настрока серверов
     lspconfig.lua_ls.setup(vim.tbl_deep_extend("force", default_config, {
       settings = {
         Lua = {
@@ -85,11 +117,6 @@ return {
         },
       },
     }))
-
-    -- DevOps
-    lspconfig.dockerls.setup(default_config)
-    lspconfig.ansiblels.setup(default_config)
-    lspconfig.jsonls.setup(default_config)
 
     -- vim.lsp.config("jsonls", {
     --   capabilities = capabilities,
@@ -103,10 +130,6 @@ return {
     --     },
     --   },
     -- })
-
-    -- Web --
-    lspconfig.cssls.setup(default_config)
-    lspconfig.html.setup(default_config)
 
     lspconfig.ts_ls.setup(vim.tbl_deep_extend("force", default_config, {
       filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
