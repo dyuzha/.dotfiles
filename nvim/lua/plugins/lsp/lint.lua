@@ -5,7 +5,7 @@ return {
     local lint = require("lint")
     lint.linters_by_ft = {
       -- javascript = { "eslint" },
-      python = { "pylint" },
+      -- python = { "pylint" },
       json = { "jsonlint" },
       -- другие языки...
     }

@@ -1,6 +1,7 @@
 local g = vim.g
 local opt = vim.opt
 local wo = vim.wo
+local api = vim.api
 local env = require('env')
 
 
@@ -11,19 +12,35 @@ wo.relativenumber = true
 opt.number = true
 opt.relativenumber = true
 
+
 -- nvim tree
 -- vim.g.loaded_netrw = 1
 -- vim.g.loaded_netrwPlugin = 1
 
 
-vim.api.nvim_command('filetype plugin indent on')
-
+-- FileType
+api.nvim_command('filetype plugin indent on')
 g.did_load_filetypes = 1
 g.formatoptions = "qrn1"
+
+vim.filetype.add({
+  extension = {
+    service = "service",
+    timer = "timer",
+    socket = "systemd",
+    mount = "systemd",
+    autmount = "systemd",
+    path = "systemd",
+    target = "systemd",
+    slice = "systemd",
+  }
+})
+
+
 opt.showmode = false
 opt.updatetime = 100
 wo.signcolumn = "yes"
-opt.scrolloff = 8
+opt.scrolloff = 4
 opt.wrap = false
 wo.linebreak = true
 opt.virtualedit = "block"
@@ -109,7 +126,7 @@ local ru = [[ёйцукенгшщзхъфывапролджэячсмить]]
 local en_shift = [[~QWERTYUIOP{}ASDFGHJKL:"ZXCVBNM<>]]
 local ru_shift = [[ËЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ]]
 
-vim.opt.langmap = vim.fn.join({
+opt.langmap = vim.fn.join({
   -- | `to` should be first     | `from` should be second
   escape(ru_shift) .. ';' .. escape(en_shift),
   escape(ru) .. ';' .. escape(en),
@@ -128,7 +145,7 @@ util.open_floating_preview = function(contents, filetype, opts, ...)
 end
 
 
-vim.api.nvim_create_autocmd("VimEnter", {
+api.nvim_create_autocmd("VimEnter", {
   pattern = "*",
   callback = function()
     if vim.fn.isdirectory(vim.fn.expand("<amatch>")) ~= 0 then
@@ -139,7 +156,7 @@ vim.api.nvim_create_autocmd("VimEnter", {
 })
 
 --
--- vim.api.nvim_create_autocmd("VimEnter", {
+-- nvim_create_autocmd("VimEnter", {
 --   callback = function()
 --     local arg = vim.fn.argv()[1]
 --     if arg and vim.fn.isdirectory(arg) == 1 then
