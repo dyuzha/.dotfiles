@@ -15,7 +15,7 @@ return {
 
   config = function()
 
-    local lspconfig = require("lspconfig")
+    -- local lspconfig = require("lspconfig")
     local mason_lspconfig = require("mason-lspconfig")
     local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
@@ -50,7 +50,6 @@ return {
         vim.tbl_extend('force', opts, { desc = "Document show" }))
     end
 
-
     require("mason").setup()
 
 
@@ -59,7 +58,7 @@ return {
       on_attach = on_attach,
     }
 
-    -- функция для конкатенации массивов
+    -- функция для слияния массивов
     local function join_arrays(a, b)
       local result = {}
       for _, v in ipairs(a) do
@@ -86,6 +85,7 @@ return {
       "bashls",
       "dockerls",
       "ansiblels",
+      "systemd_ls"
     }
 
     local lsp_servers = join_arrays(custom_lsp_servers, default_lsp_servers)
@@ -93,11 +93,7 @@ return {
     -- Автоматически устанавливаем все сервера
     mason_lspconfig.setup({
       ensure_installed = lsp_servers,
-    -- Включаем автонастройку для всех серверов установленных через Mason,
-    -- кроме тех, что настраиваются здесь (явно)
-      automatic_enable = {
-        exclude = lsp_servers,
-      },
+      automatic_enable = true,
     })
 
     --  === === === === === ===  --
@@ -106,40 +102,56 @@ return {
 
     -- Настройка default серверов
     for _, server in ipairs(default_lsp_servers) do
-      lspconfig[server].setup(default_config)
+      vim.lsp.config[server] = default_config
     end
 
+
     -- Кастомная настрока серверов
-    lspconfig.lua_ls.setup(vim.tbl_deep_extend("force", default_config, {
+    vim.lsp.config.lua_ls = vim.tbl_deep_extend("force", default_config, {
       settings = {
         Lua = {
           diagnostics = { globals = { "vim" } },
         },
       },
-    }))
+    })
 
-    -- vim.lsp.config("jsonls", {
-    --   capabilities = capabilities,
-    --   filetypes = { "json", "jsonc" },  -- не добавляем jinja
-    --   on_attach = on_attach,
-    --   settings = {
-    --     json = {
-    --       format = { enable = true },  -- Включить форматирование
-    --       -- schemas = require("schemastore").json.schemas(),
-    --       validate = { enable = true },
-    --     },
-    --   },
-    -- })
-
-    lspconfig.ts_ls.setup(vim.tbl_deep_extend("force", default_config, {
-      filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
-      root_dir = lspconfig.util.root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git"),
+    vim.lsp.config.ts_ls = vim.tbl_deep_extend("force", default_config, {
+      filetypes = {
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue"
+      },
+      -- root_dir = vim.fs.dirname.root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git"),
       single_file_support = true,
-    }))
+    })
 
-    lspconfig.biome.setup(vim.tbl_deep_extend("force", default_config, {
-      filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue" },
-    }))
+    vim.lsp.config.biome = vim.tbl_deep_extend("force", default_config, {
+      filetypes = {
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue"
+      },
+    })
+
+
+    -- Настройка dev-серверов
+    -- local venv_python = "/Users/dyuzha/.dotfiles/nvim/lua/dev/systemd_units_ls/.venv/bin/python3"
+    -- local suls_python = "/Users/dyuzha/.dotfiles/nvim/lua/dev/systemd_units_ls/main.py"
+    --
+    --
+    -- vim.lsp.config.suls = vim.tbl_deep_extend("force", default_config, {
+    --   cmd = { venv_python, suls_python },
+    --   filetypes = { "service", "timer" },
+    --   root_dir = vim.fs.dirname(vim.api.nvim_buf_get_name(0)),
+    --   capabilities = capabilities,
+    --   on_attach = on_attach,
+    -- })
+    --
+    -- vim.lsp.enable('suls')
 
   end
 }

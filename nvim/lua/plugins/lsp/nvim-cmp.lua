@@ -48,8 +48,9 @@ return {
     }
 
     cmp.setup({
-
+      -- preselect = cmp.PreselectMode.None,
       completion = { completeopt = "menu,menuone,preview,noselect" },
+      -- keyword_length = 2, -- показывать только после 2 символов
 
       -- configure how nvim-cmp interacts with snippet engine
       snippet = {
@@ -90,8 +91,20 @@ return {
         ['<C-n>'] = cmp.mapping.select_next_item(),
         ['<C-p>'] = cmp.mapping.select_prev_item(),
         ['<C-Space>'] = cmp.mapping.complete(), -- show completion suggestions
+        ['<C-\'>'] = cmp.mapping.complete(),    -- show completion suggestions
         ['<C-e>'] = cmp.mapping.abort(),        -- close completion window
-        ['<CR>'] = cmp.mapping.confirm({ select = false }),
+        -- ['<esc>'] = cmp.mapping.abort(),        -- close completion window
+
+
+        -- ['<CR>'] = cmp.mapping.confirm({ select = false }),
+        ['<CR>'] = cmp.mapping(function(fallback)
+          if cmp.visible() and cmp.get_selected_entry() then
+            cmp.confirm({ select = false })
+          else
+            fallback()  -- вставляет обычный Enter / перенос строки
+          end
+        end, { "i", "s" }),
+
 
         -- Перейти к следующей подсказке
         ["<Tab>"] = cmp.mapping(function(fallback)
@@ -101,6 +114,7 @@ return {
             fallback()
           end
         end, { "i", "s" }),
+
 
         -- Перейти к предыдущей подсказке
         ["<S-Tab>"] = cmp.mapping(function(fallback)
@@ -114,11 +128,11 @@ return {
 
       -- Sources for autocompletion
       sources = {
-        { name = "luasnip" },
-        { name = 'nvim_lsp' },
-        { name = 'path' },
-        { name = 'buffer' },
-        { name = 'nvim_lsp_signature_help' },
+        { name = "luasnip", keyword_length = 2 },
+        { name = 'nvim_lsp', keyword_length = 1 },
+        { name = 'path', keyword_length = 4 },
+        { name = 'buffer', keyword_length = 4 },
+        { name = 'nvim_lsp_signature_help', keyword_length = 5 },
         -- { name = 'nvim_lua' },
       },
 
@@ -131,13 +145,14 @@ return {
       }
     })
 
+
     cmp.setup.cmdline(':', {
       mapping = cmp.mapping.preset.cmdline(),
       sources = cmp.config.sources(
         { { name = 'path' } },
         { { name = 'cmdline' } }
       ),
-      matching = { disallow_symbol_nonprefix_matching = false, },
+      -- matching = { disallow_symbol_nonprefix_matching = false, },
     })
   end,
 }

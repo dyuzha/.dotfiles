@@ -23,7 +23,7 @@ require("lazy").setup({
     { import = "plugins.lsp" },
     { import = "plugins.ide" },
     { import = "plugins.obs" },
-    -- { import = "plugins.my" },
+    { import = "plugins.dev" },
   },
 
   -- Настройка поведения плагинов "по умолчанию"
