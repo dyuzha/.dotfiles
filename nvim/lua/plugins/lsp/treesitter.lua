@@ -34,6 +34,7 @@ return {
     vim.filetype.add({
       pattern = {
         [".*%.json%.jinja"] = "jinja", -- основной ft
+        [".*%.json%.j2"] = "jinja", -- основной ft
       },
     })
   end,
