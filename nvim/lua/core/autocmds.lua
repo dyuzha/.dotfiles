@@ -35,6 +35,15 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     group = vim.api.nvim_create_augroup("TrimWhitespace", { clear = true }),
 })
 
+
+-- Защита от мисклика при сохранении
+vim.api.nvim_create_user_command(
+  "W",
+  function() vim.cmd("write") end,
+  { desc = "Write buffer (missclick defenders)" }
+)
+
+
 -- Отключить подсветку результатов поиска в режиме вставки (Insert Mode)
 local hiGroup = vim.api.nvim_create_augroup("highlight_group", { clear = false })
 vim.api.nvim_create_autocmd("InsertEnter", {

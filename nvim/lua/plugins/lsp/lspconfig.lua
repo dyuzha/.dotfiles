@@ -1,27 +1,45 @@
 return {
-    "mason-org/mason-lspconfig.nvim",
+  "neovim/nvim-lspconfig",
   dependencies = {
     {
       "mason-org/mason.nvim",
       opts = {
         ui = {
-          border = "rounded", -- Use rounded borders for the Mason window
-          icons = { package_pending = "⏳", }
+          border = "rounded",
+          icons = { package_pending = "⏳" }
         },
       }
     },
-    "neovim/nvim-lspconfig",
+    "williamboman/mason-lspconfig.nvim",
   },
 
   config = function()
-
-    -- local lspconfig = require("lspconfig")
     local mason_lspconfig = require("mason-lspconfig")
     local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-    local on_attach = function(client, bufnr)
+    require("mason").setup()
+
+    mason_lspconfig.setup({
+      ensure_installed = {
+        "lua_ls",
+        "cssls",
+        "html",
+        "jsonls",
+        "pyright",
+        "bashls",
+        "dockerls",
+        "ansiblels",
+        "systemd_lsp",
+        "vtsls",
+        "vue_ls",
+      },
+    })
+
+    -- 🔧 on_attach
+    local on_attach = function(_, bufnr)
       local keymap = vim.keymap.set
       local opts = { noremap = true, silent = true, buffer = bufnr }
+
 
       -- Привязки клавиш
       keymap("n", "<leader>lf", function() vim.lsp.buf.format() end,
@@ -50,34 +68,13 @@ return {
         vim.tbl_extend('force', opts, { desc = "Document show" }))
     end
 
-    require("mason").setup()
-
-
     local default_config = {
       capabilities = capabilities,
       on_attach = on_attach,
     }
 
-    -- функция для слияния массивов
-    local function join_arrays(a, b)
-      local result = {}
-      for _, v in ipairs(a) do
-        table.insert(result, v)
-      end
-      for _, v in ipairs(b) do
-        table.insert(result, v)
-      end
-      return result
-    end
-
-
-    local custom_lsp_servers = {
-      "lua_ls",
-      "ts_ls",
-      "biome",
-    }
-
-    local default_lsp_servers = {
+    -- 🔥 список серверов
+    local servers = {
       "cssls",
       "html",
       "jsonls",
@@ -85,73 +82,87 @@ return {
       "bashls",
       "dockerls",
       "ansiblels",
-      "systemd_ls"
+      "systemd_lsp",
     }
 
-    local lsp_servers = join_arrays(custom_lsp_servers, default_lsp_servers)
-
-    -- Автоматически устанавливаем все сервера
-    mason_lspconfig.setup({
-      ensure_installed = lsp_servers,
-      automatic_enable = true,
-    })
-
-    --  === === === === === ===  --
-    -- === Настройка серверов === --
-    --  === === === === === ===  --
-
-    -- Настройка default серверов
-    for _, server in ipairs(default_lsp_servers) do
-      vim.lsp.config[server] = default_config
+    -- ✅ новый API
+    for _, server in ipairs(servers) do
+      vim.lsp.config(server, default_config)
+      vim.lsp.enable(server)
     end
 
+    -- 🔥 VTSLS (Vue + TS)
+    local vue_language_server_path =
+      vim.fn.stdpath("data") ..
+      "/mason/packages/vue-language-server/node_modules/@vue/language-server"
 
-    -- Кастомная настрока серверов
-    vim.lsp.config.lua_ls = vim.tbl_deep_extend("force", default_config, {
+    vim.lsp.config("vtsls", {
+      capabilities = capabilities,
+      on_attach = function(client, bufnr)
+        if vim.bo.filetype == "vue" then
+          client.server_capabilities.semanticTokensProvider.full = false
+        end
+        on_attach(client, bufnr)
+      end,
+      filetypes = {
+        "typescript",
+        "javascript",
+        "javascriptreact",
+        "typescriptreact",
+        "vue",
+      },
       settings = {
-        Lua = {
-          diagnostics = { globals = { "vim" } },
+        vtsls = {
+          tsserver = {
+            globalPlugins = {
+              {
+                name = "@vue/typescript-plugin",
+                location = vue_language_server_path,
+                languages = { "vue" },
+              },
+            },
+          },
         },
       },
     })
 
-    vim.lsp.config.ts_ls = vim.tbl_deep_extend("force", default_config, {
-      filetypes = {
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-        "vue"
-      },
-      -- root_dir = vim.fs.dirname.root_pattern("package.json", "tsconfig.json", "jsconfig.json", ".git"),
-      single_file_support = true,
-    })
+    vim.lsp.enable("vtsls")
 
-    vim.lsp.config.biome = vim.tbl_deep_extend("force", default_config, {
-      filetypes = {
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-        "vue"
+    -- 🔥 Vue LS (ВАЖНО: теперь это просто имя конфига)
+    vim.lsp.config("vue_ls", {
+      capabilities = capabilities,
+      on_attach = on_attach,
+      settings = {
+        vue = {
+          inlayHints = {
+            missingProps = { enabled = true },
+          },
+        },
       },
     })
 
+    -- vim.lsp.enable("vue_ls")
 
-    -- Настройка dev-серверов
-    -- local venv_python = "/Users/dyuzha/.dotfiles/nvim/lua/dev/systemd_units_ls/.venv/bin/python3"
-    -- local suls_python = "/Users/dyuzha/.dotfiles/nvim/lua/dev/systemd_units_ls/main.py"
-    --
-    --
-    -- vim.lsp.config.suls = vim.tbl_deep_extend("force", default_config, {
-    --   cmd = { venv_python, suls_python },
-    --   filetypes = { "service", "timer" },
-    --   root_dir = vim.fs.dirname(vim.api.nvim_buf_get_name(0)),
-    --   capabilities = capabilities,
-    --   on_attach = on_attach,
-    -- })
-    --
-    -- vim.lsp.enable('suls')
+    -- 🔥 Lua
+    vim.lsp.config("lua_ls", {
+      capabilities = capabilities,
+      on_attach = on_attach,
+      settings = {
+        Lua = {
+          diagnostics = {
+            globals = { "vim" },
+          },
+        },
+      },
+    })
 
+    vim.lsp.enable("lua_ls")
+
+    -- diagnostics
+    vim.diagnostic.config({
+      virtual_text = true,
+      signs = true,
+      underline = true,
+    })
   end
 }

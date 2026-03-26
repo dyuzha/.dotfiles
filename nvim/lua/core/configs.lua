@@ -4,6 +4,8 @@ local wo = vim.wo
 local api = vim.api
 local env = require('env')
 
+vim.lsp.set_log_level("debug")
+
 
 -- Line Numbers
 wo.number = true
@@ -23,6 +25,7 @@ api.nvim_command('filetype plugin indent on')
 g.did_load_filetypes = 1
 g.formatoptions = "qrn1"
 
+-- For self dev lsp
 vim.filetype.add({
   extension = {
     service = "service",
@@ -132,9 +135,10 @@ opt.langmap = vim.fn.join({
   escape(ru) .. ';' .. escape(en),
 }, ',')
 
+
+
 -- monkey-patch для управления размером и границей hover-окна
 local util = vim.lsp.util
-
 local original_open_floating_preview = util.open_floating_preview
 util.open_floating_preview = function(contents, filetype, opts, ...)
   opts = opts or {}
@@ -154,18 +158,3 @@ api.nvim_create_autocmd("VimEnter", {
     end
   end,
 })
-
---
--- nvim_create_autocmd("VimEnter", {
---   callback = function()
---     local arg = vim.fn.argv()[1]
---     if arg and vim.fn.isdirectory(arg) == 1 then
---       -- Закрываем текущий пустой буфер
---       vim.cmd("enew | silent! bwipeout #")
---       -- Открываем Neotree в левом буфере
---       vim.cmd("Neotree filesystem left")
---     end
---   end,
--- })
-
-
