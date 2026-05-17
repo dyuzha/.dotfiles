@@ -4,7 +4,7 @@ local wo = vim.wo
 local api = vim.api
 local env = require('env')
 
-vim.lsp.set_log_level("debug")
+-- vim.lsp.set_log_level("info")
 
 
 -- Line Numbers

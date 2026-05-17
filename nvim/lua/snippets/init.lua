@@ -34,3 +34,53 @@ ls.add_snippets("python", {
     i(5, "pass")
   }))
 })
+
+ls.add_snippets("yaml", {
+  s("k-certificate", fmt([[
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: {}
+  namespace: {}
+spec:
+  secretName: {}
+  issuerRef:
+    name: {}
+    kind: {}
+  dnsNames:
+    - {}
+]], {
+    i(1, "---"),
+    i(2, "---"),
+    i(3, "---"),
+    i(4, "letsencrypt"),
+    i(5, "ClusterIssuer"),
+    i(6, "example.com"),
+  }
+  ))
+})
+
+ls.add_snippets("yaml", {
+  s("k-cluster-issuer", fmt([[
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: {}
+spec:
+  acme:
+    email: {}
+    server: {}
+    privateKeySecretRef:
+      name: {}
+    solvers:
+      - http01:
+          ingress:
+            class: traefik
+  ]], {
+    i(1, "letsencrypt"),
+    i(2, "you@example.com"),
+    i(3, "https://acme-v02.api.letsencrypt.org/directory"),
+    i(4, "letsencrypt-account-key")
+  }
+  ))
+})

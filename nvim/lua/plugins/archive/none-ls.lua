@@ -2,7 +2,7 @@ return {
   "nvimtools/none-ls.nvim",
   dependencies = { "nvim-lua/plenary.nvim" },
   config = function()
-    local null_ls = require("null-ls")
+    local null_ls = require("none-ls")
 
     -- Кастомный htmlhint (так как в null-ls нет встроенного)
     local htmlhint = {
@@ -36,7 +36,8 @@ return {
     null_ls.setup({
       sources = {
         htmlhint,
-
+        null_ls.builtins.formatting.yamlfmt,
+        -- null_ls.builtins.formatting.prettier,
 
         -- HTML linter (пример, его не существует)
         -- null_ls.builtins.diagnostics.htmlhint.with({
