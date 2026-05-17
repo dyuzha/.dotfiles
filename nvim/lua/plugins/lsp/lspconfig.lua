@@ -14,26 +14,11 @@ return {
   },
 
   config = function()
+    -- BASE
     local mason_lspconfig = require("mason-lspconfig")
     local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
     require("mason").setup()
-
-    mason_lspconfig.setup({
-      ensure_installed = {
-        "lua_ls",
-        "cssls",
-        "html",
-        "jsonls",
-        "pyright",
-        "bashls",
-        "dockerls",
-        "ansiblels",
-        "systemd_lsp",
-        "vtsls",
-        "vue_ls",
-      },
-    })
 
     -- 🔧 on_attach
     local on_attach = function(_, bufnr)
@@ -42,8 +27,12 @@ return {
 
 
       -- Привязки клавиш
-      keymap("n", "<leader>lf", function() vim.lsp.buf.format() end,
-        vim.tbl_extend('force', opts, { desc = "Format Document" }))
+      -- keymap("n", "<leader>lf", function() vim.lsp.buf.format() end,
+      --   vim.tbl_extend('force', opts, { desc = "Format Document" }))
+
+      keymap("n", "<leader>f", function() require("conform").format({ async = true })
+      end, { desc = "Format Document" })
+
       keymap("n", "<leader>lr", function() vim.lsp.buf.rename() end,
         vim.tbl_extend('force', opts, { desc = "Rename Symbol" }))
       keymap("n", "gd", function() vim.lsp.buf.definition() end,
@@ -68,33 +57,120 @@ return {
         vim.tbl_extend('force', opts, { desc = "Document show" }))
     end
 
+    -- FileTypes
+    vim.filetype.add({
+      pattern = {
+        [".*/playbooks.*%.ya?ml"] = "yaml.ansible",
+        [".*/tasks/.*%.ya?ml"] = "yaml.ansible",
+        [".*/roles/.*/.*%.ya?ml"] = "yaml.ansible",
+
+        [".*templates/.*%.ya?ml"] = "helm",
+        ["_helpers.tpl"] = "helm",
+        [".*/helm/.*%.ya?ml"] = "helm",
+      },
+    })
+
+    -- Mason install
+    mason_lspconfig.setup({
+      ensure_installed = {
+        "lua_ls",
+        "html",
+        "jsonls",
+        "pyright",
+        "bashls",
+        "dockerls",
+        "ansiblels",
+        "systemd_lsp",
+        "vtsls",
+        "vue_ls",
+        "tailwindcss",
+        "cssls",
+        "helm_ls",
+        "yamlls",
+      },
+    })
+
+    -- Base config
     local default_config = {
       capabilities = capabilities,
       on_attach = on_attach,
     }
 
-    -- 🔥 список серверов
-    local servers = {
-      "cssls",
-      "html",
-      "jsonls",
-      "pyright",
-      "bashls",
-      "dockerls",
-      "ansiblels",
-      "systemd_lsp",
-    }
+    -- Comon lsp
+    vim.lsp.config("bashls", default_config)
+    vim.lsp.config("dockerls", default_config)
+    vim.lsp.config("jsonls", default_config)
+    vim.lsp.config("cssls", default_config)
+    vim.lsp.config("tailwindcss", default_config)
+    vim.lsp.config("html", default_config)
+    vim.lsp.config("pyright", default_config)
 
-    -- ✅ новый API
-    for _, server in ipairs(servers) do
-      vim.lsp.config(server, default_config)
-      vim.lsp.enable(server)
-    end
+    -- -- 🔥 список серверов
+    -- local servers = {
+    --   "cssls",
+    --   "tailwindcss",
+    --   "html",
+    --   "jsonls",
+    --   "pyright",
+    --   "bashls",
+    --   "dockerls",
+    --   "ansiblels",
+    --   "systemd_lsp",
+    -- }
+    --
+    --
+    -- for _, server in ipairs(servers) do
+    --   vim.lsp.config(server, default_config)
+    --   vim.lsp.enable(server)
+    -- end
+
+    -- YAML WORLD
+    vim.lsp.config("yamlls", {
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "yaml.docker-compose", "yaml.gitlab" },
+      settings = {
+        yaml = {
+          schemaStore = {
+            enable = true,
+            url = "https://www.schemastore.org/api/json/catalog.json",
+          },
+        },
+      },
+    })
+
+    vim.lsp.enable("yamlls")
+
+
+    vim.lsp.config("ansiblels", {
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "yaml.ansible" },
+    })
+    vim.lsp.enable("ansiblels")
+
+    vim.lsp.config("helm_ls", {
+      capabilities = capabilities,
+      on_attach = on_attach,
+
+      filetypes = { "helm", "yaml" },
+
+      settings = {
+        ["helm-ls"] = {
+          yamlls = {
+            path = "yaml-language-server",
+          },
+        },
+      },
+    })
+
+    vim.lsp.enable("helm_ls")
+
 
     -- 🔥 VTSLS (Vue + TS)
     local vue_language_server_path =
-      vim.fn.stdpath("data") ..
-      "/mason/packages/vue-language-server/node_modules/@vue/language-server"
+        vim.fn.stdpath("data") ..
+        "/mason/packages/vue-language-server/node_modules/@vue/language-server"
 
     vim.lsp.config("vtsls", {
       capabilities = capabilities,
@@ -128,7 +204,7 @@ return {
 
     vim.lsp.enable("vtsls")
 
-    -- 🔥 Vue LS (ВАЖНО: теперь это просто имя конфига)
+    -- Vue LS (ВАЖНО: теперь это просто имя конфига)
     vim.lsp.config("vue_ls", {
       capabilities = capabilities,
       on_attach = on_attach,
@@ -157,6 +233,7 @@ return {
     })
 
     vim.lsp.enable("lua_ls")
+
 
     -- diagnostics
     vim.diagnostic.config({
