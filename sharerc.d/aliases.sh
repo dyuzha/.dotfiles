@@ -4,6 +4,7 @@ alias ll='ls -ali'
 alias la='ls -a'
 alias grep='grep --color=auto'
 alias tra='trans -b'
+alias ..='cd ..'
 
 
 # navigation
@@ -29,3 +30,4 @@ alias v='vim'
 alias n='nvim'
 alias lgit='lazygit'
 alias lern='python3 ~/projects/dict-1.0/api.py'
+alias ssh-giltab='ssh -T -p 443 git@altssh.gitlab.com'

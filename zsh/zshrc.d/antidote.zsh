@@ -1,5 +1,7 @@
-# ANTIDOTE
-antidote_zsh="$ZDOTDIR/.antidote/antidote.zsh"
+# ANTIDOTE - менеджер плагинов для Zsh
+
+# Путь до файла
+antidote_zsh="$HOME/.antidote/antidote.zsh"
 
 if [ -f "$antidote_zsh" ]; then
     zsh_plugins=${ZDOTDIR}/.zsh_plugins
@@ -8,6 +10,7 @@ if [ -f "$antidote_zsh" ]; then
     if [[ ! ${zsh_plugins}.zsh -nt ${zsh_plugins}.txt ]]; then
     (
         source "$antidote_zsh"
+
         # Создаётся новый файл .zsh с помощью команды antidote bundle.
         antidote bundle <${zsh_plugins}.txt >${zsh_plugins}.zsh
     )
