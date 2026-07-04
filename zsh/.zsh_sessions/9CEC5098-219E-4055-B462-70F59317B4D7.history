@@ -1,0 +1,6408 @@
+cd ..
+rm -fr .dotfiles/
+gh repo clone .dotfiles
+ls
+cd .dotfiles
+ls
+exit
+exit
+la
+ls
+r
+r
+r
+exit
+bash
+exit
+which
+zsh
+r
+r
+exit
+r
+ls
+r
+ext
+exit
+ls
+ls
+ls
+ohmyzsh
+oh-my-zsh
+ls
+r
+exit
+ls
+r
+exit
+r
+exit
+r
+exit
+r
+exit
+ls
+nvim test.md
+ls
+r
+exit
+ls
+r
+exit
+lazygit
+ping 192.168.88.222
+ssh 192.168.88.222
+ssh root@192.168.10.1
+cd ~
+cd isos
+ls
+scp
+mv vm-302-disk-1.qcow2 chr-7.19.4-arm64.qcow2
+scp chr-7.19.4-arm64.qcow2 root@192.168.10.1:/tmp/lib/vz/images/
+ssh root@192.168.10.1
+scp chr-7.19.4-arm64.qcow2 root@192.168.10.1:/var/lib/vz/images/
+ssh root@192.168.10.1
+cd ~/kp
+ls
+lazygit
+ifconfig
+ping 192.168.88.233
+ssh 192.168.88.233
+ping 192.168.88.233
+ssh root@192.168.88.222
+ssh root@192.168.88.222
+ssh dyuzha@192.168.88.222
+ssh dyuzha@192.168.88.222
+ssh root@192.168.10.1
+ssh root@192.168.10.1
+\:wq
+r
+qemu
+cd isos
+ls -al
+qemu-img convert -f raw -O qcow2 chr-7.19.img chr-7.19.qcow2\
+
+qemu-img convert -f raw -O qcow2 chr-7.19.4.img chr-7.19.4.qcow2\
+
+ping pve
+ping pve
+scp chr-7.19.4.qcow2 root@192.168.10.1:/var/lib/vz/images
+ls
+r
+fontrestore
+fc
+fontrestore
+ls
+ls
+r
+brew install imagemagick
+nvim 
+r
+ls
+cd Downloads
+ls
+ls | grep zip
+ls | grep mik
+ls | grep zip
+84;9u
+brew install qemu
+ls | grep zip
+ls
+ls | grep zip
+man unzip
+ls
+ls | grep zip
+unzip chr-7.19.4-arm64.img.zip
+ls
+ls | grep chr-7.19.4-arm64.img
+qemu-img convert -f raw -O qcow2 chr-7.19.4-arm64.img mkikrotik-chr-7-19.4-arm64.qcow2\
+
+r
+breq install gns3
+brew install gns3
+ssh user@192.168.88.209
+exit
+cd ..
+ls
+cd Lua
+ls
+cd systemd-units-lsp
+tree
+cd ..
+tree
+ls
+ssh 185.58.207.134:56567
+ssh 185.58.207.134 -p 56567
+ssh root@185.58.207.134 -p 56567
+ssh root@192.168.10.1
+ssh root@192.168.10.1
+ssh root@192.168.10.1
+ls
+ssh root@192.168.10.1
+ssh root@185.58.207.134 -p 56567
+r
+ls
+ssh root@185.58.207.134 -p 56567
+ssh root@192.168.10.1
+ssh root@192.168.10.1
+nvim tmp.ms
+nvim tmp.md
+r
+r
+exit
+pws
+pwd
+ls
+pwd
+exit
+ду�
+ls
+r
+exit
+r
+ping pve
+ping pve.local
+curl -vk https://<IP>:8006\
+
+curl -vk https://pve.local:8006\
+
+curl -vk https://192.168.10.1:8006\
+
+vim /etc/hosts
+sudo vim /etc/hosts
+ping pve.local
+curl -vk https://192.168.10.1:8006\
+
+ls
+ls
+r
+ls
+r
+r
+ls
+r
+exit
+ls
+poetry init
+ls
+poetry install 
+nvim RE
+poetry install 
+r
+exit
+ls
+r
+tail -n 50 ~/.local/state/nvim/lsp.log\
+
+exit
+tail -n 50 ~/.local/state/nvim/lsp.log\
+
+exit
+r
+tail -n 5 ~/.local/state/nvim/lsp.log
+exit
+tail -n 5 ~/.local/state/nvim/lsp.log
+tail -n 5 ~/.local/state/nvim/lsp.log
+exit
+ls
+cd ../dev/hello-world
+cd ..
+ls
+cd systemd-units-ls
+ls
+git show FETCH_HEAD 
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+man git
+man git log
+git log help
+git help log
+ls
+poetry add requests
+poetry add --group dev docker
+poetry add --group dev docker
+poetry run python services/downloader/download_documentation.py
+docker info
+docker info
+poetry run python services/downloader/download_documentation.py
+poetry add yaml
+poetry add pyyaml
+brew install trans-shell
+ls
+pwd
+cd dev
+ls
+cd systemd-units-ls
+ls
+cd docs
+ls
+pwd
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+ps
+ps -a
+ps -aux
+ps -au
+ps -a
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+к
+r
+tail -n 5 ~/.local/state/nvim/lsp.log
+/users/dyuzha/.dotfiles/nvim/lua/dev/systemd-units-ls/.venv/bin/python3 /Users/dyuzha/.dotfiles/nvim/lua/dev/systemd-units-ls/main.py
+/users/dyuzha/.dotfiles/nvim/lua/dev/systemd-units-ls/.venv/bin/python3 /Users/dyuzha/.dotfiles/nvim/lua/dev/systemd-units-ls/main.py
+r
+r
+man systemd
+man units 
+man systemd.service
+ls
+r
+r
+exit
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python tests/manual_test.py
+rm *
+ls
+exit
+poetry run python -m tests/manual_test.py
+cd ..
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+cat /Users/dyuzha/Projects/Python/s\
+ystemd_units_ls/tests/tests/example2.service'
+cat /Users/dyuzha/Projects/Python/s\
+ystemd_units_ls/tests/tests/example2.service
+l
+cat /Users/dyuzha/Projects/Python/s\
+ystemd_units_ls/tests/tests/example2.service
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+cd ..
+poetry run python -m tests.manual_test
+ls
+poetry run python main.py
+r
+r
+tail -n 5 ~/.local/state/nvim/lsp.log
+r
+r
+ls
+vim
+ls
+r
+r
+ls
+r
+exit
+exit
+exit
+ls
+exit
+exit
+cd tests
+ls
+poetry run manual_test.py 
+poetry run python manual_test.py
+cd ..
+poetry run python tests/manual_test.py
+poetry run python -m tests/manual_test.py
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python main.py
+brew cask instal iterm2
+brew instal iterm2
+ls
+exit
+r
+exit
+poetry run main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+exit
+poetry run python tests/manual_test.py
+poetry run python -m tests/manual_test.py
+poetry run python -m tests.manual_test.py
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+r
+r
+ls
+r
+r
+exit
+r
+r
+exit
+lazygit
+exit
+r
+nvim
+r
+exit
+firewall-cmd --permanent --remove-port=22/tcp\
+
+iptables -D INPUT -p tcp --dport 22 -j ACCEPT\
+
+fw
+lazygit
+ls
+cd ..
+ls
+exit
+exit
+ssh root@64.188.94.817
+ssh root@64.188.94.81
+ssh root@64.188.94.81
+ssh root@64.188.94.81
+гау�
+ufw
+lsbom 
+r
+ssh 64.188.94.81
+ssh 64.188.94.81
+ssh 64.188.94.81
+exit
+r
+exit
+ls
+r
+ssh root@srv2.dyuzha.ru
+ssh root@95.81.127.183
+ssh root@95.81.127.183
+nvim ~/.ssh/config
+nvim ~/.ssh/config
+nvim ~/.ssh/config
+ssh srv-amst
+nvim ~/.ssh/config
+ls .ssh/
+cd .ssh
+ls
+r
+ssh-copy-id -i ~/.ssh/id_ed25519 -p 56567 root@64.188.94.81
+ssh root@64.188.94.81
+vim config
+ssh root@64.188.94.81
+ssh 64.188.94.81
+ssh-copy-id -i ~/.ssh/id_ed25519 -p 56567 64.188.94.81
+ssh 64.188.94.81
+ssh 64.188.94.81
+ssh-copy-id -i ~/.ssh/id_ed25519 -p 56567 64.188.94.81
+ssh 64.188.94.81
+ssh 64.188.94.81 -з 56567
+ssh 64.188.94.81 -p 56567
+ssh 64.188.94.81 -p 56567
+ssh 64.188.94.81 -p 56567
+ssh root@64.188.94.81 -p 56567
+ssh root@64.188.94.81 -p 56567
+ssh-copy-id -i ~/.ssh/id_ed25519 -p 56567 64.188.94.81
+ssh 64.188.94.81
+ssh 64.188.94.81 -p 56567
+ls
+nvim config
+ssh 64.188.94.81
+ssh 64.188.94.81
+ssh 95.81.127.183
+r
+ls
+poetry run -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+poetry run python -m tests.manual_test
+python
+poetry add --group dev pytest
+poetry run python -m tests.manual_test
+python
+python
+cleat
+clear
+python
+exit
+python
+import re\
+\
+test_cases = [\
+    'list(простой текст)',\
+    'list(текст с, запу�ту�ми)',\
+    'list(  текст с пробелами  )',\
+    'list(сложну�й: текст, с разну�ми; символами!)',\
+    'list()',  # пу�стое содержимое\
+    'some text list(ну�жное содержимое) more text',\
+]\
+\
+pattern = r'list\(\s*(.*?)\s*\)'\
+\
+for text in test_cases:\
+    match = re.search(pattern, text)\
+    if match:\
+        content = match.group(1)\
+        print(f"'{text}' -> '{content}'")\
+\
+\
+\
+\
+\
+\
+else
+python
+к
+r
+ssh root@srv2.dyuzha.ru
+95.81.127.183
+cd Projects
+ls
+cd Python
+ls
+ls
+cd ..
+ls
+cd Python
+ls
+mkdir handlers/
+ls
+mv handlers ../the_best_server
+cd ../the_best_server
+ls
+cd handlers
+ls
+nvim __init__.py
+nvim __init__.py
+ls
+cd ..
+ls
+vim README.md
+ls
+cd Marz_bro
+ls
+nvim 1_private.md
+ls
+ls
+nvim 2_bases.md
+nvim 2_bases.md
+ls
+cd ..
+ls
+cd ..
+ls
+cd Python
+ls
+cd glpi_bot
+ls
+cd ..
+ls
+r
+exit
+poetry run python -m tests/manuals/__init__.py
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry add punq
+poetry lock --no-update\
+
+poetry lock
+poetry add punq
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+i
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_type_loader
+poetry run python -m tests.manuals.test_option_loafer
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loadeir
+poetry run python -m tests.manuals.test_option_loadeir
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry run python -m tests.manuals.test_option_loader
+poetry add pydantic
+git clone https://github.com/DariaDyak/InformationSystemDesign.git
+ls
+cd InformationSystemDesign
+ls
+r
+ls
+ls
+cd ..
+ls
+exit
+python test.py
+python3 test.py
+python3 test.py
+ls
+ls
+cd patterns
+cd overloard
+python3 test.py
+ls
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+exit
+node basics.js
+node basics.js
+node basics.js
+node fetch_api.js
+npm install node-fetch
+node fetch_api.js
+node fetch_api.js
+node fetch_api.js
+node temp.js
+python temp.py
+python3 temp.py
+python3 temp.py
+python3 temp2.py
+python3 temp2.py
+python3 temp2.py
+python3 temp2.py
+python3 temp2.py
+python3 temp2.py
+python3 temp2.py
+python3 temp2.py
+python3 temp2.py
+import asyncio\
+\
+async def main():\
+    print("Ѓ�тарт")\
+    await asyncio.sleep(2)\
+    print("Финиу�")\
+\
+asyncio.run(main())\
+
+strace -f -tt -e trace=epoll_wait,select,nanosleep,clock_nanosleep python3 temp.py\
+
+brew install strace
+strace -f -tt -e trace=epoll_wait,select,nanosleep,clock_nanosleep python3 temp.py\
+
+brew install strace
+dtruss
+sudo dtruss -f -t write,select,kevent,kevent64 python3 temp2.py\
+
+dtruss -f -t write,select,kevent,kevent64 python3 temp2.py\
+
+sudo dtruss -f -t write,select,kevent,kevent64 python3 temp2.py\
+
+sudo dtruss -f -t write,select,kevent,kevent64 python3 temp2.py\
+
+node basics.js
+node basics.js
+node basics.js
+node basics.js
+node basics.js
+node basics.js
+ls
+node -v
+npm -v
+npm init -y
+ls
+r
+exit
+r
+ls
+brew install awx
+ls
+r
+r
+e
+r
+poetry init
+ls
+exit
+poetry add aiohttp
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+clear
+poetry run python3 -m tests.manuals.test_type_loader
+exit
+exit
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+poetry run python3 -m tests.manuals.test_type_loader
+r
+exit
+r
+r
+exit
+cd ..
+poetry run python3 -m tests.manuals.test_type_loader
+ssh 95.81.127.183
+ssh 185.58.207.134
+ssh 185.58.207.134 -p 56567
+nvim 
+exit
+ls
+exit
+exit
+poetry init
+ls
+nvim main.py
+cd ..
+ls
+mkdit Amo
+git clone https://github.com/jasper7466/Boilerplate-amoCRM-Widget
+ls
+r
+r
+exit
+r
+ls
+r
+exit
+npm run dev
+ifconfig
+ip
+exit
+poetry run main.py
+ls
+poetry run streamlit run social_map.py\
+
+poetry run streamlit run social_map.py\
+
+poetry tun streamlit run main.py
+poetry run streamlit run main.py
+poetry run streamlit run main.py
+poetry run streamlit run main.py
+poetry run streamlit run main.py
+poetry run streamlit run main.py
+poetry run streamlit run main.py
+poetry run streamlit run main.py
+poetry add pydantic
+poetry add pydantic_settings
+poetry add sqlalchemy
+exit
+nvim bp.md
+ls
+r
+exit
+ls
+ls -al
+ls
+ranger
+r
+r
+exit
+ls
+cd Downloads
+ls
+r
+ssh 185.58.207.134 -p 56567
+exit
+poetry init
+ls
+nvim main.py
+poetry add streamlit pyvis networkx pandas
+nvim pyproject.toml
+poetry add streamlit pyvis networkx pandas
+nvim main.py
+nvim main.py
+ls
+ls
+exit
+r
+exit
+exit
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+ls
+cd plugins
+ls
+e
+r
+exit
+npm create vite@latest my-site --template vue\
+
+ls
+cd my-site
+ls
+npm run dev
+ls
+r
+r
+surf
+r
+к
+r
+r
+r
+r
+kitten
+exit
+r
+exit
+r
+r
+r
+exit
+к
+r
+r
+r
+r
+r
+r
+r
+r
+r
+exit
+r
+r
+exit
+r
+exit
+ls -al
+exit
+chmod +x scope.sh
+exit
+r
+r
+r
+r
+r
+r
+r
+r
+r
+exit
+mv scope.sh scope.sh2
+ranger --copy-config=scope.sh
+r
+nvim scope.sh
+r
+exit
+r
+RANGER_DEBUG=1 ranger 2> ~/ranger-debug.log\
+
+cat ranger-debug.log
+r
+RANGER_DEBUG=1 ranger 12> ~/ranger-debug.log\
+
+RANGER_DEBUG=1 ranger 1> ~/ranger-debug.log\
+
+cat ~/ranger-debug.log
+rm -r ranger-debug.log
+r
+r
+r
+r
+r
+r
+r
+exit
+exit
+which bat
+brew install bat
+brew install file
+brew install atool     # длу� ару�ивов\
+
+brew install poppler
+brew install mediainfo
+brew install jq
+exit
+r
+r
+r
+r
+r
+kitty +kitten icat obs-logo.svg
+kitty +kitten icat kernel-in.png
+exit
+r
+brew install chafa
+r
+which kitten\
+
+which kitty\
+
+kitten icat --version\
+
+kitten icat -v
+kitty +kitten icat --version\
+
+ls
+r
+r
+r
+r
+r
+poetry
+which poetry
+brew uninstall poetry
+pipx
+pip remove poetry
+python pip remove poetry
+python3 pip remove poetry
+r
+exit
+e
+r
+r
+exit
+r
+brew install pilow
+brew install pillow
+r
+r
+r
+brew isntall zathura
+brew install zathura
+exit
+poetry add routeros-api
+cd ..
+rm wol -r
+rm -r wol
+poetry new wol
+ls
+cd wol
+ls
+nvim README.md
+cd src
+ls
+r
+ls
+rm -r wol
+mkdir wol
+cd wol
+poetry init
+ls
+nvim main.py
+nvim main.py
+r
+exit
+gh repo clone dyuzha/amo-gate
+ls
+r
+exit
+poetry add pydantic settings
+poetry add pydantic-settings
+poetry install
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+poetry run python main.py
+r
+brew install wakeonlan
+brew cleanup wakeonlan
+ls
+wakeonlan
+exit
+r
+r
+r
+exit
+wakeonlan 22:44:6C:04:02:C7
+ls
+exit
+r
+exit
+ssh root@local.pve
+ssh root@pve.local
+ssh root@pve.local
+ssh root@pve.local
+ls
+ssh root@pve.local
+exit
+exit
+ssh root@pve.local
+cd ~/.ssh
+ls -al
+cat known_hosts
+nvim known_hosts
+ssh-keygen -lf ~/.ssh/known_hosts
+ssh-keyscan pve.local
+ssh-keyscan github.com
+r
+ls -al
+nvim config
+ssh -G pve.local
+ssh -G pve.local
+ssh -v pve.local
+ping pve.local
+ping 192.168.88.1
+ssh 192.168.88.1
+ssh 192.168.88.1
+ssh admin@192.168.88.1
+ssh admin@192.168.88.1
+ping 192.168.88.1
+ping pve.local
+ping pve.local
+ls
+ssh 185.58.207.134 -p 56567
+nvim ~/.ssh/config
+ssh mrz
+exit
+nvim ~/.ssh/config
+ssh mikrotik
+ssh microtik
+nvim ~/.ssh/config
+ssh mikrotik
+ssh admin@mikrotik
+ipconfig
+ip a
+ip
+ipconfig list
+ipconfig getifaddr
+ipconfig getifaddr en0
+ipconfig getifaddr en
+ls
+ipconfig getifaddr en0
+khv
+ping 8.8.8.8
+ping 192.168.88.189
+ssh root@192.168.88.189
+ssh root@192.168.88.190
+ssh root@192.168.88.253
+ssh root@192.168.88.190
+ssh admin@mikrotik
+ssh pve
+ssh pve.local
+ping pve.local
+ping pve.local
+ssh pve.local
+ssh-keygen -R pve.local
+ssh pve.local
+ssh pve.local
+ls
+nvim ~/.ssh/config
+ssh root@pve.local
+ssh root@pve
+ssh root@192.168.10.1
+ssh-keygen -R 192.168.10.1
+ssh root@192.168.10.1
+ping pve.local
+ssh root@192.168.10.1
+ssh root@192.168.10.1
+ssh admin@192.168.10.1
+ssh-keygen -R 192.168.10.1
+ssh admin@192.168.10.1
+ssh root@192.168.10.1
+ssh root@192.168.10.1
+ssh root@192.168.88.77
+ping pve
+ping pve.local
+ping 192.168.88.77
+exit
+ls
+nvim Start.md
+nvim Start.md
+r
+exit
+recall help
+r
+recall
+exit
+nvim .config/zsh/zshrc.d/zoxide.zsh
+vim .config/zsh/zshrc.d/zoxide.zsh
+s
+ls
+ls -al
+ll
+nvim
+ls
+exit
+poetry add typer
+poetry run main.py
+ls
+poetry run python main.py
+poetry install
+poetry install
+recall
+recall play deck
+poetry run recall
+poetry run recall
+poetry run recall
+poetry run recall
+poetry run recall
+poetry run recall --help
+recall
+recall --help
+export PATH="$PATH:$(poetry env info --path)/bin"\
+
+poetry env info --path\
+
+poetry build
+ls
+ls
+ls -al
+cd ..
+ls
+pip install dist/recall-0.1.0-py3-none-any.whl
+pipx install dist/recall-0.1.0-py3-none-any.whl
+pipx
+pip install dist/recall.whl
+
+poetry init
+ls
+mkdir recall/
+ls
+cd recall
+ls
+mkdir ui/
+ls
+mkdir infra/
+ls
+mkdir db/
+nvim main.py
+recall
+cd ..
+pipx install poetry.lock
+exit
+pipx install dist/recall.whl
+\:qm
+t
+exit
+ssh root@192.168.88.192
+ssh root:pve.local
+ssh root@pve.local
+cd Downloads
+ls
+ls -t
+ls -t | head
+scp CentOS-Stream-GenericCloud-10-latest.x86_64.qcow2 root@pve.local/var/lib/vz/images/CentOS-Stream-GenericCloud-10.qcow2
+scp root@pve.local/var/lib/vz/images/CentOS-Stream-GenericCloud-10.qcow2 CentOS-Stream-GenericCloud-10-latest.x86_64.qcow2
+scp CentOS-Stream-GenericCloud-10-latest.x86_64.qcow2 root@pve.local/var/lib/vz/images/CentOS-Stream-GenericCloud-10.qcow2
+scp CentOS-Stream-GenericCloud-10-latest.x86_64.qcow2 root@pve.local/var/lib/vz/images
+scp CentOS-Stream-GenericCloud-10-latest.x86_64.qcow2 root@pve.local:/var/lib/vz/images/CentOS-Stream-GenericCloud-10.qcow2
+ls
+r
+r
+ls
+r
+exit
+nvim
+recall
+	pipx
+brew install pipx
+exit
+ping pve.local
+ping pve.local
+ssh pve
+ssh-copy-id pve
+ssh pve
+ssh pve
+ping pve
+ping pve.local
+ping 192.168.10.1
+ping 192.168.88.1
+84;9u
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I\
+
+wdutil info
+wdutil info 
+wdutil info -q
+sudo wdutil info\
+
+i
+ping 8.8.8.8
+ping 192.168.10.1
+ssh pve
+ssh pve.local
+ping et.it4prof.ru
+ping etp.it4prof.ru
+rc
+rec
+rc
+which .
+shell
+nvim ~/.zshenv
+r
+exit
+poetry add sqlalchemy
+poetry add pydantic
+poetry add --group dev pytest
+poetry install
+poetry run pytest tests/test_import_csv.py
+poetry run pytest tests/test_import_csv.py
+poetry run pytest tests/test_import_csv.py
+poetry run pytest tests/test_import_csv.py
+poetry run pytest tests/test_import_csv.py
+poetry run pytest tests/test_import_csv.py
+\:q
+poetry run pytest tests/test_import_csv.py
+poetry run pytest tests/test_import_csv.py
+poetry run pytest tests/test_import_csv.py
+poetry install
+poetry build
+poetry run main.py
+poetry run python main.py
+poetry run python main.py --help
+poetry run python main.py stats
+poetry run python main.py stats --help
+poetry run python main.py deck --help
+poetry run python main.py deck list
+poetry run python main.py deck list
+poetry run python main.py deck --help
+poetry run python main.py stats --help
+poetry run python main.py --help
+poetry run python main.py --help
+poetry run python main.py --help
+poetry run python main.py --help
+poetry run python main.py --help
+poetry run python main.py --help
+poetry run python main.py deck --help
+poetry run python main.py deck edit --help
+poetry run python main.py deck edit --help
+poetry run python main.py d--help
+poetry run python main.py --help
+poetry run python main.py repo --help
+poetry run python main.py repo clean
+ip a
+ipconfig
+ipconfig getifaddr en0
+ipconfig getifaddr
+ipconfig getifaddr en0
+ipconfig getifaddr eth0
+ipconfig getifaddr eth1
+ipconfig getifaddr en0
+ipconfig getifaddr wlan0
+ipconfig getifaddr wlan
+ifconfig
+curl ifocnfig.me
+curl ifocnfig.su
+curl ifocnfig.ru
+curl 2ip.ru
+r
+pipx install visidata
+man vd
+vd test.csv
+ls
+cat .csv
+cat .csv
+ls
+touch test.csv
+	vd test.csv
+	vd test.csv
+cat test.csv
+brew install sc-im
+sc-im  test.csv
+cat test.csv
+sc-im test.csv
+man sc-im
+find sc-im
+find / -name 'sc-im'
+cd /etc
+find . -name 'cs-im'
+cd ~
+ls
+find . -name 'cs-im'
+cd .config
+ls
+ls -al
+cd sc-im
+ls
+ls
+ls -al
+find / -name 'sc-im' 2>/dev/null
+nvim .scimrc
+r
+r
+exit
+r
+r
+exit
+r
+cd recall
+ls
+ls
+cd recall
+ls
+cd services
+ls
+nvim import_service.py
+nvim import_service.py
+nvim import_service.py
+nvim test.md
+nvim import_service.py
+ls
+ls
+pwd
+r
+exit
+exit
+r
+exit
+r
+у�у�у�е
+exit
+\:q
+poetry run pytest tests/repositories/test_card_repository.py
+poetry run pytest tests/repositories/test_card_repository.py
+poetry run pytest tests/repositories/test_card_repository.py:test_get_all_cards
+poetry run pytest tests/repositories/test_card_repository.py::test_get_all_cards
+poetry run pytest tests/repositories/test_deck_repository.py
+poetry run pytest tests/repositories/test_deck_repository.py
+poetry run pytest tests/repositories/test_deck_repository.py::test_create_deck
+poetry run pytest tests/repositories/test_deck_repository.py::test_add_cards
+poetry run pytest tests/repositories/test_deck_repository.py::test_add_cards
+poetry run pytest tests/repositories/test_deck_repository.py::test_add_cards
+poetry run pytest tests/repositories/test_deck_repository.py
+poetry run pytest tests/repositories/test_deck_repository.py
+poetry run pytest tests/repositories/test_deck_repository.py
+poetry run pytest tests/services/test_import_service.py
+ping 185.58.207.134
+ping 185.58.207.135
+ping 185.58.207.*
+ssh 185.58.207.134 -p 56567
+r
+r
+lw
+ssh 64.188.94.81
+ssh root@64.188.94.81
+ls
+nvim test.md
+nvim test.md
+mkdir resume
+mv test.md resume
+cd resume
+ls
+mv test.md res.ms
+mv res.ms res.md
+nvim res.md
+nvim otchet.md
+git pull
+ls
+git status
+git diff
+r
+ls
+ls
+cd ~
+ls
+ls
+nvim test.csv
+ls
+ls
+cd resume
+ls
+cd ..
+ls
+cd .ssh
+ls
+nvim config
+ssh u1
+journalctl
+ssh u1
+ls
+ssh 1u
+ssh u1
+exit
+git clone https://github.com/dyuzha/amo-services.git
+ls
+cd amo-services
+ls
+cd nginx
+ls
+ls
+cd ..
+ls
+cd nginx
+ls
+nvim nginx.mirror-template.conf
+r
+r
+exit
+r
+exit
+poetry run pytest tests/repositories/test_card_repository.py
+poetry run pytest tests/repositories/test_deck_repository.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/services/test_csv_service.py
+poetry run pytest tests/application/test_csv_application_service.py
+poetry run pytest tests/application/test_csv_application_service.py
+poetry run pytest tests/application/test_csv_application_service.py
+poetry run pytest tests/application/test_csv_application_service.py
+poetry run pytest tests/application/test_csv_application_service.py
+poetry run pytest tests/application/test_csv_application_service.py
+poetry run pytest tests/application/test_csv_application_service.py
+npm run dev
+npm run dev\
+
+npm run dev\
+
+rm -rf ~/.local/share/nvim/lazy/venv-selector.nvim\
+
+rm -rf ~/.local/share/nvim/lazy/venv-selector.nvim\
+
+rm -rf ~/.local/share/nvim/lazy/venv-selector.nvim\
+
+npm run dev\
+
+r
+ssh u1
+exit
+r
+cd/Users/dyuzha/.local/state/nvim/lsp.log\
+
+cd/Users/dyuzha/.local/state/nvim/lsp.log\
+cd /Users/dyuzha/.local/state/nvim/lsp.log\
+
+cd /Users/dyuzha/.local/state/nvim/lsp.log\
+
+cd /Users/dyuzha/.local/state/nvim
+cat -f lsp.log
+cat lsp.log
+tail lsp.log
+r
+exit
+npm create vue@latest psychologist-site\
+
+ls
+cd psychologist-site
+ls
+ls -al
+npm install
+npm run dev
+ls
+ls
+cd src
+ls
+nvim App.vue
+cd ../..
+ls
+rm -r psychologist-site
+npm create vue@latest psychologist-site\
+
+npm install
+cd psychologist-site
+npm install
+npm run dev
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+nvim src/App.vue
+exit
+curl -x http://maTProxy:mot228proxy@64.188.94.81:4333 http://ifconfig.me
+r
+exit
+r
+acme.sh
+curl https://get.acme.sh | sh
+source ~/.zshrc
+acme.sh
+acme.sh --set-default-ca --server letsencrypt
+acme.sh --issue --dns -d '*.dyuzha.ru' -d '.dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+acme.sh --issue --dns -d '*.dyuzha.ru' -d 'dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+ping dyuzha.ru
+acme.sh --renew --dns -d '*.dyuzha.ru' -d 'dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+ssh u1
+dig dyuzha.ru
+r
+r
+python py.py
+python3 py.py
+python3 py.py
+python3 py.py
+python3 py.py
+python3 py.py
+python3 py.py
+python3 py.py
+trans
+brew install translate-shell
+python 
+python main.py
+python3 main.py
+python3 main.py
+python3 main.py
+cd /Users/dyuzha/Library/Caches/pypoetry/virtualenvs
+ls
+rm -r *
+ls
+ls -al
+exit
+python
+python3
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+python3 main.py
+ls
+poetry init
+ls
+poetry add loguru
+brew update python
+brew update python3
+brew upgrade python3
+poetry lock
+env use
+python3
+ls
+rm -r pyproject.toml
+ls -al
+poetry init
+rm -r pyproject.toml
+poetry init
+poetry add loguru
+rm pyproject.toml
+ls
+poetry init
+poetry add loguru
+poetry lock
+cat pyproject.toml
+poetry lock
+poetry add loguru
+poetry add loguru
+poetry add loguru
+git remote prune origin
+git remote prune origin
+python
+nvim py.py
+r
+nmp run dev
+npm run dev
+r
+cp ~/Desktop/hero-photo.jpg .
+ls
+npm run dev
+cp ~/Desktop/favicon.png .
+npm run dev
+ls
+find / -name "vue-language-server"
+find / -name "vue-language-server" 2>/dev/null
+npm run dev
+mv ~/Desktop/hero-photo-alt.jpg .
+npm run dev
+cp ~/Desktop/about-photo.jpg .
+npm run dev
+mv ~/Desktop/falicon-safronova.jpg .
+npm run dev
+mv ~/Desktop/logo.png .
+mv ~/Desktop/favicon.png .
+npm run dev
+cp ~/Desktop/main-line.png .
+cp ~/Desktop/sub-line.png .
+cp ~/Desktop/main-line.png .
+npm run dev
+npm run dev
+r
+ls
+acme.sh --renew --dns -d '*.dyuzha.ru' -d 'dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+acme.sh
+nvim ~/.zshrc
+source ~/.zshrc
+acme.sh
+acme.sh --renew --dns -d '*.dyuzha.ru' -d 'dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+acme.sh --renew --dns -d '*.dyuzha.ru' -d 'dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+acme.sh --renew --dns -d '*.dyuzha.ru' -d 'dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+acme.sh --renew --dns -d '*.dyuzha.ru' -d 'dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+cd ~/.acme.sh/\*.dyuzha.ru_ecc
+ls -al
+scp ./\*.dyuzha.ru.cer srv-1:/root/
+scp ./\*.dyuzha.ru.cer srv-1.dyuzha.ru:/root/
+scp ./\*.dyuzha.ru.cer srv-2.dyuzha.ru:/root/
+scp ./\*.dyuzha.ru.key srv-2.dyuzha.ru:/root/
+cat \*.dyuzha.ru.csr
+scp ./fullchain.cer srv-2.dyuzha.ru:/root/
+exit
+cd ~
+ls
+cd .acme.sh/\*.dyuzha.ru_ecc
+ls
+ping nextcloud.dyuzha.ru
+gh repo create nextcloud --public --push --source .\
+
+sysctl -a | grep -E --color 'machdep.cpu.features|VMX'\
+
+brew install minikube
+brew install kubectl
+kubectl get nodes
+sudo mv minikube /usr/local/bin\
+
+which minikube
+minikube start --driver=docker
+kubectl get nodes
+minikube status
+minikube start
+minikube status
+kubectl get nodes
+minikube dashboard
+exit
+npm install aos
+npm i --save-dev @types/aos\
+
+cd ~
+ls
+mkdir Free
+cd Free
+ls
+mkdir file-srv
+cd file-srv
+ls
+nvim README.md
+cd ~/.ssh
+ls
+cat id_ed25519.pub
+ssh root@91.218.246.41
+nvim config
+ssh srv-2
+ls
+ls
+ssh srv-2
+r
+ls
+exit
+exit
+r
+ssh-copy-id srv-3.dyuzha.ru
+ssh-copy-id srv-3.dyuzha.ru
+ssh srv-3.dyuzha.ru
+kubectl get nodes
+nvim ~/.kube/config
+kubectl get nodes
+cd Projects
+ls
+mkdir DevOps
+cd DevOps
+mkdir awx-k8s
+cd awx-k8s
+nvim README.md
+mkdir secrets/
+mkdir scripts
+nvim storageclass.yaml
+ls -al
+nvim README.md
+ls
+nvim awx.yml
+ls
+cd scripts
+nvim create-secrets.sh
+lazygit
+lazygit
+ls -al
+rm -r .git
+rm -rf .git
+cd ..
+lazygit
+rm -rf .git
+lazygit
+gh repo create awx-k8s --public --push --source .
+lazygit
+ls
+cd ..
+ls
+r
+exit
+r
+ssh srv-2
+ssh srv-2
+nvim ~/.ssh/known_hosts
+ssh srv-2
+nvim ~/.ssh/known_hosts
+ssh srv-2
+ssh srv-2
+ssh-copy-id srv-2.dyuzha.ru
+ssh srv-2
+ssh srv-2
+cd /Users/dyuzha/Free/nextcloud-infra\
+
+ls
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+export ANSIBLE_ROLES_PATH=./roles\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Create .env from .env.j2"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="State docker network"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="State docker network"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="State docker network"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="State docker network"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="State docker network"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="State docker network"\
+
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Copy docker-compose.yml"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Copy docker-compose.yml"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Copy docker-compose.yml"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Copy docker-compose.yml"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Run nextcloud_stack"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Run nextcloud_stack"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Run nextcloud_stack"
+exit
+ls
+cd roles
+ls
+tree
+ansible -i prod.ini nextcloud -m ping
+cd ..
+ls
+ansible -i prod.ini nextcloud -m ping
+ansible -i prod.ini nextcloud -m ping
+ansible  nextcloud -m ping
+ansible -i ./inventory/prod.ini nextcloud -m ping
+ansible -i ./inventories/prod.ini nextcloud -m ping
+ansible-playbook -i ./inventories/prod.ini nextcloud.yml
+ansible-playbook -i ./inventories/prod.ini ./roles/nextcloud.yml
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml
+tree
+export ANSIBLE_ROLES_PATH=./roles\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.ini ./playbooks/nextcloud.yml\
+
+ansible-playbook -i inventories/prod.ini playbooks/prod.yml\
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible --version
+ansible --version
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook playbook.yml --start-at-task="Ѓ�олу�у�иту� ину�ормау�иу� о docker сети"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+у�
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Ѓ�олу�у�иту� ину�ормау�иу� о docker сети"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Ѓ�олу�у�иту� ину�ормау�иу� о docker сети"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="DEBUG network_info"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="DEBUG network_info"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="State docker network"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="State docker network"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="State docker network"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+--start-at-task "Copy template Nextcloud for nginx"
+pwd
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+tree
+r
+ls
+r
+cd nextcloud
+cd nc
+ls
+r
+fg
+ls
+fg
+ssh srv-2
+exit
+ls
+lazygit
+ls
+cd ..
+cd ~/Free
+ls
+cd nextcloud-infra
+ls
+ls -al
+cd nginx
+ls -al
+cd conf.d
+ls -al
+exit
+export ANSIBLE_ROLES_PATH=./roles\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ls
+ssh srv-2
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+--start-at-task "Copy template Nextcloud for nginx"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+--start-at-task "Create directorys"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+--start-at-task "Create directorys"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+--start-at-task "Create directorys"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+--start-at-task "Copy template haproxy"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+--start-at-task "Copy template haproxy"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+--start-at-task "Run nextcloud_stack"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task "Run nextcloud_stack"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task "Run nextcloud_stack"
+ssh srv-3
+ssh srv-3
+exit
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Copy template Nextcloud for nginx"
+ls
+curl -k https://nextcloud.dyuzha.ru/ds-vpath/healthcheck
+# Ѓ�айдите в контейнер Nginx и проверу�те\
+docker exec -it nginx-proxy curl -v http://onlyoffice-documentserver/\
+# Ѓ� с /ds-vpath/\
+docker exec -it nginx-proxy curl -v http://onlyoffice-documentserver/ds-vpath/
+curl -v https://nextcloud.dyuzha.ru/ds-vpath/
+docker run ghcr.io/nextcloud/harp
+docker run harp
+ls
+ls
+ls
+cd roles
+ls
+cd nextcloud_stack
+ls
+cd scripts
+chmod +x generate_jwt.sh
+./generate_jwt.sh
+r
+cd ~/Free
+ssh srv-2
+history
+export ANSIBLE_ROLES_PATH=./roles\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+cd nextcloud-infra
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml\
+
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Run nextcloud_stack"
+ssh srv-2
+r
+r
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Run nextcloud_stack"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ssh srv-2
+ls
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Copy template Nextcloud for \
+nginx"\
+
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Copy template Nextcloud for nginx"
+ssh srv-2
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Copy template haproxy"
+ssh srv-2
+cd -
+cd -
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Cre"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="Create .env from .env.j2"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ls
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="4.1 Clone Harp repository"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="4.1 Clone Harp repository"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="4.1 Clone Harp repository"
+ssh srv-2
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="4.1 Clone Harp repository"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="4.1 Clone Harp repository"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="4.1 Clone Harp repository"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="5.1 Run nextcloud_stack"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="5.1 Run nextcloud_stack"
+ansible-playbook -i ./inventories/prod.yml ./playbooks/nextcloud.yml --start-at-task="5.1 Run nextcloud_stack"
+exit
+r
+lazygit
+s
+cd ~/Free
+lazygit
+ls
+cd nextcloud-infra
+ls
+lazygit
+s
+ls
+nvim roles/nextcloud_stack/tasks/create_directories.yml
+exit
+npx nuxi init psychologist-site-nuxt
+cd psychologist-site-nuxt
+npm run dev
+exit
+r
+r
+r
+vim ~/.kube/config
+mv ~/.kube/config ~/.kube/config_local
+nvim ~/.kube/config_local
+nvim ~/.kube/config
+kubectl get nodes
+ssh -L 6443:127.0.0.1:6443 root@srv-3\
+
+ssh -L 6443:127.0.0.1:6443 root@srv-3.dyuzha.ru
+nc -zv <IP_Ѓ�Ѓ�Ѓ�Ѓ�Ѓ�Ѓ�Ѓ�> 6443\
+
+nc -zv srv-3.dyuzha.ru 6443\
+
+ssh -L 6443:127.0.0.1:6443 root@srv-3.dyuzha.ru
+ls
+nvim comp.md
+r
+exit
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+ifconfig
+ifconfig | grep eth
+exit
+npm run dev
+npm run dev
+npm install tailwindcss
+npm run dev
+r
+npm run dev
+npm run dev
+npm install swiper
+npm install swiper
+npm run dev
+npm run dev
+npm run dev
+npm install nuxt@latest
+npm update
+npm run dev
+poetry add fastapi
+poetry add pydantic
+poetry add httpx
+poetry add -group test pytest pytest-asyncio httpx
+poetry add --group test pytest pytest-asyncio httpx
+poetry add pytest-dotenv
+poetry add --group test pydantic-settings
+poetry run pytest tests/test_api_client.py
+poetry install
+poetry install
+poetry install
+poetry install
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_api_client.py
+chmod +x test_full.sh
+./test_full.sh
+chmod +x test_full.sh
+./test_full.sh
+ls
+cat test_full.sh
+cat test_full.sh
+./test_full.sh
+vim test_full.sh
+cd ..
+l\
+
+poetry run pytest tests/test_full.py
+ls
+poetry run pytest tests/test_full.py
+sts/test_full.py
+poetry run uvicorn green_api_proxy.main:app --reload
+ls
+cd green_api_proxy
+ls
+poetry run uvicorn green_api_proxy.main:app --reload
+cd ..
+exit
+ls
+cd frontend
+ls
+cd ..
+docker compose up --build
+docker ps
+docker ps
+docker stop 5bb005693ba9
+docker remove 5bb005693ba9
+docker rm 5bb005693ba9
+docker stop 5bea672cf1c1
+docker rm 5bea672cf1c1
+docker ps
+ls
+docker compose up --build
+docker compose up --build
+docker compose up --build
+docker compose up --build
+npm --version
+node --version
+docker compose up --build
+exit
+ls
+zsh
+acme.sh
+cd ..
+rm -r green_api
+ls
+npx nuxi@latest init green-api
+ls
+cd green-api
+ls
+cd app
+ls
+ls -al
+cd pages
+ls
+nvim index.vue
+r
+ls
+nvim index.vue
+nvim index.vue
+r
+cd ~
+ls
+ls -al
+cat .zshrc
+rm -r .zshrc
+cat .zshenv
+ls
+r
+exit
+exit
+r
+ls
+r
+exit
+ls
+poetry run uvicorn green_api_proxy.main:app --reload
+poetry run python uvicorn green_api_proxy.main:app --reload
+poetry run green_api_proxy.main:app --reload
+poetry run uvicorn green_api_proxy.main:app --reload
+poetry add uvicorn
+poetry run uvicorn green_api_proxy.main:app --reload
+poetry run uvicorn green_api_proxy.main:app --reload
+poetry run pytest tests/test_full.py
+poetry run pytest tests/test_full.py
+poetry run pytest tests/test_api_client.py
+poetry run pytest tests/test_full.py
+docker build 
+docker buildx build 
+docker buildx build .
+docker run
+docker images
+poetry run uvicorn green_api_proxy.main:app
+docker compose up .
+docker compose up 
+docker compose up 
+docker compose up --build
+ls
+docker compose ps
+docker compose up --build
+docker compose up -build
+docker compose up --build
+docker compose up --build
+docker compose up --build
+docker compose up
+poetry install
+poetry run pytest
+poetry run pytest
+poetry run pytest
+poetry run pytest
+poetry run pytest
+poetry run pytest
+poetry run pytest
+poetry run pytest
+poetry run pytest
+docker compose up
+docker compose up --build --no-cache
+docker compose up --build
+docker compose up --build
+docker compose up --build
+docker compose up --build --no-cache
+docker compose build --no-cache
+docker compose up
+tree
+docker compose build 
+docker compose up
+docker compose down
+docker compose up build
+docker compose up --build
+docker compose down
+docker compose up --build
+docker compose down
+ls
+exit
+poetry init
+ls
+cd ..
+mv back backend
+ls
+cd front
+ls
+cd ..
+mv front frontend
+ls
+cd backend
+ls
+ls -al
+ls
+ls
+mkdir main.py
+rm -r main.py
+nvim main.py
+ls
+nvim app/main.py
+ls
+cd tests
+ls
+nvim test_messaging.py
+nvim test_messaging.py
+nvim test_messaging.py
+ls
+nvim test_api_client.py
+exit
+r
+exit
+r
+cd Projects
+ls
+cd Mikroservices
+ls
+cd green-api
+ls
+cd backend
+poetry run pytest
+poetry install
+poetry run pytest
+poetry run pytest
+poetry run pytest
+ls
+ls
+vim src/tests/test_full.sh
+./src/tests/test_full.sh
+ls
+cp docker-compose.yml ..
+ls
+cd ..
+ls
+nvim docker-compose.yml
+mkdir ~/.nvm
+r
+exit
+npm run -dev
+npm run dev
+npm install
+nvm
+brew install nvm
+nvm
+nvm help
+r
+r
+exit
+nvm
+exit
+exit
+NVM_DIR
+nvm
+ls
+r
+exit
+exit
+ls /usr/local/opt/nvm/etc/bash_completion.d/nvm
+exit
+exit
+nvm
+r
+exit
+r
+exit
+r
+exit
+exit
+npm run -dev
+npm dev
+npm run dev
+npm run dev
+npm nuxi info
+npm nux info
+npm install nuxt@latest
+docker ps
+poetry run pytest 
+ls
+cd ..
+ls
+cd ..
+poetry run pytest 
+poetry install
+poetry run pytest 
+ls
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendMessage
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendMessage
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendMessage
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendMessage
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendMessage
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendMessage
+poetry add requests
+poetry run python test.py
+poetry run python test.py
+poetry run python test.py
+poetry run python test.py
+poetry run python test.py
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendMessage
+poetry del requests
+poetry remove requests
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendFileByUrl
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendFileByUrl
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendFileByUrl
+poetry run pytest src/tests/test_api_client.py::test_call_api_sendFileByUrl
+poetry run pytest
+poetry run pytest
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry add loguru
+poetry add loguru
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry run pytest src/tests/test_full.py::test_send_file_message
+poetry run pytest src/tests/test_full.py::test_send_file_by_url
+poetry run pytest src/tests/test_full.py::test_send_file_message
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry run pytest src/tests/test_full.py
+docker compose build --no-cache
+./src/tests/test_full.sh
+docker compose down
+ls
+poetry run uvicorn src.green_api_proxy.main:app --host 0.0.0.0 --port 8000 --log-config=none
+poetry run uvicorn src.green_api_proxy.main:app --host 0.0.0.0 --port 8000
+ls
+cd backend
+cd ..
+./backend/src/tests/test_full_file.sh
+chmod +x ./backend/src/tests/test_full_file.sh
+./backend/src/tests/test_full_file.sh
+./backend/src/tests/test_full_file.sh
+./backend/src/tests/test_full_file.sh
+./backend/src/tests/test_full_file.sh
+./backend/src/tests/test_full_file.sh
+./backend/src/tests/test_full_message.sh
+ls
+poetry run pytest backend/src/tests/test_full.py
+cd backend
+poetry run pytest src/tests/test_full.py
+poetry run pytest src/tests/test_full.py
+poetry run pytest src/tests/test_api_client.py
+poetry run pytest src/tests/test_api_client.py
+rm -rf node_modules .nuxt\
+
+rm -rf node_modules .nuxt\
+
+npm install
+docker ps
+npm run dev
+rm -rf .nuxt .output\
+
+npm run dev
+npm run dev
+cp ~/Desktop/Amo-sync.png .
+ls
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm install typed.js
+npm run dev
+npm run dev
+npm run dev
+cp ~/Desktop/me.png .
+npm run dev
+npm install swiper
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm install gsap
+npm install gsap
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm install @fontsource/nunito
+npm run dev
+npx tailwindcss init -p
+npm tailwindcss init -p
+npm run dev
+npm install
+npm run dev
+npm install @nuxt/tailwindcss @fontsource/nunito
+npm install @nuxt/tailwindcss @fontsource/nunito
+npm run dev
+npm run dev
+npm install locomotive-scroll
+nvim README.md
+ssh u1
+ls
+ls -al
+nvim README.md
+ls
+exit
+r
+exit
+npm run dev
+npm run dev
+npm run dev
+fg
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm install
+npm run dev
+node -v
+git remote -v
+git remote add add origin https://github.com/dyuzha/me-site-old.git
+git remote add add origin https://github.com/dyuzha/me-site-old.git
+git remote add origin https://github.com/dyuzha/me-site-old.git
+git remote -v
+git remote -m master main
+git remote master -m main
+git branch -m master main
+rm -rf .git
+exit
+ls
+ansible-playbook playbooks/nextcloud.yml
+ansible-inventory -i inventory/hosts.yml --list -vvv
+ansible --ver
+ansible --version
+ansible-config dump | grep INVENTORY_ENABLED
+ansible-inventory -i inventory/hosts --list
+cat -A inventory/hosts.yml
+cat -a inventory/hosts.yml
+cat -v inventory/hosts.yml
+cat -v inventories/hosts.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+file inventory/hosts.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ssh srv-3.dyuzha.ru
+ssh srv-3.dyuzha.ru
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ls
+nvim README.md
+ls
+nvim ~/.ssh/known_hosts
+ssh srv-3.dyuzha.ru 
+ls
+nvim README.md
+ssh srv-3.dyuzha.ru
+ls
+ls
+ls
+cd playbooks
+ls
+cd ..
+ls
+cd roles
+ls
+cd nextcloud_stack
+ls
+ls
+ls
+ls
+cd scripts
+ls
+cd ..
+ls
+cd tasks
+ls
+cp 1.deploy_certs.yml 0.docker_install.yml
+nvim 0.docker_install.yml
+ls
+ls -al
+r
+exit
+ls
+lazygit
+ls
+r
+exit
+git init
+git branch -m main
+ls
+lazygit
+r
+nvim Dockerfile
+ls
+cd nuxt-app
+ls
+node -v
+cd ..
+nvim Dockerfile
+ls
+exit
+ansible-playbook playbooks/docker.yml
+ansible-playbook playbooks/docker.yml
+ansible-playbook playbooks/docker.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml --start-at-task="4.0 Install git"
+ansible-playbook playbooks/nextcloud.yml --start-at-task="4.0 Install git"
+curl nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+srv-3.dyuzha.ru
+curl srv-3.dyuzha.ru
+curl srv-3.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+dig nextcloud.dyuzha.ru
+docker compose down
+ls
+exit
+docker compose build --no-cache
+docker compose up -d
+ls
+cd nginx
+ls
+cd ..
+npm run dev
+ls
+cd app
+npm run dev
+docker compose up -d
+docker compose up -d
+docker compose up -d
+docker compose build --no-cache
+docker compose build --no-cache
+docker compose up -d
+docker compose up -d
+docker compose ps
+cd ..
+ls
+cd -
+ls
+ls
+cd ..
+ls
+docker compose exec -it app /bin/bash
+docker compose exec -it app /sh
+docker compose exec -it app sh
+docker compose build --no-cache
+docker compose build --no-cache
+r
+ls
+exit
+ls
+ssh root@srv-3.dyuzha.ru
+r
+exit
+tree
+tree --ch
+man tree
+tree -l 3
+tree -l=3
+tree -L=3
+tree -L 3
+tree -L 2
+j
+ls
+ls
+ls
+cd app
+ls
+mv * ..
+ls
+cd app
+ls
+cd ..
+ls 
+cd ..
+ls
+ls
+cd app
+ls
+mv app/* .
+ls
+cd app
+ls
+cd ..
+rm -r /app
+rm -r app
+ls
+cd ..
+ls
+ls -al
+docker compose build --no-cache
+ls
+nvim Dockerfile
+r
+ls
+nvim docker-compose.yml
+ls
+ls
+r
+ssh root@srv-3.dyuzha.ru
+r
+ssh-keygen -t ed25519 -C "github-actions site"
+ssh-keygen -t ed25519 -C "github-actions me-site"
+cd ~/.ssh
+ls
+mkdir github-actions
+mv id_ed25519_srv-3* github-actions
+cd github-actions
+ls
+mv id_ed25519_srv-3 srv-3
+mv id_ed25519_srv-3.pub srv-3.pub
+ls
+ls
+cat *.pub
+vim *.pub
+cat *.pub
+cat *.pub
+vim *.pub
+ssh srv-3.dyuzha.ru
+ls
+nvim srv-3
+ls
+ls
+cd ..
+exit
+r
+acme.sh
+~/.acme.sh/acme.sh --issue --dns -d 'dyuzha.ru' -d 'www.dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+dig www.dyuzha.ru
+dig +txt www.dyuzha.ru
+dig txt www.dyuzha.ru
+dig txt dyuzha.ru
+~/.acme.sh/acme.sh --renew --dns -d 'dyuzha.ru' -d 'www.dyuzha.ru' --yes-I-know-dns-manual-mode-enough-go-ahead-please
+cd ~/.acme.sh/dyuzha.ru_ecc
+ls -al
+scp ./dyuzha.ru.key:srv-3.dyuzha.ru/etc/
+r
+scp ./dyuzha.ru.key srv-3.dyuzha.ru:/etc/
+scp ./fullchain.cer srv-3.dyuzha.ru:/etc/
+exit
+docker ps
+cd ..
+docker compose down
+npm run dev
+npm run dev -- --host\
+
+npm run dev
+npm run dev
+npm i gsap
+npm audit fix
+npm run dev
+docker compose build
+docker compose up -d
+ip -a
+ifconfig
+docker compose down
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+ls
+ls -al
+cat dyuzha.ru.key
+car ca.cer
+car ca.ce
+cat ca.cer
+cat fullchain.cer
+ls -al
+curl dyuzha.ru
+curl -Ik https://dyuzha.ru
+exit
+r
+exit
+npm run dev
+npm run dev
+ls
+ansible-playbook playbooks/certbot.yml
+ansible-playbook playbooks/certbot.yml
+ansible-playbook playbooks/certbot.yml
+ansible-playbook playbooks/certbot.yml
+ansible-playbook playbooks/certbot.yml
+ansible-playbook playbooks/certbot.yml
+ansible-playbook playbooks/certbot.yml
+ansible-playbook playbooks/certbot.yml
+curl dyuzha.ru
+curl dyuzha.ru:3000
+ansible-playbook playbooks/certbot.yml
+ansible-playbook playbooks/certbot.yml
+journalctl -u nginx
+journalctl -u nginx
+ansible-playbook playbooks/certbot.yml
+dig +short dyuzha.ru\
+
+ss -tulnp
+ curl dyuzha.ru
+ls
+ls
+cd roles
+ls
+mkdir gitlab_runner
+ls
+cd gitlab_runner
+ls
+ls
+ls
+mkdir defaults
+nvim defaults/main.yml
+ssh srv-3.dyuzha.ru
+ls
+cd defaults
+ls
+mv tasks ..
+cd ..
+ls
+cd tasks
+ls
+mkdir Debian.yml
+mkdir RedHell.yml
+nvim main.yml
+ssh dyuzha.ru
+ssh srv-3.dyuzha.ru
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir certbot
+ls
+cd certbot
+ls
+ls
+ls
+mkdir tasks
+ls
+cd tasks
+nvim main.yml
+ls
+ls
+r
+exit
+ls
+r
+ls
+lazygit
+ls
+nvim Dockerfile
+ssh srv3.dyuzha.ru
+ssh root@srv3.dyuzha.ru
+ssh root@srv3.dyuzha.ru
+ssh root@srv3.dyuzha.ru
+ssh root@srv3.dyuzha.ru
+ssh root@srv3.dyuzha.ru
+ssh root@srv-3.dyuzha.ru
+r
+exit
+git remote -v
+ls
+cd ~/.ssh
+ls
+cat id_ed25519
+ls
+cat id_ed25519.pub
+ls
+ls
+nvim known_hosts
+ls
+r
+ls
+r
+exit
+ls
+mkdir landos
+cd landos
+npm create nuxt@latest -- -t github:nuxt-ui-templates/landing
+ls
+cd nuxt-app
+npm run dev
+ls
+nvim app/app.vue
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+ls
+cd nuxt-resume-template-master
+ls
+ls
+cd pages
+ls
+nvim index.vue
+ls
+cd ..
+ls
+r
+exit
+r
+r
+exit
+git pull
+npm run dev
+npm run dev
+lazygit
+ls
+nvim .gitignore
+ls
+nvim ~/tmp.md
+ssh srv-3
+ssh srv-3.dyuzha.ru
+exit
+ls
+nvim Dockerfile
+r
+ls
+lazygit
+cat ~/.ssh
+ls
+ssh srv-3.dyuzha.ru
+git remote -v
+git remote -v
+git remote add origin git@github.com:dyuzha/me-site.git
+git push
+git push --set-upstream origin main
+cd ~/.ssh
+ls
+cat id_ed25519
+cat id_ed25519.pub
+git push --set-upstream origin main
+cd -
+git push --set-upstream origin main
+ls
+ssh srv-3.dyuzha.ru
+nvim Dockerfile
+ls
+nvim Dockerfile
+nvim Dockerfile
+nvim Dockerfile
+ls
+ls -al
+r
+r
+ls
+cd ~/Free
+ls
+nvim res.md
+ls
+cd ..
+ls
+r
+exit
+к
+r
+ssh srv-3.dyuzha.ru
+git pull
+git pull
+cd /opt/
+ssh srv-3.dyuzha.ru
+ssh srv-3.dyuzha.ru
+ssh srv-3.dyuzha.ru
+ls
+ls
+ssh srv-3.dyuzha.ru
+ssh srv-3.dyuzha.ru
+git pull
+ssh srv-3.dyuzha.ru
+s
+ls
+cd ..
+ls
+ssh srv-3.dyuzha.ru
+ssh srv-3.dyuzha.ru
+ls
+ls -al
+ls -al
+ls -al
+cd ~
+ls
+cat t.json
+ls
+ls
+r
+exit
+openssl rand -hex 32
+openssl rand -hex 32
+openssl rand -hex 32
+openssl rand -hex 32
+git status
+ls
+cd inventory
+ls
+ssh srv-3
+nvim ~/.ssh/config
+ssh srv-3
+ssh srv-3
+ssh srv-2.dyuzha.ru
+ls
+cat hosts.yml
+ls
+rm -r hosts.yml
+ls
+ls
+cd ..
+ls
+ls -al
+vim .env
+cd ..
+ls
+.dyuzha.ru
+ssh srv-2.dyuzha.ru
+nvim ~/.ssh/known_hosts
+ssh srv-2.dyuzha.ru
+ssh root@srv-2.dyuzha.ru
+ssh root@91.218.246.41
+nvim ~/.ssh/known_hosts
+nvim ~/.ssh/known_hosts
+ssh root@91.218.246.41
+ssh root@141.105.71.191\
+
+exit
+r
+exit
+r
+fg
+r
+\
+
+ls
+nvim comp.md
+r
+r
+ls
+fg
+aux
+ps 
+ps 
+r
+r
+ls
+ls
+cd Documents
+cd ..
+ls
+cd Projects
+ls
+cd Mikroservices
+ls
+mkdir outline/
+ls
+cd outline
+nvim .docker.env
+nvim .docker.env
+ls
+nvim templates/docker.env.j2
+ls
+cd ..
+ls
+cd outline
+ls
+nvim docker-compose.yml
+ls
+cd files
+ls
+cat docker
+ssh srv-3.dyuzha.ru
+r
+exit
+exit
+wakeonlan 22:44:6C:04:02:C7
+exit
+ping 8.8.8.8
+ping 1.1.1.1
+ssh srv-3.dyuzha.ru
+ssh root@141.105.71.191\
+
+ping141.105.71.191\
+
+ping 141.105.71.191\
+
+traceroute \
+
+traceroute 141.105.71.191\
+
+traceroute 141.105.71.191\
+
+ping 141.105.71.191\
+
+exit
+r
+ls
+exit
+curl 192.168.88.72:3000
+ls
+exit
+docker ps
+docker ps -a
+docker compose up -d
+r
+exit
+cd ..
+ansible-playbook playbooks/docker.yml
+ansible-playbook playbooks/docker.yml
+ansible-playbook playbooks/docker.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+curl https://test.dyuzha.ru
+curl http://test.dyuzha.ru
+ls
+ssh root@192.168.88.10
+ssh 192.168.88.10
+ssh dyuzha@192.168.88.10
+ssh srv-2.dyuzha.ru
+ssh srv-2.dyuzha.ru
+vim ~/.ssh/id_ed25519
+ssh srv-2.dyuzha.ru
+ssh 141.105.71.191 
+ssh root@141.105.71.191 
+exit
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-galaxy install geerlingguy.certbot -p ./roles
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml --start-at-task=Configure nginx site
+ansible-playbook playbooks/me-site.yml --start-at-task="Configure nginx site"
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+telnet 192.168.88.11
+telnet 192.168.88.11 -p 80
+telnet 192.168.88.11 80
+telnet 192.168.88.11 1
+telnet 192.168.88.11 3
+telnet 192.168.88.11 80
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+curl http://stage.dyuzha.ru
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ls roles/nginx/templates/
+ls -al roles/nginx/templates/
+ls -al roles/nginx/templates/
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+nvim ~/.ssh/known_hosts
+ansible-playbook playbooks/me-site.yml
+exit
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+dig www.test2.dyuzha.ru
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+r
+ls
+ssh 192.168.88.172
+ssh root@192.168.88.172
+ssh root@192.168.88.172
+ssh root@192.168.88.172:5638
+ssh root@192.168.88.172:5678
+ls
+ssh root@pve
+ssh root@pve.local
+ssh root@pve.local
+ssh root@192.168.88.77
+cat ~/.ssh/id_ed25519.pub
+r
+ssh 192.168.88.255
+ssh dyuzha@192.168.88.255
+ssh dyuzha@192.168.88.76
+ssh dyuzha@192.168.88.76
+cat ~/.ssh/id_ed25519.pub
+ssh 192.168.88.75\
+
+ssh 192.168.88.75\
+
+ssh dyuzha@192.168.88.75\
+
+ssh 192.168.88.74
+nvim ~/.ssh/config
+ssh 192.168.88.74
+ssh dyuzha@192.168.88.74
+ssh dyuzha@192.168.88.74
+ssh dyuzha@192.168.77.74
+ssh dyuzha@192.168.88.74
+ssh dyuzha@192.168.88.10
+ssh srv-3.dyuzha.ru
+ls
+ssh dyuzha@192.168.88.10
+ssh dyuzha@192.168.88.72
+ssh dyuzha@192.168.88.72
+ssh dyuzha@192.168.88.10
+ssh dyuzha@192.168.88.10
+ssh dyuzha@192.168.88.10
+ssh dyuzha@192.168.88.11
+ssh dyuzha@192.168.88.11
+ssh dyuzha@192.168.88.11
+ssh 192.168.88.72
+ssh dyuzha@192.168.88.72
+ssh dyuzha@192.168.88.77
+ssh dyuzha@192.168.88.11
+exit
+ssh root@141.105.71.191 
+ls
+ssh srv-2.dyuzha.ru
+ssh dyuzha@192.168.88.10
+exit
+ansible-playbook playbooks/me-site.yml
+nvim hosts.yml
+ssh srv-3.dyuzha.ru
+ls
+ls
+ls
+nvim hosts.yml
+nvim hosts.yml
+nvim hosts.yml
+exit
+r
+exit
+curl -k https://192.168.88.10:8006
+nc -vz 192.168.88.10 8006
+nc -vz 192.168.88.77 8006
+curl -k https://192.168.88.77:8006
+curl -k https://192.168.88.77:8006
+curl https://192.168.88.77:8006
+exit
+ssh dyuzha@192.168.88.77
+ssh root@192.168.88.77
+exit
+exit
+ssh dyuzha@me-site
+nvim ~/.ssh/config
+ssh dyuzha@me-site-stage
+exit
+nvim ~/.ssh/config
+ssh dyuzha@me-site-stage
+exit
+ssh dyuzha@192.168.88.13
+nvim ~/.ssh/config
+ssh github.com
+ssh gitlab
+ssh gitlab
+nvim .ssh/known_hosts
+ssh gitlab
+nvim .ssh/known_hosts
+nvim ~/.ssh/config
+nvim ~/.ssh/config
+ssh gitlab
+nvim ~/.ssh/config
+ssh gitlab
+nvim ~/.ssh/config
+ssh gitlab
+ssh dyuzha@gitlab
+exi
+exit
+git checkout -b stage
+git push origin stage
+git remote add gitlab git@gitlab.com:dyuzha/me-site.git
+git push gitlab 
+git remote set-url 
+git remote set-url gitlab git@gitlab.com:dyuzha-group/me-site.git
+git push gitlab 
+cat ~/.ssh/id_ed25519.pub
+git push gitlab 
+ls
+git push gitlab 
+git push gitlab 
+git push gitlab 
+git push gitlab 
+git push gitlab 
+r
+exit
+ssh me-site-stage
+ssh gitlab
+ssh gitlab
+exit
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml --start-at-task="Clone repository | Private | Token URL"
+ansible-playbook playbooks/me-site.yml --start-at-task="Clone repository | Private | Token URL"
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/base/reverse-proxy.yml 
+ansible-playbook playbooks/base/reverse_proxy.yml
+ansible-playbook playbooks/base/reverse_proxy.yml
+ansible-playbook playbooks/base/reverse_proxy.yml
+ansible-playbook playbooks/reverse_proxy.yml
+ansible-playbook playbooks/reverse_proxy.yml
+curl http://192.168.88.201:3000
+telnet 192.168.88.201:3000
+telnet 192.168.88.201 3000
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me-site.yml
+r
+exit
+nc
+nc -zv test.dyuzha.ru 443
+nc -zv test.dyuzha.ru 80
+telne
+telnet
+brew install telnet
+r
+exit
+ls
+mail
+exit
+npm run dev
+npm install markdown-it
+npm run dev
+npm run vue
+npm init nuxt
+npm init nuxt
+npm init nuxt
+cd new_era
+ls
+npm run dev
+nvim nuxt.config.ts
+exit
+r
+r
+exit
+r
+exit
+git clone git@gitflic.ru:admin_profit/rdesk-amo-sync.git
+ls
+cd rdesk-amo-sync
+ls
+exit
+poetry install
+cd ..
+cd -
+poetry run python pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run python pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run python gate/amo/amo_client_2/test.py
+poetry run python gate/amo/amo_client_2/test.py
+poetry run python gate/amo/amo_client_2/test.py
+poetry run python gate/amo/amo_client_2/test.py
+poetry run python gate/amo/amo_client_2/test.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/integrations/test_amo_client2.py
+poetry run pytest tests/units/test_amo_client2.py
+poetry run pytest tests/units/test_amo_client2.py
+poetry run pytest tests/units/test_amo_client2.py
+poetry run pytest tests/units/test_amo_client2.py
+poetry run pytest tests/units/test_amo_client2.py
+cat ~/.ssh/id_ed25519.pub
+r
+exit
+poetry run pytest src/tests/units/test_amo_client2.py
+poetry run pytest src/tests/units/test_amo_client2.py
+poetry run pytest src/tests/units/test_amo_client2.py
+poetry run pytest src/tests/units/test_amo_client2.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/units/test_amo_client2.py
+poetry run pytest src/tests/units/test_amo_client2.py
+poetry run pytest src/tests/units/test_amo_client2.py
+poetry run pytest src/tests/units/test_amo_client2.py
+poetry run pytest src/tests/integrations/test_api.py
+poetry run main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py
+poetry run python src/main.py 
+poetry run python src/main.py 
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mock_lead_id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+docker build -t dyuzha/rdesk-amo-sync
+docker build -t dyuzha/rdesk-amo-sync:latest .
+docker push dyuzha/rdesk-amo-sync:latest
+docker --config
+docker push dyuzha/rdesk-amo-sync:latest
+docker login
+docker push dyuzha/rdesk-amo-sync:latest
+poetry run python src/main.py --mocked-lead-id
+poetry run python src/main.py --mocked-lead-id
+docker build -t dyuzha/rdesk-amo-sync:latest .
+docker build --no-cache -t dyuzha/rdesk-amo-sync:latest .
+docker build --no-cache -t dyuzha/rdesk-amo-sync:latest .
+docker push dyuzha/rdesk-amo-sync:latest
+nvim ~/.ssh/known_hosts
+ssh-copy-id srv-2
+ssh-copy-id root@srv-2
+r
+exit
+r
+cd Projects/Python/rdesk-amo-sync
+ls
+poetry run pytest src/tests/units/test_amo_client2.py
+ls
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+i
+poetry run pytest src/tests/integrations/test_api.py
+poetry run pytest src/tests/integrations/test_api.py
+exit
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ssh root@141.105.71.191
+ssh-copy-id root@141.105.71.191
+ansible-playbook playbooks/nextcloud.yml
+ssh root@141.105.71.191
+ssh root@141.105.71.191
+nvim ~/.ssh/known_hosts
+ssh root@141.105.71.191
+ansible-playbook playbooks/nextcloud.yml
+ssh srv-2.dyuzha.ru
+ssh root@srv-2.dyuzha.ru
+ping nextcloud.dyuzha.ru
+curl https://nextcloud.dyuzha.ru
+curl -K https://nextcloud.dyuzha.ru
+curl -X https://nextcloud.dyuzha.ru
+man curl
+ls
+r
+r
+exit
+ping nextcloud.dyuzha.ru
+ping srv-3.dyuzha.ru
+ping srv-2.dyuzha.ru
+curl nextcloud.dyuzha.ru
+curl https://nextcloud.dyuzha.ru
+curl https://nextcloud.dyuzha.ru -v
+r
+exit
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ping srv-2
+ping srv-2.dyuzha.ru
+nvim ~/.ssh/known_hosts
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml --start-at-task=2.2 Copy docker-compose.yml
+ansible-playbook playbooks/nextcloud.yml --start-at-task="2.2 Copy docker-compose.yml"
+ansible-playbook playbooks/nextcloud.yml --start-at-task="2.2 Copy docker-compose.yml"
+curl https://pysheets.app/
+curl https://pysheets.app/ -v
+exit
+poetry add marimo pandas
+docker compose up -d
+docker compose up -d
+docker compose up -d
+docker compose up -d
+ls
+ls
+nvim 1.md
+8192 + 8192
+8192 + 8192
+python
+pyhton3
+python3
+nvim 1.md
+nvim ~/.ssh/config
+nvim 1.md
+nvim 1.md
+curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--tls-san k3s.dyuzha.ru --tls-san  192.168.88.14 --bind-address 0.0.0.0" sh -\
+
+nvim ~/.ssh
+curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--tls-san k3s.dyuzha.ru --tls-san  192.168.88.14 --bind-address 0.0.0.0" sh -\
+
+nvim ~/.ssh/config
+ssh k3s
+nvim.md
+nvim 2.md
+nvim 3.md
+ssh srv-2.dyuzha.ru
+ssh root.dyuzha.ru
+ssh root@.dyuzha.ru
+ssh root@dyuzha.ru
+ssh root@srv-3.dyuzha.ru
+ssh root@srv-2.dyuzha.ru
+ssh debian@srv-2.dyuzha.ru
+nvim ~/.ssh/config
+ssh srv-2
+ssh root@141.105.71.191
+ssh srv-2
+nvim ~/.ssh/config
+ssh-copy-id srv-2
+nvim ~/.ssh/known_hosts
+ssh-copy-id srv-2
+ssh-copy-id root@srv-2
+ssh srv-2
+ssh root@srv-2
+ssh root@srv-2
+ssh root@srv-2
+ls
+ls
+ssh srv-2
+ssh root@srv-2
+nvim ~/.ssh/known_hosts
+ssh-copy-id root@srv-2.dyuzha.ru
+ssh srv-2
+ssh root@srv-2
+docker compose ps
+ssh root@srv-2
+ssh root@srv-2
+ls -al
+docker ps
+ls -al
+nvim 4.md
+r
+nvim 4.md
+exit
+r
+exit
+poetry run marimo edit app.py
+poetry run marimo edit app.py
+poetry run marimo edit app.py
+poetry run marimo edit app.py
+poetry run mariom --help
+poetry run marimo --help
+marimo tutorial intro
+marimo tutorial intro
+poetry run marimo edit app.py
+export OPENAI_API_KEY=ollama\
+
+export OPENAI_BASE_URL=http://127.0.0.1:11434/v1
+poetry run marimo edit app.py
+OPENAI_API_KEY=ollama \\
+OPENAI_BASE_URL=http://127.0.0.1:11434/v1 \\
+poetry run marimo edit app.py
+curl http://127.0.0.1:11434/v1/chat/completions \\
+  -H "Content-Type: application/json" \\
+  -d '{\
+    "model": "phi3",\
+    "messages": [{"role": "user", "content": "hello"}]\
+  }'
+exit
+docker ps -a
+docker rm mintplexlabs/anythingllm
+docker rm 32564eb7f8a5
+cd anythinkllm
+ls
+docker compose up -d
+docker compose up -d
+docker compose ps
+docker compose ps
+docker compose ps
+docker compose logs 
+docker compose logs 
+docker compose up -d
+docker compose up -d
+docker compose ps
+docker compose logs
+docker compose up -d
+docker compose logs
+docker compose logs
+docker compose logs
+docker compose logs
+docker compose logs
+ollama run phi3
+ollama run qwen3:8b
+ollama run qwen3:8b
+ls
+mkdir AI
+cd AI
+nvim qwen3:8b
+fg
+chmod +x *
+ls
+./anythingllm.sh
+docker ps
+cd ~/Sandbox
+ls
+docker compose stop
+cd ..
+ls -al
+cd AI
+ls
+r
+docker ps
+docker stop me-site-app
+docker stop node_app
+./anythingllm.sh
+docker ps
+docker ps -a
+docker rm 4a56866e6ea1 1311563406f7
+docker ps
+cat anythingllm.sh
+ls -al
+docker run -d \\
+  -p 3001:3001 \\
+  -v anythingllm:/app/server/storage \\
+  mintplexlabs/anythingllm
+docker ps
+docker ps -a
+docker logs 32564eb7f8a5
+mkdir anythinkllm
+cd anythinkllm
+nvim docker-compose.yml
+ls -al
+docker ps
+cd ..
+cat qwen3-8b.sh
+ollama run qwen3:8b
+ollama run phi3
+exit
+git clone https://github.com/oobabooga/text-generation-webui\
+
+brew install ollama
+ollama serve
+ollama serve
+exit
+ansible-playbook playbooks/ai_center.yml
+ansible-playbook playbooks/ai_center.yml
+pydantic-ai-slim
+poetry add pydantic-ai-slim
+man poetry
+export HTTPS_PROXY=maTProxy:mot228proxy@64.188.94.81:4333
+poetry add pydantic-ai-slim
+poetry add pydantic-ai-slim -v
+curl pypi.org
+curl pypi.org
+curl pypi.org
+curl -k pypi.org
+curl -lk pypi.org
+ping pypi.org
+curl -lk pypi.org
+curl -lk-v pypi.org
+curl -lkv pypi.org
+curl -lkv https://pypi.org
+poetry add -v pydantic-ai-slim
+env | grep -i proxy
+HTTPS_PROXY=maTProxy:mot228proxy@64.188.94.81:4333
+export HTTP_PROXY=maTProxy:mot228proxy@64.188.94.81:4333
+poetry add -v pydantic-ai-slim
+unset HTTP_PROXY
+unset HTTPS_PROXY
+poetry add -v pydantic-ai-slim
+poetry run marimo edit app.py
+poetry add openai
+add
+poetry add -v openai
+poetry run marimo edit app.py
+poetry run marimo edit app.py
+htop
+cat ~/.ssh/id_ed25519.pub
+nvim ~/.ssh
+ls -al
+nvim app.py
+nvim app.py
+r
+exit
+cat ~/.ssh/id_ed25519.pub
+cd ..
+ansible-playbook playbooks/ai_center.yml
+ansible-playbook playbooks/ai_center.yml
+ansible-playbook playbooks/ai_center.yml
+ansible-playbook playbooks/ai_center.yml
+ansible-playbook playbooks/ai_center.yml
+ansible-playbook playbooks/ai_center.yml
+ansible-playbook playbooks/ai_center.yml
+poetry run marimo edit app.py
+nvim app.py
+exit
+r
+exit
+ansible-playbook playbooks/nextcloud.yml
+ansible-playbook playbooks/nextcloud.yml
+ls -al
+nvim group_vars
+nvim inventory/hosts.yml
+cd ..
+ansible-playbook playbooks/nextcloud.yml
+ls -al
+ansible-playbook playbooks/nextcloud.yml -u dyuzha
+nvim ~/.ssh/config
+ssh ai
+r
+ls
+ssh root@ai
+nvim ~/.ssh/known_hosts
+ssh ai
+ssh root@ai
+cat ~/.ssh/config
+nvim ~/.ssh/config
+ssh ai
+r
+ls -al
+ssh ai
+ssh ai
+ssh 192.168.88.19
+r
+r
+exit
+r
+mkdir Sandbox
+cd Sandbox
+ls
+r
+ls -al
+cd ~
+ls -al
+r
+ssh nextcloud
+nvim ~/Sandbox/ai.md
+exit
+ls -al
+nvim nextcloud.yml
+nvim nextcloud.yml
+curl -x maTProxy:mot228proxy@64.188.94.81:4333 https://pysheets.app/
+curl -xv maTProxy:mot228proxy@64.188.94.81:4333 https://pysheets.app/
+curl -v -x maTProxy:mot228proxy@64.188.94.81:4333 https://pysheets.app/
+cd ..
+cd ~
+ls
+cd Projects/Python
+ls
+mkdir pysheets/
+ls
+cd pysheets
+ls
+poetry init
+docker run -p 8000:8000 pysheets/pysheets:latest
+docker login
+docker run -p 8000:8000 pysheets/pysheets:latest
+cd ..
+rm -r pysheets
+poetry new marimo-app\
+
+cd marimo-app
+ls -al
+r
+nvim app.py
+r
+ssh nextcloud
+nvim ~/.ssh/config
+ssh ai
+curl 192.168.88.11:5678
+curl 192.168.88.11:3000
+ping 192.168.88.11:3000
+ping 192.168.88.11
+traceroute 192.168.88.11
+ssh ai
+exit
+r
+exit
+cat ~/.ssh/config
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-vault create group_vars/all/vault.yml
+ssh-keygen -t ed25519 -f gitlab_runner_key
+ls
+cat gitlab_runner_key
+cat gitlab_runner_key.pub
+cd ..
+ls
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ls 
+ls inventory
+cat inventory/hosts.yml
+ls group_vars/all
+ansible -i inventory/hosts.yml gitlab_runner -m debug -a "var=gitlab_registration_token_main" --ask-vault-pass
+ansible -i inventory/hosts.yml gitlab_runner -m debug -a "var=gitlab_registration_token_main" --ask-vault-pass
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml
+ansible-playbook playbooks/gitlab_runner.yml --ask-vault-pass
+ansible-vault create group_vars/all/vault.yml
+ansible-vault edit group_vars/all/vault.yml
+rm group_vars/all/vault.yml
+ansible-vault create group_vars/all/vault.yml
+ansible-vault view group_vars/all/vault.yml
+ansible-vault edit group_vars/all/vault.yml
+ansible-vault edit group_vars/all/vault.yml
+ansible-vault edit group_vars/all/vault.yml
+ansible-vault edit inventory/group_vars/all/vault.yml
+exit
+r
+exit
+ansible-playbook playbooks/reverse_proxy.yml
+ansible-playbook playbooks/reverse_proxy.yml --ask-become-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/me_site_stage.yml --ask-vault-pass
+ansible-playbook playbooks/me_site_stage.yml --ask-vault-pass
+ansible-playbook playbooks/me_site_stage.yml --ask-vault-pass
+ansible-playbook playbooks/me_site_stage.yml --ask-vault-pass
+ansible-playbook playbooks/me_site_stage.yml --ask-vault-pass
+ansible-playbook playbooks/me_site_stage.yml --ask-vault-pass
+cd ..
+ansible-playbook playbooks/deploy_gitlab_runner.yml
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+git pull gitlab 
+git push gitlab 
+ls
+git push gitlab 
+cat ~/.ssh/gitlab/id_ed25519
+git push gitlab 
+ansible-vault edit inventory/group_vars/all/vault.yml
+nvim ~/.ssh/gitlab_key/key.pem
+mkdir ~/.ssh/gitlab_key
+nvim ~/.ssh/gitlab_key/key.pem
+ssh -i ~/.ssh/gitlab_key/key.pem deploy@gitlab
+ssh-keygen -t ed25519 -C "gitlab-runner"
+ssh-keygen -t ed25519 -C "gitlab-runner"
+ls ~/.ssh/gitlab
+ls ~/.ssh/gitlab_key
+rm ~/.ssh/gitlab_key
+rm -r ~/.ssh/gitlab_key
+ls -al
+cd ~/.ssh
+ls
+mkdir gitlab
+mv gitlab gitlab2
+mkdir gitlab
+mv gitlab2 gitlab/id_ed25519
+mv gitlab.pub gitlab/id_ed25519.pub
+ls
+ls gitlab
+cd -
+ls
+cd -
+cat gitlab/id_ed25519
+cat gitlab/id_ed25519
+cd -
+ansible-vault edit inventory/group_vars/all/vault.yml
+cd -
+cat gitlab/id_ed25519.pub
+cd -
+ansible-vault edit inventory/group_vars/all/vault.yml
+cd -
+ssh -i gitlab/id_ed25519 deploy@gitlab
+ssh -i gitlab/id_ed25519 deploy@me-site-stage
+cd -
+ansible-vault edit inventory/group_vars/all/vault.yml
+cd -
+ssh -i gitlab/id_ed25519 deploy@me-site-stage
+ssh gitlab
+cd -
+ansible-vault edit inventory/group_vars/all/vault.yml
+cd -
+ssh gitlab
+ls
+exit
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+cd ..
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+ls roles
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+ansible-playbook playbooks/me_site_stage.yml
+ansible-playbook playbooks/me_site_stage.yml --ask-vault-pass
+ansible-playbook playbooks/me_site_stage.yml --ask-vault-pass
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+ansible-playbook playbooks/deploy_gitlab_runner.yml --ask-vault-pass
+cd ..
+cd ..
+cd ..
+ansible-playbook playbooks/me-site.yml
+ansible-playbook playbooks/me_site_stage.yml
+ansible-playbook playbooks/me_site_stage.yml --ask-vault-pass
+ansible-playbook playbooks/devport/stage.yml
+ansible-playbook playbooks/devport/stage.yml --ask-vault-pass
+ansible-playbook playbooks/devport/stage.yml --ask-vault-pass
+clear
+docker compose build -t devport:latest
+docker compose build -t devport:latest -f docker-compose.dev.yml 
+docker  build -t devport:latest -f docker-compose.dev.yml 
+docker  build -t devport:latest .
+docker image
+docker compose up -d
+docker compose ps
+git pull
+git push gitlab 
+git push gitlab 
+git push gitlab 
+git tag -a v1.0.0 -m "Ѓ�ерву�й стабилу�ну�й релиз"
+git push gitlab
+git tag -d v1.0.0
+git tag -a v0.0.1 "Ѓ�лоу�ау� поддержка Safari" 
+git tag -a v0.0.1 -m "Ѓ�лоу�ау� поддержка Safari" 
+"Ѓ�лоу�ау� поддержка Safari" 
+git tag -d v0.0.1
+git push gitlab
+git remote set-url origin git@gitlab.com:dyuzha-group/devport.git
+git tag -a v0.0.1 -m "Ѓ�лоу�ау� поддержка Safari"
+git push origin v0.0.1
+git remote set-url origin git@gitlab.com:dyuzha-group/devport.git
+git push origin v0.0.1
+nvim 5.md
+exit
+ssh 
+ls
+nvim 6.md
+ls
+ssh me-site-stage
+ls
+exit
+nvim ~/.ssh/c
+nvim ~/.ssh/config
+ssh gitlab
+ssh gitlab
+ssh gitlab
+ssh me-site
+nvim ~/.ssh/config
+ssh me-site-stage
+ls
+ls
+nvim .ssh/known_hosts
+ssh me-site-stage
+ssh me-site-stage
+ssh gitlab
+r
+exit
+git remote -v
+git remote remove gitlab
+git tag -a v0.0.2 -m "Ѓ�естиру�ем прод"
+git push origin v0.0.2
+git push origin v0.0.2
+git tag -a v0.0.3 -m "Ѓ�естиру�ем прод"
+git push origin v0.0.3
+git tag -a v0.0.4 -m "Ѓ�естиру�ем прод"
+git push origin v0.0.4
+man docker compose up
+man docker 
+docker compose up --help
+docker compose up pull --help
+git push origin v0.0.5
+git push origin v0.0.5
+git push origin v0.0.5
+git push origin v0.0.6
+ansible-playbook playbooks/devport/prod.yml
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+git remote -v
+git remote set-url origin git@github.com:dyuzha/infra.git
+git push origin 
+exit
+ssh me-site-stage
+ssh me-site-prod
+ssh me-site-prod
+nvim 5.md
+nvim 5.md
+ls -al
+nvim 5.md
+nvim ~/.ssh/config
+ssh me-site-prod
+r
+ls -al
+ssh me-site-prod
+curl 192.168.88.21:3000
+ssh me-site-prod
+curl 192.168.88.21:3000
+curl 192.168.88.21:3000
+curl 192.168.88.21:3000
+curl 192.168.88.21:3000
+ssh me-site-prod
+cd ~/Projects/Mikroservices
+ls
+git clone git@gitflic.ru:admin_profit/infra.git
+mkdir p
+cd p
+git clone git@gitflic.ru:admin_profit/infra.git
+ls
+mv infra profit-infra
+mv profit-infra ..
+cd ..
+rm -r p
+ls -al
+cd profit-infra
+ls -al
+r
+ssh srv-2
+ls -al
+exit
+cd ..
+ansible-playbook playbooks/devport/prod.yml
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml
+ansible-playbook playbooks/devport/prod.yml
+ansible-playbook playbooks/devport/prod.yml
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ls
+clear
+curl prof.dyuzha.ru
+curl prod.dyuzha.ru
+ping prod.dyuzha.ru
+git push origin v0.0.8
+git push origin v0.0.9
+docker compose up -d
+docker compose -f docker-compose.dev.yml up -d
+docker compose -f docker-compose.dev.yml build
+docker ps
+docker compose up -d
+nvim .gitlab-ci.yml
+nvim .gitlab-ci.yml
+brew update lazygit
+lazygit
+lazygit -v
+brew install lazygit
+lazygit -v
+nvim .gitlab-ci.yml
+ls
+cd ..
+ls
+cd devport
+ls
+r
+exit
+git init --initial-branch=main --object-format=sha1\
+
+git remote add origin git@gitlab.com:dyuzha-group/mellland.git\
+
+npm run dev
+npm nuxt init
+npm run nuxt
+npx nuxi@latest init mellland
+ls
+npx nuxi@latest init mellland
+ls
+rm mellland
+rm -r mellland
+npx nuxi@latest init mellland
+cd mellland
+ls
+rm -rf node_modules package-lock.json\
+
+npm install
+npm ls glob\
+
+npm update glob
+exit
+docker ps
+git remote remove origin 
+git remote -v
+r
+exit
+exit
+ls
+exit
+r
+exit
+npm run dev
+npm run dev
+npm run dev
+rm -rf node_modules pnpm-lock.yaml\
+
+npm install
+cd ..
+cd ..
+cd ..
+cd -
+rm -rf node_modules pnpm-lock.yaml\
+
+npm install
+npm run dev
+npm run dev
+npm run dev
+\:vim.opt.termguicolors = true
+r
+exit
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+cd ..
+cd ..
+cd ..
+ls -al
+git status
+git init --initial-branch=main --object-format=sha1\
+
+git remote add origin git@gitlab.com:dyuzha-group/mellland.git\
+
+git push --set-upstream origin main\
+
+npm run dev --host localhost:3001
+ls -al
+npm install
+npm run dev --host localhost:3001
+PORT=3001 npm run dev
+r
+find . -name arch
+docker ps
+docker stop 6615b1928dcf
+docker stop 8c673fde5f7d
+exit
+r
+exit
+ansible-playbook playbooks/mellland/stage.yml
+ansible-playbook playbooks/mellland/stage.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/stage.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/stage.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/stage.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/stage.yml --ask-vault-pass
+ansible-playbook playbooks/gitlab_runner/deploy.yml --ask-vault-pass
+ansible-playbook playbooks/gitlab_runner/deploy.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/stage.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/stage.yml --ask-vault-pass
+ls
+poetry new pysheets-app
+cd pysheets-app
+poetry add pysheets-app
+poetry add pysheets
+poetry run pysheets
+poetry install
+poetry run pysheets
+poetry remove pysheets
+poetry add jupyter pandas
+brew install onlyoffice
+ду�
+ls
+ls -al
+ls -al
+r
+exit
+curl 192.168.88.11:3000
+r
+exit
+nvim ~/.ssh/config
+ssh me-site-prod
+ssh me-site-stage
+ssh me-site-stage
+ssh me-site-stage
+cd think
+cd -
+cd .think
+find ~ -name *[tT]ink*
+find ~ -name '*[tT]ink*'
+man find
+find ~ -max-depth -name '*[tT]ink*' 
+find ~ -name '*[tT]ink*' -max-depth=3
+find ~ -name '*[tT]ink*' -maxdepth=3
+find ~ -name '*[tT]ink*' -maxdepth 3
+ls -al
+cd Sandbox
+ls
+cd -
+ls
+ls -al
+find ~ -name '*[tT]ink*' -maxdepth 5
+find ~ -name '*[tT]ink*' -maxdepth 5 2>/dev/null
+find ~ -name '*[tT]ink*' -maxdepth 6 2>/dev/null
+ls
+find ~ -name '*tink*' -maxdepth 3 2>/dev/null
+find ~ -name '*tink*' -maxdepth 5 2>/dev/null
+find ~ -name '*Tink*' -maxdepth 5 2>/dev/null
+find ~ -name '*Think*' -maxdepth 5 2>/dev/null
+find ~ -name '*think*' -maxdepth 5 2>/dev/null
+find ~ -name '*[tT]hink*' -maxdepth 5 2>/dev/null
+r
+ssh srv-2
+ls
+ls -al
+r
+r
+exit
+ssh gitlab
+ssh 192.168.88.16
+curl 192.168.88.16
+curl 192.168.88.16 > test.html
+open test.html
+ssh reverse
+ssh srv-1.dyuzha.ru
+ssh srv-1
+ssh srv-2
+ssh srv-3
+ls
+ls -al
+ping safronova.dyuzha.ru
+ping stage.dyuzha.ru
+ssh reverse
+ping stage.dyuzha.ru
+ping safronova.dyuzha.ru
+ssh reverse
+curl -k -H "Host: safronova.dyuzha.ru" https://85.175.11.61
+ls -al
+ssh reverse
+ls -al
+exit
+cd ..
+ansible-playbook playbooks/reverse_proxy.yml
+ansible-playbook playbooks/reverse_proxy.yml --ask-vault-pass
+npm run dev
+r
+exit
+r
+exit
+r
+exit
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm install -g npm@11.12.1
+npm install -g npm@11.12.1
+npm run dev
+npm run dev
+ls
+ls
+cd mellland
+ls
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+git status
+git pull
+git pull
+npm run dev
+npm run dev
+npm run dev
+\:q
+r
+exit
+git pull
+ls
+ls
+ls
+lazygit
+git status
+ls
+git pull
+nvim README.md
+exit
+ls
+nvim README.md
+nvim README.md
+rm ~/.local/state/nvim/lsp.log
+nvim README.md
+nvim README.md
+nvim README.md
+nvim README.md
+nvim README.md
+nvim README.md
+nvim README.md
+nvim README.md
+nvim README.md
+nvim README.md
+exit
+ls
+nvim README.md
+nvim README.md
+lazygit
+lazygit
+ls
+r
+lazygit
+nvim README.md
+nvim README.md
+exit
+к
+r
+exit
+r
+exit
+r
+r
+r
+r
+exit
+git remote -v
+cd ..
+poetry install
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py:booked_lead
+poetry run pytest src/tests/units/test_amo_client.py:test_update_booked_lead
+poetry run pytest src/tests/units/test_amo_client.py::test_update_booked_lead
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest --log-cli-level=DEBUG src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_entities.py
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py
+poetry run pytest src/tests/units/test_entities.py::test_get_lead
+python
+poetry run pytest src/tests/units/test_entities.py::test_get_lead
+poetry run pytest src/tests/units/test_entities.py::test_get_lead
+poetry run pytest src/tests/units/test_entities.py::test_get_lead
+poetry run pytest src/tests/units/test_entities.py::test_get_lead
+poetry run pytest src/tests/units/test_entities.py::test_get_lead
+poetry run pytest src/tests/units/test_entities.py::test_get_lead
+poetry run pytest src/tests/units/test_entities.py::test_get_lead
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_entities.py::test_get_custom_field_by_id
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py::test_update_mc_lead
+dig safronova.help
+dig safronova.help
+dig safronova.help
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+cd ..
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_amo_client.py
+ii
+poetry run pytest src/tests/units/test_transform.py
+test_amo_client
+poetry run pytest src/tests/units/test_amo_client.py 
+poetry run pytest src/tests/units/test_entities.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/units/test_transform.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_mc.py
+poetry run pytest src/tests/units/test_mc.py::test_dump_state_only_four_fields
+poetry run pytest src/tests/units/test_mc.py::test_update_state_does_not_break_other_fields
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_keeps_old_items
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_keeps_old_items
+poetry run pytest src/tests/units/test_mc.py::test_update_state_adds_new_items
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot
+poetry run pytest src/tests/units/test_mc.py::test_transform_mc
+poetry run pytest src/tests/units/test_mc.py
+poetry run pytest src/tests/units/test_mc.py
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_amo_client.py::test_update_mc
+poetry run pytest src/tests/units/test_amo_client.py::test_update_mc
+poetry run pytest src/tests/units/test_amo_client.py::test_update_mc
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_mc.py
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_mc.py
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_mc.py
+poetry run pytest src/tests/units/test_mc.py
+poetry run pytest src/tests/units/test_mc.py
+poetry run pytest src/tests/units/test_mc.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_load_snapshot_str
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id_updates_existing_item
+poetry run pytest src/tests/units/test_mc.py::test_merge_by_id
+poetry run pytest src/tests/units/test_mc.py::test_partial_load_from_json
+poetry run pytest src/tests/units/test_mc.py::test_partial_load_from_json
+poetry run pytest src/tests/units/test_mc.py::test_partial_load_from_json
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py::update_state_from_partial_snapshot_str
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_amo_client.py::test_merge_state
+poetry run pytest src/tests/units/test_amo_client.py::test_merge_state
+poetry run pytest src/tests/units/test_amo_client.py::test_merge_state
+poetry run pytest src/tests/integrations/test_pipelines.py
+r
+mkdir test
+cd test
+git clone git@gitflic.ru:admin_profit/rdesk-amo-sync.git
+ls
+cd rdesk-amo-sync
+nvim README.md
+exit
+ls
+nvim ~/.ssh/config
+ssh safr
+ssh safr
+dig safronova.help
+cat ~/.ssh/id_ed25519.pub
+ssh safr
+ls -al
+exit
+cd ..
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/integrations/test_pipelines.py
+r
+exit
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+ansible-playbook playbooks/devport/prod.yml --ask-vault-pass
+lazygit
+ls
+ls
+lazygit
+lazygit
+exit
+cd ..
+cd ..
+ansible-playbook playbooks/gitlab_runner/deploy.yml --ask-vault-pass
+ansible-playbook playbooks/gitlab_runner/deploy.yml --ask-vault-pass
+ansible-playbook playbooks/gitlab_runner/deploy.yml --ask-vault-pass
+ansible-playbook playbooks/gitlab_runner/deploy.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/prod.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/prod.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/prod.yml --ask-vault-pass
+r
+exit
+ansible-playbook playbooks/mellland/prod.yml --ask-vault-pass
+cd ../..
+ansible-playbook playbooks/mellland/prod.yml --ask-vault-pass
+ansible-playbook playbooks/mellland/prod.yml --ask-vault-pass
+open ~/.Trash
+mdfind mellland
+tmutil listlocalsnapshots /
+r
+exit
+cat ~/.ssh/config
+cat ~/.ssh/id_ed25519.pub
+poetry run pytest src/tests/integrations/test_pipelines.py
+ansible-vault edit Projects/Mikroservices/infra/inventory/group_vars/all/vault.yml
+ssh dyuzha.ru
+docker compose ps
+docker ps
+docker ps
+ip a
+ip a
+ssh dyuzha.ru
+nvim ~/.ssh/known_hosts
+ssh dyuzha.ru
+ssh root@dyuzha.ru
+curl dyuzha.ru
+curl https://dyuzha.ru
+ssh root@dyuzha.ru
+nvim ~/.ssh/config
+ssh srv-3
+ssh srv-3
+ssh srv-3
+ssh dyuzha.ru
+ssh root@dyuzha.ru
+ssh root@safronova.help
+nvim .ssh/known_hosts
+ssh root@safronova.help
+ls
+lazygit
+s
+ls
+cd recovered_blobs
+ls
+nvim 07fd3507f6297176eb4a6dd1bc3309ce72e02002.txt
+exit
+npm run dev
+git reflog
+git reflog -p
+git fsck --lost-found
+git status
+mkdir /tmp/git-recovery
+git show ff6a048cbffe04708ace7f8844eb5a2cabcf95ea
+mkdir ~/recovered_blobs
+git fsck --lost-found | grep blob | awk '{print $3}' | while read b; do\
+  git cat-file -p $b > "~/recovered_blobs/$b.txt" done\
+\
+\
+done
+git fsck --lost-found | grep blob | awk '{print $3}' | while read b; do\
+  git cat-file -p $b > "~/recovered_blobs/$b.txt"\
+\
+\
+done
+git fsck --lost-found | grep blob | awk '{print $3}' | while read b; do\
+  git cat-file -p $b > "/Users/dyuzha/recovered_blobs/$b.txt"\
+\
+\
+done
+git fsck --lost-found
+npm run dev
+lazygit
+ls
+lazygit
+docker compose up -d
+ls
+nvim README.md
+exit
+r
+ls
+r
+exit
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py
+npm run dev
+git status
+git push
+git config --global http.postBuffer 524288000  # 500 MB\
+
+git config --global http.lowSpeedLimit 0\
+
+git config --global http.lowSpeedTime 999999\
+
+git push
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm install vite-svg-loader
+ssh safr
+exit
+npm run dev
+Running with gitlab-runner 18.10.1 (3b43bf9f)\
+  on runner-2 6RkJEOyI3, system ID: s_d067771765a4\
+Preparing the "shell" executor\
+00:00\
+Using Shell (bash) executor...\
+Preparing environment\
+00:01\
+Running on srv-3...\
+Getting source from Git repository\
+00:01\
+Gitaly correlation ID: 9ed170fefeaff136-DME\
+Fetching changes with git depth set to 20...\
+Reinitialized existing Git repository in /home/gitlab-runner/builds/6RkJEOyI3/0/dyuzha-group/mellland/.git/\
+Checking out def42ec3 as detached HEAD (ref is main)...\
+Skipping Git submodules setup\
+Executing "step_script" stage of the job script\
+00:13\
+$ echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"\
+WARNING! Your credentials are stored unencrypted in '/home/gitlab-runner/.docker/config.json'.\
+Configure a credential helper to remove this warning. See\
+https://docs.docker.com/go/credential-store/\
+Login Succeeded\
+$ if docker pull "$IMAGE_TAG_SHA"; then # collapsed multi-line command\
+Error response from daemon: failed to resolve reference "registry.gitlab.com/dyuzha-group/mellland:def42ec3": registry.gitlab.com/dyuzha-group/mellland:def42ec3: not found\
+#0 building with "default" instance using docker driver\
+#1 [internal] load build definition from Dockerfile\
+#1 transferring dockerfile: 1.02kB done\
+#1 DONE 0.0s\
+#2 [internal] load metadata for docker.io/library/node:22-alpine\
+#2 DONE 2.9s\
+#3 [internal] load .dockerignore\
+#3 transferring context: 247B done\
+#3 DONE 0.0s\
+#4 [internal] load build context\
+#4 transferring context: 582.86kB 0.0s done\
+#4 DONE 0.1s\
+#5 [base 1/2] FROM docker.io/library/node:22-alpine@sha256:8ea2348b068a9544dae7317b4f3aafcdc032df1647bb7d768a05a5cad1a7683f\
+#5 resolve docker.io/library/node:22-alpine@sha256:8ea2348b068a9544dae7317b4f3aafcdc032df1647bb7d768a05a5cad1a7683f 0.0s done\
+#5 sha256:8bfa0019f928dcee6004de6c4b85d75774f993212504ac816ede0f3c6ae097de 0B / 445B 0.2s\
+#5 sha256:4cc15311d45b63612aec3e37d607941ddc636bd3ab45235d8391dc5b2b90faf4 0B / 1.26MB 0.2s\
+#5 sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 0B / 51.96MB 0.2s\
+#5 sha256:6a0ac1617861a677b045b7ff88545213ec31c0ff08763195a70a4a5adda577bb 0B / 3.86MB 0.2s\
+#5 sha256:8bfa0019f928dcee6004de6c4b85d75774f993212504ac816ede0f3c6ae097de 445B / 445B 0.6s done\
+#5 sha256:4cc15311d45b63612aec3e37d607941ddc636bd3ab45235d8391dc5b2b90faf4 1.26MB / 1.26MB 0.8s done\
+#5 sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 6.29MB / 51.96MB 0.9s\
+#5 sha256:6a0ac1617861a677b045b7ff88545213ec31c0ff08763195a70a4a5adda577bb 3.86MB / 3.86MB 1.0s done\
+#5 sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 13.63MB / 51.96MB 1.1s\
+#5 extracting sha256:6a0ac1617861a677b045b7ff88545213ec31c0ff08763195a70a4a5adda577bb\
+#5 sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 22.02MB / 51.96MB 1.2s\
+#5 sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 28.26MB / 51.96MB 1.4s\
+#5 extracting sha256:6a0ac1617861a677b045b7ff88545213ec31c0ff08763195a70a4a5adda577bb 0.2s done\
+#5 sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 38.80MB / 51.96MB 1.5s\
+#5 sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 47.92MB / 51.96MB 1.7s\
+#5 sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 51.96MB / 51.96MB 1.8s\
+#5 sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 51.96MB / 51.96MB 1.8s done\
+#5 extracting sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5\
+#5 extracting sha256:9e177ba73d9ff6d235c7d32bf216469630dcce0a52a6cbde08bd868b7a07e7d5 1.6s done\
+#5 DONE 3.5s\
+#5 [base 1/2] FROM docker.io/library/node:22-alpine@sha256:8ea2348b068a9544dae7317b4f3aafcdc032df1647bb7d768a05a5cad1a7683f\
+#5 extracting sha256:4cc15311d45b63612aec3e37d607941ddc636bd3ab45235d8391dc5b2b90faf4 0.1s done\
+#5 extracting sha256:8bfa0019f928dcee6004de6c4b85d75774f993212504ac816ede0f3c6ae097de 0.0s done\
+#5 DONE 3.6s\
+#6 [base 2/2] WORKDIR /app\
+#6 DONE 0.4s\
+#7 [deps 1/2] COPY package*.json ./\
+#7 DONE 0.0s\
+#8 [deps 2/2] RUN npm ci\
+#8 2.447 npm error code EUSAGE\
+#8 2.447 npm error\
+#8 2.447 npm error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.\
+#8 2.447 npm error\
+#8 2.447 npm error Missing: cac@6.7.14 from lock file\
+#8 2.447 npm error Missing: commander@13.1.0 from lock file\
+#8 2.447 npm error\
+#8 2.447 npm error Clean install a project\
+#8 2.447 npm error\
+#8 2.447 npm error Usage:\
+#8 2.447 npm error npm ci\
+#8 2.447 npm error\
+#8 2.447 npm error Options:\
+#8 2.447 npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]\
+#8 2.447 npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]\
+#8 2.447 npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]\
+#8 2.447 npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]\
+#8 2.447 npm error [--no-bin-links] [--no-fund] [--dry-run]\
+#8 2.447 npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]\
+#8 2.447 npm error [-ws|--workspaces] [--include-workspace-root] [--install-links]\
+#8 2.447 npm error\
+#8 2.447 npm error aliases: clean-install, ic, install-clean, isntall-clean\
+#8 2.447 npm error\
+#8 2.447 npm error Run "npm help ci" for more info\
+#8 2.449 npm notice\
+#8 2.449 npm notice New major version of npm available! 10.9.7 -> 11.12.1\
+#8 2.449 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1\
+#8 2.449 npm notice To update run: npm install -g npm@11.12.1\
+#8 2.449 npm notice\
+#8 2.450 npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-16T07_23_06_771Z-debug-0.log\
+#8 ERROR: process "/bin/sh -c npm ci" did not complete successfully: exit code: 1\
+------\
+ > [deps 2/2] RUN npm ci:\
+2.447 npm error\
+2.447 npm error aliases: clean-install, ic, install-clean, isntall-clean\
+2.447 npm error\
+2.447 npm error Run "npm help ci" for more info\
+2.449 npm notice\
+2.449 npm notice New major version of npm available! 10.9.7 -> 11.12.1\
+2.449 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1\
+2.449 npm notice To update run: npm install -g npm@11.12.1\
+2.449 npm notice\
+2.450 npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-16T07_23_06_771Z-debug-0.log\
+------\
+Dockerfile:8\
+--------------------\
+   6 |     FROM base AS deps\
+   7 |     COPY package*.json ./\
+   8 | >>> RUN npm ci\
+   9 |     \
+  10 |     # Ci длу� более бу�строй и тоу�ной у�становки в отлиу�ии от install\
+--------------------\
+ERROR: failed to build: failed to solve: process "/bin/sh -c npm ci" did not complete successfully: exit code: 1\
+Cleaning up project directory and file based variables\
+00:01\
+ERROR: Job failed: exit status 1
+npm install
+npm run dev
+rm -rf node_modules package-lock.json\
+
+npm install
+git status
+git push
+git push
+ssh -T -p 443 git@gitlab.com
+ssh -T -p 443 git@gitlab.com
+ssh -T -p 443 git@gitlab.com
+м
+ssh -T -p 443 git@altssh.gitlab.com
+git push
+rm -rf node_modules package-lock.json\
+
+npm run dev
+npm run dev
+ssh-giltab
+git push
+ssh-giltab git push
+git push
+ssh-giltab git push
+ssh-giltab
+git push
+git push
+git push
+exit
+git status
+ssh root@dyuzha.ru
+traceroute amo-dev.it4prof.ru
+ls
+ls -al
+r
+exit
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+poetry run pytest src/tests/integrations/test_full_mc_pipeline.py
+ansible-playbook playbooks/_base/ssl.yml --ask-vault-pass
+ansible-playbook playbooks/_base/ssl.yml --ask-vault-pass
+ansible-playbook playbooks/_base/ssl.yml --ask-vault-pass
+ansible-playbook playbooks/_base/ssl.yml --ask-vault-pass
+poetry run pytest src/tests/units/test_amo_client.py
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+poetry run pytest src/tests/integrations/test_pipelines.py
+poetry run pytest src/tests/units/test_amo_client.py::test_load_pipeline_lead_data
+j
+curl -v http://amo.biruza.net:9000
+curl -v http://amo.biruza.net:9000
+curl -v http://amo.biruza.net:9000
+ls -al
+ду�
+ls
+ls
+ls -al
+к
+r
+ssh safronova.help
+ssh safr
+ssh safr
+ls
+ls
+ls
+logs
+logs
+r
+curl https://amo-dev.it4prof.ru:9123
+curl -v https://amo-dev.it4prof.ru:9123
+curl -kv https://amo-dev.it4prof.ru
+curl -kv https://amo-dev.it4prof.ru:9123
+ls
+rm -rf node_modules package-lock.json\
+
+npm install
+r
+ssh safr
+ls
+nvim docker-compose.yml
+scp ~/.ssh/id_ed25519 srv3:~/.ssh
+scp ~/.ssh/id_ed25519 srv-3:~/.ssh
+cd ..
+cd ..
+ls
+cd amo-services
+cd ..
+mv amo-services Mikroservices
+ls
+cd Mikroservices/amo-services
+ls
+git remote -v
+g
+ls -al
+r
+ls -al
+ls -al
+cd ..
+ls
+ls
+cd ..
+ls
+cd Python/rdesk-amo-sync
+ls
+nvim docker-compose.yml
+ls
+lazygit
+ls -al
+ssh birint
+scp ~/.ssh/id_ed25519 birint:~/.ssh
+cd -
+cd -
+ls
+nvim .env
+nvim src/main.py
+exit
+r
+exit
+npm run dev
+git push
+ssh-giltab
+git push
+npm run dev
+ssh-giltab
+npm run dev
+git push
+ssh-giltab
+git push
+git push
+ls
+docker compose ps
+docker ps
+lazygit
+ls
+cat ~/.ssh/id_ed25519.pub
+nvim ~/.ssh/config
+ssh birint
+git remote -v
+ssh birint
+r
+ls -al
+exit
+ls -al
+lazygit
+nvim src/main.py
+nvim src/main.py
+lazygit
+ls
+cd ..
+cd ..
+ls
+git@gitflic.ru:admin_profit/amo-services.git
+git clone
+git clone git@gitflic.ru:admin_profit/amo-services.git
+ls
+cd amo-services
+ls -al
+ls -al
+ls -al
+nvim .env
+ssh srv-3
+r
+r
+exit
+cd ..
+cd ..
+npm run dev
+r
+cd ~/.acme.sh/dyuzha.ru_ecc
+ls
+acme.sh --issue -d dyuzha.ru\\
+    -d *.dyuzha.ru\\
+    --dns \\
+    --yes-I-know-dns-manual-mode-enough-go-ahead-please\
+
+acme.sh
+cd ~
+acme.sh --issue -d dyuzha.ru\\
+    -d *.dyuzha.ru\\
+    --dns \\
+    --yes-I-know-dns-manual-mode-enough-go-ahead-please\
+
+acme.sh
+ls
+ls -al
+cd .acme.sh
+ls -al
+acme.sh --issue -d dyuzha.ru\\
+    -d *.dyuzha.ru\\
+    --dns \\
+    --yes-I-know-dns-manual-mode-enough-go-ahead-please\
+
+acme.sh
+./acme.sh --issue -d dyuzha.ru\\
+    -d *.dyuzha.ru\\
+    --dns \\
+    --yes-I-know-dns-manual-mode-enough-go-ahead-please\
+
+./acme.sh
+./acme.sh --issue -d dyuzha.ru -d *.dyuzha.ru --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please\
+
+bash ./acme.sh --issue -d dyuzha.ru -d *.dyuzha.ru --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please\
+
+./acme.sh --issue -d dyuzha.ru -d "*.dyuzha.ru" --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
+./acme.sh --renew -d dyuzha.ru -d "*.dyuzha.ru" --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
+cd dyuzha.ru_ecc
+ls
+scp dyuzha.ru.key srv-3:~/
+scp fullchain.cer srv-3:~/
+ssh srv-3
+ls
+cd ~
+nvim test.md
+r
+nvim test.md
+ssh safr
+ssh safronova.help
+ssh safr
+r
+r
+ssh dyuzha.ru
+ssh root@dyuzha.ru
+r
+cd ..
+npm run dev
+npm run dev
+git ssh-gitlab
+ssh-gitlab
+ssh-giltab
+git push
+r
+ssh safr
+exit
+cd ..
+npm run dev
+npm run dev
+git push tag v1.0.0 origin
+git push tags v1.0.0 origin
+git push origin v1.0.0
+ssh-giltab
+git push origin v1.0.0
+poetry install
+gui              |   data: {\
+gui              |     detail: "Client error '400 Bad Request' for url 'https://1103.api.green-api.com/waInstance1103499948/sendMessage/30dee5ec64064810a951cfae372db9d531676ce550034ce4ba'\n" +\
+gui              |       'For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400'\
+gui              |   }\
+gui              | }\
+gui              | [request error] [unhandled] [POST] http://localhost:3000/api/sendMessage\
+gui              |  FetchError: [POST] "http://green-api-proxy:8000/wa/sendMessage": 502 Bad Gateway\
+gui              |     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\
+gui              |     ... 3 lines matching cause stack trace ...\
+gui              |     at async Server.toNodeHandle (file:///app/.output/server/chunks/nitro/nitro.mjs:2005:7) {\
+gui              |   cause: FetchError: [POST] "http://green-api-proxy:8000/wa/sendMessage": 502 Bad Gateway\
+gui              |       at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\
+gui              |       at async $fetch2 (file:///app/.output/server/chunks/nitro/nitro.mjs:2568:15)\
+gui              |       at async Object.handler (file:///app/.output/server/chunks/routes/api/sendMessage.post.mjs:17:10)\
+gui              |       at async Object.handler (file:///app/.output/server/chunks/nitro/nitro.mjs:1734:19)\
+gui              |       at async Server.toNodeHandle (file:///app/.output/server/chunks/nitro/nitro.mjs:2005:7),\
+gui              |   statusCode: 502,\
+gui              |   fatal: false,\
+gui              |   unhandled: true,\
+gui              |   statusMessage: 'Bad Gateway',\
+gui              |   data: {\
+gui              |     detail: "Client error '400 Bad Request' for url 'https://1103.api.green-api.com/waInstance1103499948/sendMessage/30dee5ec64064810a951cfae372db9d531676ce550034ce4ba'\n" +\
+gui              |       'For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400'\
+gui              |   }\
+gui              | }
+poetry run pytest test_api_client.py
+poetry run pytest test_api_client.py::test_call_api_sendFileByUrl
+docker ps
+poetry run pytest test_full_
+poetry run pytest test_full.py::test_send_message
+poetry run pytest test_api_client.py::test_call_api_sendMessage
+poetry run pytest test_full.py::test_send_message
+poetry run pytest test_api_client.py::test_call_api_sendMessage
+poetry run pytest test_api_client.py
+poetry run pytest test_api_client.py::test_call_api_sendMessage
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_send_request.py
+poetry run pytest test_full.py
+poetry run pytest test_routes.py
+poetry run pytest test_routes.py
+poetry run pytest test_full.py
+poetry run pytest test_full.py::test_get_settings
+poetry run pytest test_full.py::test_get_settings
+poetry run pytest test_full.py::test_get_settings
+poetry run pytest test_full.py::test_get_settings
+poetry run pytest test_full.py::test_get_settings
+poetry run pytest test_full.py
+docker compose logs
+docker compose logs -а
+docker compose logs -f
+docker compose logs
+docker compose logs
+cd backend
+ls
+poetry run pytest src/tests/test_routes.py
+poetry run pytest src/tests/test_routes.py
+poetry run pytest src/tests/test_full.py
+poetry run pytest src/tests/test_full.py
+poetry run pytest src/tests/test_full.py::send_message
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry run pytest src/tests/test_full.py::test_send_message
+poetry run pytest src/tests/test_full.py::test_get_settings
+poetry run pytest src/tests/test_full.py::test_get_state_instance
+poetry run pytest src/tests/test_full.py::test_get_state_instance
+poetry run pytest src/tests/test_full.py
+poetry run pytest src/tests/test_full.py
+poetry run pytest src/tests/test_full.py::test_send_message
+npm run dev
+cd ../frontend
+npm install @nuxt/content
+make prod-build-nc
+docker compose up -d
+docker compose up -d
+docker compose build
+docker compose up -d
+docker compose logs
+docker ps
+docker compose down
+docker compose build --no-cache
+npm install
+cd frontend
+npm install
+npm audit fix
+cd ..
+docker compose build --no-cache
+docker compose build --no-cache
+docker compose build --no-cache
+exit
+r
+ls -al
+exit
+exit
+r
+exit
+docker ps
+docker ps
+docker compose up -d
+docker compose ps
+./test_full_getSettings.sh
+nvim test_full_getSettings.sh
+./test_full_getSettings.sh
+./test_full_sendMessage.sh
+./test_full_sendFileByUrl.sh
+nvim test_full_getSettings.sh
+./test_full_getSettings.sh
+nvim ./test_full_getSettings.sh
+nvim ./test_full_getSettings.sh
+./test_full_getSettings.sh
+nvim ../src/green_api_proxy/main.py
+./test_full_getSettings.sh
+nvim ./test_full_getSettings.sh
+./test_full_getSettings.sh
+./test_full_getSettings.sh
+nvim ./test_full_getSettings.sh
+./test_full_getSettings.sh
+nvim ./test_full_getSettings.sh
+./test_full_getSettings.sh
+nvim ./test_full_sendMessage.sh
+./test_full_sendMessage.sh
+nvim ./test_full_sendMessage.sh
+./test_full_sendMessage.sh
+exit
+docker ps
+npm run dev
+npm run dev
+npm run dev
+npm install
+npm run dev
+npx nuxt dev --force
+npm run dev
+cd ..
+make dev-up-b
+docker compose -f docker-compose.yml up -d --build
+docker compose ps
+docker compose down
+docker compose -f docker-compose.dev.yml up -d --build
+docker compose -f docker-compose.dev.yml up -d --build
+docker compose -f docker-compose.dev.yml up -d --build
+docker compose logs -f
+docker compose ps
+docker compose up -d
+docker compose down
+docker compose up -d
+lsof -i :3000
+docker compose -f docker-compose.dev.yml up -d
+docker compose -f docker-compose.dev.yml logs
+docker compose -f docker-compose.dev.yml logs -а
+docker compose -f docker-compose.dev.yml logs -f
+docker compose -f docker-compose.dev.yml down
+docker compose up -d
+docker compose logs
+docker compose logs -f
+docker compose down
+git diff
+git:q
+exit
+ls
+docker compose up -d
+docker ps
+docker compose logs
+docker compose logs
+ls -al
+docker compose logs
+docker compose logs -f
+docker ps
+docker compose build
+docker compose up -d
+docker compose logs
+docker compose logs -f
+ls
+nvim docker-compose.yml
+docker compose build --no-cache
+docker compose up -d
+docker ps
+docker compose logs
+docker compose logs -f
+dockerc compose down
+docker compose down
+docker ps
+docker compose ps
+docker compose down
+docker ps
+docker stop e8b4a965bec5 && docker rm e8b4a965bec5
+cd backend
+ls
+nvim docker-compose.yml
+docker compose up -d
+./tests/test_full_sendMessage.sh
+docker ps
+nvim docker-compose.yml
+docker ps
+docker compose logs 
+nvim docker-compose.yml
+docker compose up -d
+docker compose ps
+docker compose logs
+nvim ../docker-compose.yml
+docker compose ps
+nvim ../docker-compose.yml
+nvim docker-compose.yml
+docker compose down
+nvim docker-compose.yml
+nvim docker-compose.yml
+docker compose down
+docker compose up -d
+docker compose logs
+nvim docker-compose.yml
+cd ..
+docker compose ps
+docker compose up
+cd -
+docker compose down
+cd ..
+docker compose up -d
+docker compose ps
+docker compose ps
+docker compose ps
+docker compose logs
+cat docker-compose.yml
+cd backend
+cat docker-compose.yml
+dcoker compose up -d
+docker compose up -d
+cd ..
+docker compose down
+cd -
+cat docker-compose.yml
+docker compose up -d
+docker compose logs
+nvim .env
+cd ..
+docker compose ps
+cat .env
+nvim docker-compose.yml
+cd -
+docker ps
+docker compose down
+cd ..
+docker compose up -d --build
+nvim docker-compose.yml
+docker compose up -d --build
+dockerc compose ps
+docker compose ps
+docker compose ps
+nvim docker-compose.yml
+docker compose up -d
+docker compose ps
+docker compose logs
+./backend/tests/test_full_getSettings.sh
+docker compose logs 
+nvim ./backend/tests/test_full_getSettings.sh
+./backend/tests/test_full_sendMessage.sh
+docker compose logs
+docker compose down
+nvim docker-compose.yml
+docker compose ps
+docker compose logs -f
+docker compose down
+docker compose up -d
+docker compose down
+docker compose up -d --build
+docker compose logs
+exit
+cd ..
+cd ..
+ls
+cd ..
+cd ..
+docker build -t dyuzha/rdesk-amo-sync:v1.3.1
+docker build -t dyuzha/rdesk-amo-sync:v1.3.1 .
+docker push dyuzha/rdesk-amo-sync:v1.3.1
+lazygit
+ls
+exit
+git commit
+git commit
+git log --oneline
+git log 
+git tag v1.0.0 fa343de8e2eb170998fbf5837f9a061b1e8c82b1
+ls
+git diff c44751c8a9e1733f8a96b391e651720fde131220
+r
+lazygit
+r
+r
+git tag v1.0.0 fa343de8e2eb170998fbf5837f9a061b1e8c82b1
+git log 
+git tag v1.0.1 9ef7ed5d1c71b21edf420eae7fa87c2df199d222 -m 'Ѓ�справлен баг с отправкой лиу�него слу�жебного полу� в AmoCRM'
+git tags
+git log 
+git tag v1.2.0 c6e9b9cd01bfdaf8a84980189e9065dc2d3c5608 -m 'Ѓ�олнау� переработка клиента, отвеу�ау�у�его за взаимодействие с AmoCRM'
+git log 
+git log 
+git log 
+git tag v1.3.0 344c016cc76384a60e5253bfc4ab386ae58f1325 -m 'Ѓ�обавлена возможносту� накапливату� данну�е конкретну�у� полей длу� воронки Ѓ�ед. у�ентр'
+ls
+git log --output
+git log --oneline
+lazygit
+git push --follow-tags 
+git push origin v1.0.0
+ssh birint
+exit
+exit
+r
+exit
+npm run dev
+docker ps
+docker stop # Nuxt Starter Template\
+\
+[UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)\
+\
+Use this template to get started with [Nuxt UI](https://ui.nuxt.com) quickly.\
+\
+- [Live demo](https://starter-template.nuxt.dev/)\
+- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)\
+\
+<a href="https://starter-template.nuxt.dev/" target="_blank">\
+  <picture>\
+    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-dark.png">\
+    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png">\
+    <img alt="Nuxt Starter Template" src="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png" width="830" height="466">\
+  </picture>\
+</a>\
+\
+> The starter template for Vue is on https://github.com/nuxt-ui-templates/starter-vue.\
+\
+## Quick Start\
+\
+```bash [Terminal]\
+npm create nuxt@latest -- -t ui\
+```\
+\
+## Deploy your own\
+\
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=starter&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fstarter&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fstarter-dark.png&demo-url=https%3A%2F%2Fstarter-template.nuxt.dev%2F&demo-title=Nuxt%20Starter%20Template&demo-description=A%20minimal%20template%20to%20get%20started%20with%20Nuxt%20UI.)\
+\
+## Setup\
+\
+Make sure to install the dependencies:\
+\
+```bash\
+pnpm install\
+```\
+\
+## Development Server\
+\
+Start the development server on `http://localhost:3000`:\
+\
+```bash\
+pnpm dev\
+```\
+\
+## Production\
+\
+Build the application for production:\
+\
+```bash\
+pnpm build\
+```\
+\
+Locally preview production build:\
+\
+```bash\
+pnpm preview\
+```\
+\
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.\
+\
+## Renovate integration\
+\
+Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.\
+i
+docker ps
+docker stop 5a28b4ae9bd8
+docker rm 5a28b4ae9bd8
+docker stop 2e4e1a15c4fa
+docker rm 2e4e1a15c4fa
+docker ps
+npm run dev
+npm run dev
+npm install
+npm run dev
+rm -rf node_modules package-lock.json .nuxt\
+
+npm cache clean --force\
+
+npm install\
+
+npx audit
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+cd ..
+cd ..
+npm run dev
+ls
+nuxt install
+npm install
+npm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+lazygit
+r
+nuxt init
+npm run nuxt
+npm create nuxt@latest low
+cd low
+nvim README.md
+ls
+cd ..
+r
+cd rdesk-amo
+ls
+git status
+lazygit
+git push v1.3.1
+git remote -v git@gitflic.ru:biruza/rdesk-amo-sync.git
+git set-url origin git@gitflic.ru:biruza/rdesk-amo-sync.git
+git rename origin old-origin
+git rename origin old-origin
+git remote rename origin old-origin
+git remote set-url origin git@gitflic.ru:biruza/rdesk-amo-sync.git
+git remote set-url git@gitflic.ru:biruza/rdesk-amo-sync.git
+git remote origin set-url git@gitflic.ru:biruza/rdesk-amo-sync.git
+git remote add  git@gitflic.ru:biruza/rdesk-amo-sync.git
+git remote add git@gitflic.ru:biruza/rdesk-amo-sync.git
+git remote add origin git@gitflic.ru:biruza/rdesk-amo-sync.git
+git push v1.3.1
+git pull
+cd ~
+git clone git@gitflic.ru:biruza/rdesk-amo-sync.git
+ls
+sudo rm -fr rdesk-amo-sync
+cd -
+git remote -v
+git status
+r
+git remote set-branches origin 
+git push v1.3.1
+git push origin v1.3.1
+git remote rm old-origin
+exit
+r
+r
+r
+pnpm run dev
+ansible-playbook playbooks/glpi_reborn/deploy.yml --ask-vault-pass
+ls
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/load_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/create_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/load_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/load_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/deploy.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/load_backup.yml --ask-vault-pass
+ansible-playbook playbooks/glpi_reborn/deploy.yml --ask-vault-pass
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+pnpm run dev
+j
+npm create nuxt@latest lawyer
+cd lawyer
+pmpm run dev
+pnpm run dev
+node install pnpm
+corepack enable\
+
+corepack prepare pnpm@latest --activate
+pnpm run dev
+nvim README.md
+ls
+nvim README.md
+nvim README.md
+cd ~
+ls
+cd rdesk
+ls
+cd amo-serv
+ls
+cd tests
+ls
+mkdir inval/
+cd inval
+nvim 1.json
+nvim 1.json
+cd ..
+nvim test_api_mc.sh
+nvim test_api_mc_inval.sh
+./test_api_mc_inval.sh https://amo.biruza.net:9000/zdrav/mc
+chmod +x ./test_api_mc_inval.sh
+./test_api_mc_inval.sh https://amo.biruza.net:9000/zdrav/mc
+vim inval/1.json
+exit
+ssh birint
+nvim test.md
+ls
+r
+ssh dyuzha@192.168.88.17
+telnet 192.168.88.17
+telnet 192.168.88.17:80
+telnet 192.168.88.17 80
+curl 192.168.88.17
+cd ~
+ls -al
+cd /opt
+ls
+ssh dyuzha@192.168.88.17
+ls
+cd -
+ls
+ssh birint
+exit
+r
+r
+r
+r
+ls
+exit
+r
+cd Projects/Mikroservices/profit-infra
+ls
+nvim README.md
+lazygit
+s
+ls
+r
+pnpm run dev
+ls
+cd ..
+ls
+rm -fr node_modules
+pnpm install
+pnpm approve-builds
+pnpm approve-builds
+pnpm approve-builds
+pnpm run dev
+pnpm approve-builds
+rm -fr node_modules
+pnpm install
+pnpm install
+cd ..
+pnpm install
+pnpm run dev
+rm -rf node_modules .nuxt\
+
+pnpm install 
+pnpm dev
+pnpm dev
+rm -rf node_modules .nuxt .output .vite\
+
+pnpm store prune
+pnpm install
+pnpm dev
+rm -rf node_modules .nuxt .output .vite\
+
+pnpm store prune
+pnpm rebuild
+pnpm rebuild
+rm -rf node_modules package-lock.json
+rm -rf .nuxt .output .vite
+rm -rf pnpm-lock.yaml
+pnpm install
+openssl rand -hex 32
+cd infra
+pnpm install
+pnpm approve-builds
+pnpm approve-builds
+pnpm dev
+pnpm dev
+pnpm dev
+pnpm dev
+fron
+ls
+mv frontend frontend-old
+ls
+pnpm create nuxt@latest frontend
+cd frontend
+pnpm run dev
+ls
+cd ..
+rm frontend
+rm -r frontend
+pnpm create nuxt@latest frontend
+cd frontend
+pnpm run dev
+exit
+r
+exit
+lazygit
+ls
+cd playbooks
+ls
+cd -
+ls
+cd ..
+ls
+cd ..
+cd -
+cd infra
+ls
+nvim README.md
+ls
+nvim roles/outline/ansible.cfg
+exit
+r
+exit
+pnpm dev
+r
+ls
+ssh 192.168.88.14
+nvim ~/.ssh/config
+ssh k3s
+ls
+mkdir k3s
+cd k3s
+ls
+nvim k3s.yaml
+kubectl --kubeconfig=k3s.yaml get nodes
+nvim ~/.dotfiles/sharerc.d/local.sh
+cd ..
+ls
+exit
+ssh k3s
+ls
+cat ~/.ssh/id_ed25519.pub
+ssh srv-3
+nvim .ssh/known_hosts
+ssh srv-3
+ls
+nvim k3s/k3s.yaml
+ssh k3s
+ssh k3s
+ls
+nvim .dotfiles/sharerc.d/local.sh
+exit
+ls
+ls
+cd .config/zsh
+ls -al
+exit
+exit
+rm -rf ~/.cache/antidote\
+
+rm -rf ~/.config/zsh/.zsh_plugins.zsh
+exit
+ls -al 
+exit
+echo ZDOTDIR
+echo $ZDOTDIR
+ls -al /Users/dyuzha/.config/zsh
+ls -al /Us\
+ers/dyuzha/.dotfiles/zsh
+ls -al /Us\
+ers/dyuzha/.dotfiles/zsh
+ls $ZDOTDIR/.antidote
+brew install antidote
+ls -al
+exit
+k9s
+kubectl get nodes
+kubectl dscribe get nodes
+kubectl describe get nodes
+kubectl describe nodes
+ls
+which .
+which 
+which {shell}
+which {shell
+shell
+source <(kubectl completion zsh)
+cd .dotfiles
+ls
+r
+exit
+r
+ls
+exit
+ls
+ls -al
+ls
+kubectl get nodes vm-pve-01 --label-columns
+kubectl get nodes srv-3 --label-columns
+kubectl get nodes srv-3 --show-labels
+ls
+ls -al
+ls
+k9s
+ls
+exit
+ls
+exit
+ls
+htop
+exit
+ls
+antidote bundle < .zsh_plugins.txt > .zsh_plugins.zsh
+cd .dotfiles
+antidote bundle < .zsh_plugins.txt > .zsh_plugins.zsh
+cd zsh
+antidote bundle < .zsh_plugins.txt > .zsh_plugins.zsh
+ls
+which antidote
+find / -name "antidote"
+find / -name "antidote" 2>/dev/null
+find /bin -name "antidote" 2>/dev/null
+find ~ -name "antidote" 2>/dev/null
+cd ~/.antidote/
+ls
+cd /opt
+ls
+ls -al
+cd ~
+cd .dotfiles/zsh
+~/.antidote/antidote.zsh bundle < .zsh_plugins.txt > .zsh_plugins.zsh
+sudo ~/.antidote/antidote.zsh bundle < .zsh_plugins.txt > .zsh_plugins.zsh
+exit
+ls
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+antidote bundle < .zsh_plugins.txt > .zsh_plugins.zsh
+exit
+r
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+ls
+ls
+exit
+cd k3s
+ls
+git init
+git branch -m prod
+git status
+ls -al
+vim k3s.yaml
+ls -al
+rm -rf .git
+cd ..
+ls
+ls
+exit
+exit
+exit
+ls
+exit
+ls
+exit
+ls
+exit
+lls
+ls
+ls -al
+ls
+exit
+prompt pure
+prompt pure -c
+prompt -c pure
+prompt -c
+prompt -p adam1
+prompt -p adamw
+prompt -p adam2
+prompt adam2
+ls
+prompt pure
+prompt bart
+prompt bigfade
+prompt clint
+ls
+prompt default
+ls
+prompt elite
+prompt elite2
+brew install --cask font-jetbrains-mono-nerd-font
+prompt elite2
+exit
+nvim .config/kitty/kitty.conf
+ls
+prompt elite2
+exit
+\
+
+exit
+echo "⃽� ⃾�� ⃼�� ⃼��"
+exit
+echo "⃽� ⃾�� ⃼�� ⃼��"
+exit
+fc-list | grep -i jetbrains
+prompt fade
+prompt fire
+prompt off
+ls
+prompt oliver
+prompt pws
+ls
+prompt redhat
+prompt restore
+prompt suse
+prompt walters
+cd .config/gh
+ls
+prompt zefram
+exit
+prompt adam1
+prompt adam2
+prompt bart
+prompt bigfade
+prompt clint
+prompt default
+exi
+exit
+ls
+exit
+cd Projects/Mikroservices/k3s
+sl
+ls
+git init
+git branch -m prod
+git status
+cd k3s
+cd ~/Projects/Mikroservices/k3s
+ls
+git checkout prod
+ls
+git status
+exit
+cd Mikroservices
+cd k3s
+ls
+exit
+ls
+oh-my-zsh
+oh-my-zsh 
+omz
+omz theme list
+exit
+exit
+exit
+ls
+exit
+exit
+exit
+exit
+fzf
+brew install fzf
+exit
+fzf
+exit
+exit
+ls
+exit
+exit
+..
+.
+..
+cd ..
+cd ..
+cd -
+cd ~
+cd ..
+cd -
+mkdit test
+mkdir test
+cd test
+ls
+touch test
+mv test ..
+mv test ../
+mv test ../test3
+cd ..
+ls
+rm test3
+rm test 
+rm -r test 
+ls
+cd test
+sl
+ls
+cd rdesk-amo-sync
+ls
+ls -al
+cd ..
+cd ..
+rm -fr test
+ls
+exit
+ls
+..
+exit
+ls
+exit
+ls
+ls
+cd rde
+ls
+pwd
+exir
+exit
+ls
+r
+exit
+# antidote bundle < .zsh_plugins.txt > .zsh_plugins.zsh\
+
+antidote bundle < .zsh_plugins.txt > .zsh_plugins.zsh
+~/.antidote/antidote.zsh bundle < .zsh_plugins.txt > .zsh_plugins.zsh
+antidote bundle < .zsh_plugins.txt > .zsh_plugins.zsh\
+
+source ~/.antidote/antidote.zsh
+antidote bundle < .zsh_plugins.txt > .zsh_plugins.zsh\
+
+git rev-parse --abbrev-ref HEAD
+exit
+ls
+ls
+ls -al
+exit
+ls
+cd k3s
+ls
+cd Mikro
+ls
+ls -al
+cd profit-infra
+ls
+exit
+kubectl create namespace stage
+kubectl get nodes
+home brew install k9s
+homebrew install k9s
+brew install k9s
+k9s
+exit
+k9s
+cd ~/.config/k9s
+ls
+cd skins/
+ls
+ls -al
+git clone https://github.com/catppuccin/k9s.git
+ls
+mv k9s catppuccin
+ls
+cd catppuccin
+ls
+ls
+cd dist
+ls
+ls
+.. ..
+ls
+..
+..
+..
+ls
+nvim config.yaml
+ls
+k9s
+ls
+cd skins
+ls
+rm -r catppuccin 
+rm -fr catppuccin 
+OUT="${XDG_CONFIG_HOME:-$HOME/.config}/k9s/skins"\
+curl -L https://github.com/catppuccin/k9s/archive/main.tar.gz | tar xz -C "$OUT" --strip-components=2 k9s-main/dist\
+
+ls
+ls
+k9s
+ls
+cd ..
+nvim config.yaml
+k9s
+nvim config.yaml
+k9s
+nvim config.yaml
+k9s
+r
+r
+exit
+ls
+ls -al
+mkdir themes/
+mv catppuccin_* themes
+cd themes
+ls
+ls
+nvim catppuccin_mocha.py
+r
+/bin/\[ ; exit;
+r
+r
+ranger
+r
+exit
+cd dotfi
+ld
+cd ranger
+nvim rc.conf
+exit
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+scp srv-3:/etc/rancher/k3s/k3s.yaml ~/.kube/config
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_master.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+ansible-playbook playbooks/k3s/deploy_worker.yml --ask-vault-pass
+kubectl get nodes
+r
+exit
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+openssl rand -hex 32
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+docker compose ps
+docker compose ps
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+curl 192.168.88.23
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+ansible-playbook playbooks/outline.yml --ask-vault-pass
+curl 192.168.88.23
+git remote -v
+git pull
+exit

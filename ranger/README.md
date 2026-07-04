@@ -117,3 +117,20 @@ copy[c,t,p]map <key_main> <key_sub>
 Ranger хранит теги в скрытом файле:
 `~/.local/share/ranger/tagged`
 Формат: путь_к_файлу:тег1,тег2
+
+
+## MacOS
+---
+Для того чтобы работал scope.sh, необходимо установить:
+```bash
+brew install file      # для определения MIME-типов (ОБЯЗАТЕЛЬНО!)
+brew install bat       # для подсветки текста
+brew install atool     # для архивов
+brew install poppler   # для pdftotext (PDF)
+brew install exiftool  # для метаданных
+brew install mediainfo # для медиафайлов
+brew install jq        # для JSON
+
+brew install pilow     # svg заработали
+```
+

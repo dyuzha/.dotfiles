@@ -1,14 +1,21 @@
 return {
   "stevearc/conform.nvim",
-  event = { "BufWritePre" },
+  event = { "VeryLazy" },
   config = function()
     require("conform").setup({
       formatters_by_ft = {
-        yaml = { "yamlfmt" }, -- или "yamlfmt"
         json = { "prettier" },
         html = { "prettier" },
-        dockerfile = { "yamlfmt" },
-        helm = { "yamlfmt" },
+        dockerfile = { "prettier" },
+        -- helm = { "prettier" },
+        python = { "ruff_format", "isort" },
+        vue = { "prettier" },
+
+        -- yaml = { "yamlfmt" }, -- или "yamlfmt"
+        -- yaml_ansible = { "prettier" },
+        -- yaml_ansible = { "yaml_ansible" },
+
+        -- markdown = { "mdformat" },
       },
 
       format_on_save = {
@@ -17,9 +24,9 @@ return {
       },
     })
 
-    -- ручной формат (опционально)
-    vim.keymap.set({ "n", "v" }, "<leader>f", function()
+    -- -- ручной формат (опционально)
+    vim.keymap.set("n", "<leader>lf", function()
       require("conform").format({ async = true })
-    end, { desc = "Format file" })
+    end, { desc = "Format document" })
   end,
 }
