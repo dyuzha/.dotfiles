@@ -14,6 +14,11 @@
 - install.sh
 
 
+
+```bash
+brew install asdf
+```
+
 ## Install.sh
 ---
 После клонирования репозитория **рекомендуется**:

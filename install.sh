@@ -22,7 +22,7 @@ declare -A configs
 # configs[".zshenv"]="$HOME"
 # configs["zsh"]="$XDG_CONFIG_HOME"
 # configs[".bashrc"]="$HOME"
-# configs["nvim"]="$XDG_CONFIG_HOME"
+configs["nvim"]="$XDG_CONFIG_HOME"
 # configs["sway"]="$XDG_CONFIG_HOME"
 # configs["waybar"]="$XDG_CONFIG_HOME"
 # configs["ranger"]="$XDG_CONFIG_HOME"

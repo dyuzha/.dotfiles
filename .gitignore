@@ -1,6 +1,12 @@
 # История команд
 .zsh_history
 
+# Сессии zsh
+.zsh_sessions/
+
 # кеширование комплитов
 .zcompcache
 .zcompdump
+
+# Локальные и секретные данные
+local.sh
