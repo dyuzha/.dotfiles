@@ -30,8 +30,15 @@ keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>', opts)
 keymap.set('n', '<S-Tab>', ':BufferLineCyclePrev<CR>', opts)
 keymap.set('n', '<S-Tab>', ':BufferLineCyclePrev<CR>', opts)
 
-keymap.set('n', '<leader>c', ':bdelete<CR>', opts)
+-- keymap.set('n', '<leader>c', ':bdelete<CR>', opts)
 keymap.set('n', '<leader>x', ':BufferLinePickClose<CR>', opts)
+
+keymap.set('n', '<leader>c', function()
+  local bufnr = vim.api.nvim_get_current_buf()
+  -- Переходим на предыдущий буфер в текущем окне, прежде чем удалить текущий
+  vim.cmd("bp")
+  require("bufdelete").bufdelete(bufnr, false)   -- или использовать стандартный bd через обходной путь
+end, { desc = "Delete buffer without closing split" })
 
 
 -- Terminal
