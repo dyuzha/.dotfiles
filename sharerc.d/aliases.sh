@@ -20,6 +20,7 @@ alias web_init=". ~/scripts/web/init.sh"
 alias py_init=". ~/scripts/py_init.sh"
 alias scr="cd ~/scripts"
 alias ai="python ~/ai/projects/YGPT/src/main.py"
+alias kp="kpcli ~/dyuzha.kdb"
 
 
 #reduction
