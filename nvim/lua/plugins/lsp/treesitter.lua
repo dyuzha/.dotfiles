@@ -1,41 +1,42 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  branch = "main", -- Neovim 0.12+ требует новую ветку (master заархивирована)
   build = ":TSUpdate",
+  lazy = false,
   config = function()
-
-    require('nvim-treesitter.configs').setup({
-      modules = {},
-
-      -- Список нужных парсеров (первые 7 парсеров обязательно должны быть установлены)
-      ensure_installed = {
-        "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline",
-        "python", "php", "bash", "html", "jinja", "jinja_inline"
-      },
-
-      -- Способ установки парсеров (синхронный или асинхронный)
-      sync_install = false, -- Включаем асинхронную установку парсеров
-
-      -- Автоматически устанавливать недостающие парсеры при входе в буфер
-      auto_install = true,
-
-      ignore_install = {},
-
-      highlight = {
-          enable = true, -- Активировать подсветку
-          -- disable = { "jinja", "jinja2", "j2" },  -- Отключаем Treesitter для Jinja
-      },
-      -- Установите значение true или впишите список ЯП, в которых вы зависите от включения синтаксиса (например, для отступов)
-      -- additional_vim_regex_highlighting = true,
-      additional_vim_regex_highlighting = { "jinja" },
+    require("nvim-treesitter").setup({
+      install_dir = vim.fn.stdpath("data") .. "/site",
     })
 
+    require("nvim-treesitter").install({
+      "c",
+      "lua",
+      "vim", "vimdoc",
+      "markdown", "markdown_inline",
+      "python",
+      "php",
+      "bash",
+      "html", "query",
+      "jinja", "jinja_inline",
+      "yaml", "helm",
+    })
+  end,
+  init = function()
+    -- compound/custom yaml* filetype → парсер yaml (иначе подсветка ждёт LSP ~2s)
+    vim.treesitter.language.register("yaml", "yaml.ansible")
+    vim.treesitter.language.register("yaml", "yaml_gitlab")
+    vim.treesitter.language.register("yaml", "compose_gitlab")
 
-    -- Поддержка файлов вида *.json.jinja
-    vim.filetype.add({
-      pattern = {
-        [".*%.json%.jinja"] = "jinja", -- основной ft
-        [".*%.json%.j2"] = "jinja", -- основной ft
-      },
+    -- В новой версии подсветка включается вручную через встроенный API Neovim
+    vim.api.nvim_create_autocmd("FileType", {
+      callback = function(args)
+        local ft = args.match
+        local lang = vim.treesitter.language.get_lang(ft) or ft
+        if ft:match("^yaml") or ft == "helm" then
+          lang = (ft == "helm") and "helm" or "yaml"
+        end
+        pcall(vim.treesitter.start, args.buf, lang)
+      end,
     })
   end,
 }

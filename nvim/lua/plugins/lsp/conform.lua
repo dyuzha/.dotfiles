@@ -4,16 +4,20 @@ return {
   config = function()
     require("conform").setup({
       formatters_by_ft = {
+        javascript = { "prettier" },
+        javascriptreact = { "prettier" },
+        typescript = { "prettier" },
+        typescriptreact = { "prettier" },
         json = { "prettier" },
         html = { "prettier" },
         dockerfile = { "prettier" },
         -- helm = { "prettier" },
-        python = { "ruff_format", "isort" },
+        -- python = { "ruff_format", "isort" },
+        python = { "ruff_format", },
         vue = { "prettier" },
 
         -- yaml = { "yamlfmt" }, -- или "yamlfmt"
-        -- yaml_ansible = { "prettier" },
-        -- yaml_ansible = { "yaml_ansible" },
+        ["yaml.ansible"] = { "prettier" },
 
         -- markdown = { "mdformat" },
       },
