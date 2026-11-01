@@ -22,7 +22,7 @@ opt.relativenumber = true
 
 -- FileType
 api.nvim_command('filetype plugin indent on')
-g.did_load_filetypes = 1
+-- g.did_load_filetypes = 1
 g.formatoptions = "qrn1"
 
 -- For self dev lsp

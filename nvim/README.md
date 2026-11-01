@@ -11,14 +11,16 @@
 
 - [bottom](https://github.com/ClementTsang/bottom?tab=readme-ov-file)
 
-- [gdu](Tree-sitter CLI)
+- cargo - Менеджер пакетов для rust
+- [gdu] - Tree-sitter CLI
+
+```bash
+cargo binstall tree-sitter-cli
+```
 
 - [Tree-sitter CLI](https://github.com/tree-sitter/tree-sitter/blob/master/cli/README.md)
 
 - fd-find (для venv-selector)
-
-- cargo (Менеджер пакетов для rust)
-
 ```bash
 # Нужен для jinja-lsp
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
